@@ -41,7 +41,15 @@ dl, ol, ul, li, dd {
 }
 
 .text-center {
-  text-align: center
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .pos-r {
@@ -132,7 +140,17 @@ dl, ol, ul, li, dd {
   }
 
   .main-footer {
-    display: block;
+    color: @white;
+    &:hover {
+      font-size: 16px;
+    }
+  }
+
+  .toRed {
+    color: @white;
+    &:hover {
+      color: @red;
+    }
   }
 }
 
@@ -147,6 +165,7 @@ dl, ol, ul, li, dd {
 // FONT COLOR
 @base-color: rgba(51, 51, 51, 1);
 @white: rgba(255, 255, 255, 1);
+@red: rgba(211, 51, 49, 1);
 
 // HEADER
 
@@ -159,7 +178,11 @@ dl, ol, ul, li, dd {
     .pl(35px);
     .pt(15px);
     a {
-      display: block
+      display: block;
+      ins {
+        text-indent: -99999px;
+        display: inline-block
+      }
     }
   }
 
@@ -221,8 +244,10 @@ dl, ol, ul, li, dd {
             line-height: 30px;
             padding: 8px;
             &:hover {
+              .pl(5px);
               .border-left-base(#da271b);
               border-left-width: 3px;
+
               background: #f8f8f8;
             }
           }
@@ -257,12 +282,14 @@ dl, ol, ul, li, dd {
     }
     dd {
       a {
-        color: @white;
+        #link-defalt> .main-footer;
       }
       font-size: 14px;
       line-height: 30px
     }
   }
+
+  //关注渠道
   .btm-contact {
     .text-center;
     .pt(50px);
@@ -273,8 +300,8 @@ dl, ol, ul, li, dd {
       .mr(30px);
       display: inline-block;
       a {
-        color: @white;
         .pl(30px);
+        #link-defalt> .toRed;
         &:before {
           .pos-a;
           content: "";
@@ -286,17 +313,17 @@ dl, ol, ul, li, dd {
         &.fb:before {
           width: 48px;
           left: -25px;
-          background: url("@{images}/icon-index.png") no-repeat -143px -555px;
+          background: url("@{images}/icon-1.png") no-repeat -295px -152px;
         }
         &.qq:before {
-          background: url("@{images}/icon-index.png") no-repeat -91px -555px;
+          background: url("@{images}/icon-1.png") no-repeat -243px -152px;
         }
         &.tel:before {
-          background: url("@{images}/icon-index.png") no-repeat -117px -555px;
+          background: url("@{images}/icon-1.png") no-repeat -269px -152px;
         }
         &.wechat:before {
           width: 30px;
-          background: url("@{images}/icon-index.png") no-repeat 0 -557px;
+          background: url("@{images}/icon-1.png") no-repeat -434px -54px;
         }
       }
 
