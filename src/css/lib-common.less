@@ -60,6 +60,28 @@ dl, ol, ul, li, dd {
   position: absolute;
 }
 
+.after(@width,@height) {
+  .pos-a;
+  content: "";
+  .mt(-(round(@height/2)));
+  .ml(-(round(@width/2)));
+  top: percentage(@half);
+  left: percentage(@half);
+  width: @width;
+  height: @height;
+}
+
+.before(@width,@height) {
+  .pos-a;
+  content: "";
+  .mt(-(round(@height/2)));
+  .ml(-(round(@width/2)));
+  top: percentage(@half);
+  left: percentage(@half);
+  width: @width;
+  height: @height;
+}
+
 .fl {
   float: left;
 }
@@ -98,6 +120,10 @@ dl, ol, ul, li, dd {
 
 .pl(@padding-left) {
   padding-left: @padding-left;
+}
+
+.border-base(@color) {
+  border: 1px solid @color;
 }
 
 .border-top-base(@color) {
@@ -139,17 +165,11 @@ dl, ol, ul, li, dd {
     }
   }
 
-  .main-footer {
-    color: @white;
+  .base(@color,@toColor,@fontWeight) {
+    color: @color;
     &:hover {
-      font-size: 16px;
-    }
-  }
-
-  .toRed {
-    color: @white;
-    &:hover {
-      color: @red;
+      font-weight: @fontWeight;
+      color: @toColor;
     }
   }
 }
@@ -171,8 +191,8 @@ dl, ol, ul, li, dd {
 
 #header {
   .clearfix;
+  width: percentage(@half*2);
   overflow: visible;
-
   #logo {
     .fl;
     .pl(35px);
@@ -245,9 +265,7 @@ dl, ol, ul, li, dd {
             padding: 8px;
             &:hover {
               .pl(5px);
-              .border-left-base(#da271b);
-              border-left-width: 3px;
-
+              border-left: 3px solid #da271b;
               background: #f8f8f8;
             }
           }
@@ -265,6 +283,7 @@ dl, ol, ul, li, dd {
   height: auto;
   overflow: hidden;
 
+  //底部菜单
   .btm-nav {
     .border-bottom-base(@white);
     .container;
@@ -282,9 +301,8 @@ dl, ol, ul, li, dd {
     }
     dd {
       a {
-        #link-defalt> .main-footer;
+        #link-defalt> .base(@white, @white, 600);
       }
-      font-size: 14px;
       line-height: 30px
     }
   }
@@ -301,7 +319,7 @@ dl, ol, ul, li, dd {
       display: inline-block;
       a {
         .pl(30px);
-        #link-defalt> .toRed;
+        #link-defalt> .base(@white, @red, normal);
         &:before {
           .pos-a;
           content: "";
@@ -310,6 +328,7 @@ dl, ol, ul, li, dd {
           left: 0;
           top: 0;
         }
+        //前置图标
         &.fb:before {
           width: 48px;
           left: -25px;
@@ -323,8 +342,23 @@ dl, ol, ul, li, dd {
         }
         &.wechat:before {
           width: 30px;
-          background: url("@{images}/icon-1.png") no-repeat -434px -54px;
+          left: -5px;
+          background: url("@{images}/icon-1.png") no-repeat -434px -82px;
         }
+
+        &.fb:hover:before {
+          background: url("@{images}/icon-1.png") no-repeat -295px -152px;
+        }
+        &.qq:hover:before {
+          background: url("@{images}/icon-1.png") no-repeat -217px -152px;
+        }
+        &.tel:hover:before {
+          background: url("@{images}/icon-1.png") no-repeat -191px -152px;
+        }
+        //&.wechat:hover:before{
+        //  background: url("@{images}/icon-1.png") no-repeat -295px -152px;
+        //}
+
       }
 
     }
@@ -333,5 +367,4 @@ dl, ol, ul, li, dd {
   .btm-copyright {
     font-size: 14px;
   }
-
 }

@@ -7,11 +7,26 @@
   height: auto;
   .title {
     figcaption {
-      .font(28px, "微软雅黑", 400);
+      h3 {
+        .pos-r;
+        .font(28px, "微软雅黑", 400);
+        .border-bottom-base(#e1e1e1);
+        display: inline-block;
+        padding: 0 90px 20px;
+        &:after {
+          .after(70px, 3px);
+          background-color: @red;
+          top: auto;
+          bottom: -1px;
+        }
+      }
     }
   }
   .more {
     display: inline-block;
+    & > a {
+      color: @base-color;
+    }
     &:after {
       content: "";
       .fr;
@@ -23,8 +38,11 @@
       width: 14px;
       height: 14px;
     }
-    &:hover:after{
-      background: url("@{images}/icon-1.png") no-repeat -474px  0;
+    &:hover {
+      text-decoration: underline;
+      &:after {
+        background: url("@{images}/icon-1.png") no-repeat -474px  0;
+      }
     }
   }
 }
@@ -52,13 +70,14 @@
       .box {
         .pl(20px);
         .pr(20px);
-        span:first-child{
+        span:first-child {
           .m-auto;
+          box-sizing: border-box;
           border-radius: 50%;
           padding: 10px;
           display: block;
-          width: 100px;
-          height: 100px;
+          width: 120px;
+          height: 120px;
         }
         a {
           .m-auto;
@@ -68,8 +87,8 @@
           height: 100px;
         }
         strong {
+          .mt(30px);
           display: block;
-          line-height: 60px;
         }
       }
       &:not(:last-of-type):after {
@@ -77,53 +96,72 @@
         right: 0
       }
       &:nth-of-type(1) a:after {
-        .service-icon(56px, 56px);
+        .after(56px, 56px);
         background: url("@{images}/icon-1.png") no-repeat -232px -94px;
       }
       &:nth-of-type(2) a:after {
-        .service-icon(56px, 56px);
+        .after(56px, 56px);
         background: url("@{images}/icon-1.png") no-repeat -290px -94px;
       }
       &:nth-of-type(3) a:after {
-        .service-icon(56px, 56px);
+        .after(56px, 56px);
         background: url("@{images}/icon-1.png") no-repeat 0px -94px;
       }
       &:nth-of-type(4) a:after {
-        .service-icon(56px, 56px);
+        .after(56px, 56px);
         background: url("@{images}/icon-1.png") no-repeat -348px -58px;
       }
 
       //服务图标交互
-      &:hover a{
+      &:hover a {
         border-radius: percentage(@half);
       }
-      &:nth-of-type(1):hover a {
-        background-color:#f6ab33;
-        &:after {
-          background: url("@{images}/icon-1.png") no-repeat -342px 0;
+      &:nth-of-type(1):hover {
+        span:first-child {
+          .border-base(#f6ab33);
+        }
+        a {
+          background-color: #f6ab33;
+          &:after {
+            background: url("@{images}/icon-1.png") no-repeat -342px 0;
+          }
         }
       }
-      &:nth-of-type(2):hover a {
-        background-color: #4eba69;
-        &:after {
-          background: url("@{images}/icon-1.png") no-repeat -116px -94px;
+      &:nth-of-type(2):hover {
+        span:first-child {
+          .border-base(#4eba69);
+        }
+        a {
+          background-color: #4eba69;
+          &:after {
+            background: url("@{images}/icon-1.png") no-repeat -116px -94px;
+          }
         }
       }
-      &:nth-of-type(3):hover a {
-        background: #f3c600;
-        &:after {
-          background: url("@{images}/icon-1.png") no-repeat -174px -94px;
+      &:nth-of-type(3):hover {
+        span:first-child {
+          .border-base(#f3c600);
+        }
+        a {
+          background: #f3c600;
+          &:after {
+            background: url("@{images}/icon-1.png") no-repeat -174px -94px;
+          }
         }
       }
-      &:nth-of-type(4):hover a {
-        background: #6bc5eb;
-        &:after {
-          background: url("@{images}/icon-1.png") no-repeat -58px -94px;
+      &:nth-of-type(4):hover {
+        span:first-child {
+          .border-base(#6bc5eb);
+        }
+        a {
+          background: #6bc5eb;
+          &:after {
+            background: url("@{images}/icon-1.png") no-repeat -58px -94px;
+          }
         }
       }
     }
   }
-
   .service-line(@top) {
     content: "";
     background: #e1e1e1;
@@ -132,15 +170,24 @@
     position: absolute;
     top: @top;
   }
+}
 
-  .service-icon(@width,@height) {
-    content: "";
-    .pos-a;
-    .mt(-(round(@height/2)));
-    .ml(-(round(@width/2)));
-    top: percentage(@half);
-    left: percentage(@half);
-    width: @width;
-    height: @height;
+//成功案例
+#project {
+  .project-list {
+    & > ul {
+      .pt(60px);
+      .pb(60px);
+      .list-inline;
+      height: auto;
+      overflow: hidden;
+      width: percentage(@half*2);
+    }
+    li {
+      img {
+        display: block;
+        max-width: percentage(@half*2);
+      }
+    }
   }
 }

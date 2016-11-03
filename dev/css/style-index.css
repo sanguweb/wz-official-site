@@ -601,24 +601,9 @@ dd {
   background-color: red;
 }
 
-#link-defalt .main-footer {
-  color: #ffffff;
-}
-
-#link-defalt .main-footer:hover {
-  font-size: 16px;
-}
-
-#link-defalt .toRed {
-  color: #ffffff;
-}
-
-#link-defalt .toRed:hover {
-  color: #d33331;
-}
-
 #header {
   zoom: 1;
+  width: 100%;
   overflow: visible;
 }
 
@@ -727,8 +712,7 @@ dd {
 
 #header #navBar li .sub li a:hover {
   padding-left: 5px;
-  border-left: 1px solid #da271b;
-  border-left-width: 3px;
+  border-left: 3px solid #da271b;
   background: #f8f8f8;
 }
 
@@ -779,7 +763,6 @@ dd {
 }
 
 #main-footer .btm-nav dd {
-  font-size: 14px;
   line-height: 30px;
 }
 
@@ -788,7 +771,8 @@ dd {
 }
 
 #main-footer .btm-nav dd a:hover {
-  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
 }
 
 #main-footer .btm-contact {
@@ -810,6 +794,7 @@ dd {
 }
 
 #main-footer .btm-contact li a:hover {
+  font-weight: normal;
   color: #d33331;
 }
 
@@ -838,7 +823,20 @@ dd {
 
 #main-footer .btm-contact li a.wechat:before {
   width: 30px;
-  background: url("../../img/icon-1.png") no-repeat -434px -54px;
+  left: -5px;
+  background: url("../../img/icon-1.png") no-repeat -434px -82px;
+}
+
+#main-footer .btm-contact li a.fb:hover:before {
+  background: url("../../img/icon-1.png") no-repeat -295px -152px;
+}
+
+#main-footer .btm-contact li a.qq:hover:before {
+  background: url("../../img/icon-1.png") no-repeat -217px -152px;
+}
+
+#main-footer .btm-contact li a.tel:hover:before {
+  background: url("../../img/icon-1.png") no-repeat -191px -152px;
 }
 
 #main-footer .btm-copyright {
@@ -851,15 +849,37 @@ dd {
   height: auto;
 }
 
-.wrap .title figcaption {
+.wrap .title figcaption h3 {
+  position: relative;
   font-size: 28px;
   font-family: "微软雅黑";
   font-style: normal;
   font-weight: 400;
+  border-bottom: 1px solid #e1e1e1;
+  display: inline-block;
+  padding: 0 90px 20px;
+}
+
+.wrap .title figcaption h3:after {
+  position: absolute;
+  content: "";
+  margin-top: -2px;
+  margin-left: -35px;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 3px;
+  background-color: #d33331;
+  top: auto;
+  bottom: -1px;
 }
 
 .wrap .more {
   display: inline-block;
+}
+
+.wrap .more > a {
+  color: #333333;
 }
 
 .wrap .more:after {
@@ -872,6 +892,10 @@ dd {
   display: inline-block;
   width: 14px;
   height: 14px;
+}
+
+.wrap .more:hover {
+  text-decoration: underline;
 }
 
 .wrap .more:hover:after {
@@ -927,11 +951,12 @@ dd {
 
 #service .service-list li .box span:first-child {
   margin: auto;
+  box-sizing: border-box;
   border-radius: 50%;
   padding: 10px;
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
 }
 
 #service .service-list li .box a {
@@ -943,8 +968,8 @@ dd {
 }
 
 #service .service-list li .box strong {
+  margin-top: 30px;
   display: block;
-  line-height: 60px;
 }
 
 #service .service-list li:not(:last-of-type):after {
@@ -958,8 +983,8 @@ dd {
 }
 
 #service .service-list li:nth-of-type(1) a:after {
-  content: "";
   position: absolute;
+  content: "";
   margin-top: -28px;
   margin-left: -28px;
   top: 50%;
@@ -970,8 +995,8 @@ dd {
 }
 
 #service .service-list li:nth-of-type(2) a:after {
-  content: "";
   position: absolute;
+  content: "";
   margin-top: -28px;
   margin-left: -28px;
   top: 50%;
@@ -982,8 +1007,8 @@ dd {
 }
 
 #service .service-list li:nth-of-type(3) a:after {
-  content: "";
   position: absolute;
+  content: "";
   margin-top: -28px;
   margin-left: -28px;
   top: 50%;
@@ -994,8 +1019,8 @@ dd {
 }
 
 #service .service-list li:nth-of-type(4) a:after {
-  content: "";
   position: absolute;
+  content: "";
   margin-top: -28px;
   margin-left: -28px;
   top: 50%;
@@ -1009,12 +1034,20 @@ dd {
   border-radius: 50%;
 }
 
+#service .service-list li:nth-of-type(1):hover span:first-child {
+  border: 1px solid #f6ab33;
+}
+
 #service .service-list li:nth-of-type(1):hover a {
   background-color: #f6ab33;
 }
 
 #service .service-list li:nth-of-type(1):hover a:after {
   background: url("../img/icon-1.png") no-repeat -342px 0;
+}
+
+#service .service-list li:nth-of-type(2):hover span:first-child {
+  border: 1px solid #4eba69;
 }
 
 #service .service-list li:nth-of-type(2):hover a {
@@ -1025,6 +1058,10 @@ dd {
   background: url("../img/icon-1.png") no-repeat -116px -94px;
 }
 
+#service .service-list li:nth-of-type(3):hover span:first-child {
+  border: 1px solid #f3c600;
+}
+
 #service .service-list li:nth-of-type(3):hover a {
   background: #f3c600;
 }
@@ -1033,10 +1070,33 @@ dd {
   background: url("../img/icon-1.png") no-repeat -174px -94px;
 }
 
+#service .service-list li:nth-of-type(4):hover span:first-child {
+  border: 1px solid #6bc5eb;
+}
+
 #service .service-list li:nth-of-type(4):hover a {
   background: #6bc5eb;
 }
 
 #service .service-list li:nth-of-type(4):hover a:after {
   background: url("../img/icon-1.png") no-repeat -58px -94px;
+}
+
+#project .project-list > ul {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+#project .project-list li {
+  width: 20%;
+  height: 300px;
+  float: left;
+}
+
+#project .project-list li img {
+  display: block;
+  max-width: 100%;
 }
