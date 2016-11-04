@@ -17,7 +17,7 @@ a {
   text-decoration: none
 }
 
-h1, h2, h3, h4, h5, h6,
+h1, h2, h3, h4, h5, h6, figure,
 dl, ol, ul, li, dd {
   margin: 0;
   padding: 0;
@@ -34,6 +34,10 @@ dl, ol, ul, li, dd {
   width: 1170px;
   height: auto;
   overflow: hidden
+}
+
+.hide {
+  display: none;
 }
 
 .m-auto {
@@ -150,6 +154,13 @@ dl, ol, ul, li, dd {
   }
 }
 
+.toTable {
+  height: auto;
+  overflow: hidden;
+  width: percentage(@half*2);
+  display: table;
+}
+
 //LINK  STYLE
 #link-defalt {
   color: #00b9d1;
@@ -206,6 +217,7 @@ dl, ol, ul, li, dd {
     }
   }
 
+  //主导航
   #navBar {
     .fr;
     .pos-r;
@@ -332,32 +344,32 @@ dl, ol, ul, li, dd {
         &.fb:before {
           width: 48px;
           left: -25px;
-          background: url("@{images}/icon-1.png") no-repeat -295px -152px;
+          background: url("@{images}/icon-1.png") no-repeat -288px -150px;
         }
         &.qq:before {
-          background: url("@{images}/icon-1.png") no-repeat -243px -152px;
+          background: url("@{images}/icon-1.png") no-repeat -288px -94px;
         }
         &.tel:before {
-          background: url("@{images}/icon-1.png") no-repeat -269px -152px;
+          background: url("@{images}/icon-1.png") no-repeat -259px -202px;
         }
         &.wechat:before {
           width: 30px;
           left: -5px;
-          background: url("@{images}/icon-1.png") no-repeat -434px -82px;
+          background: url("@{images}/icon-1.png") no-repeat -311px -204px;
         }
 
         &.fb:hover:before {
-          background: url("@{images}/icon-1.png") no-repeat -295px -152px;
+          background: url("@{images}/icon-1.png") no-repeat -288px -122px;
         }
         &.qq:hover:before {
-          background: url("@{images}/icon-1.png") no-repeat -217px -152px;
+          background: url("@{images}/icon-1.png") no-repeat -285px -202px;
         }
         &.tel:hover:before {
-          background: url("@{images}/icon-1.png") no-repeat -191px -152px;
+          background: url("@{images}/icon-1.png") no-repeat -233px -202px;
         }
-        //&.wechat:hover:before{
-        //  background: url("@{images}/icon-1.png") no-repeat -295px -152px;
-        //}
+        &.wechat:hover:before{
+          background: url("@{images}/icon-1.png") no-repeat -311px -178px;
+        }
 
       }
 

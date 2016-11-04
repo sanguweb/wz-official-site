@@ -534,6 +534,7 @@ h3,
 h4,
 h5,
 h6,
+figure,
 dl,
 ol,
 ul,
@@ -549,6 +550,10 @@ dd {
   width: 1170px;
   height: auto;
   overflow: hidden;
+}
+
+.hide {
+  display: none;
 }
 
 .m-auto {
@@ -581,6 +586,13 @@ dd {
 
 .fr {
   float: right;
+}
+
+.toTable {
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  display: table;
 }
 
 #link-defalt {
@@ -810,33 +822,37 @@ dd {
 #main-footer .btm-contact li a.fb:before {
   width: 48px;
   left: -25px;
-  background: url("../../img/icon-1.png") no-repeat -295px -152px;
+  background: url("../../img/icon-1.png") no-repeat -288px -150px;
 }
 
 #main-footer .btm-contact li a.qq:before {
-  background: url("../../img/icon-1.png") no-repeat -243px -152px;
+  background: url("../../img/icon-1.png") no-repeat -288px -94px;
 }
 
 #main-footer .btm-contact li a.tel:before {
-  background: url("../../img/icon-1.png") no-repeat -269px -152px;
+  background: url("../../img/icon-1.png") no-repeat -259px -202px;
 }
 
 #main-footer .btm-contact li a.wechat:before {
   width: 30px;
   left: -5px;
-  background: url("../../img/icon-1.png") no-repeat -434px -82px;
+  background: url("../../img/icon-1.png") no-repeat -311px -204px;
 }
 
 #main-footer .btm-contact li a.fb:hover:before {
-  background: url("../../img/icon-1.png") no-repeat -295px -152px;
+  background: url("../../img/icon-1.png") no-repeat -288px -122px;
 }
 
 #main-footer .btm-contact li a.qq:hover:before {
-  background: url("../../img/icon-1.png") no-repeat -217px -152px;
+  background: url("../../img/icon-1.png") no-repeat -285px -202px;
 }
 
 #main-footer .btm-contact li a.tel:hover:before {
-  background: url("../../img/icon-1.png") no-repeat -191px -152px;
+  background: url("../../img/icon-1.png") no-repeat -233px -202px;
+}
+
+#main-footer .btm-contact li a.wechat:hover:before {
+  background: url("../../img/icon-1.png") no-repeat -311px -178px;
 }
 
 #main-footer .btm-copyright {
@@ -851,6 +867,7 @@ dd {
 
 .wrap .title figcaption h3 {
   position: relative;
+  margin: auto;
   font-size: 28px;
   font-family: "微软雅黑";
   font-style: normal;
@@ -871,7 +888,20 @@ dd {
   height: 3px;
   background-color: #d33331;
   top: auto;
-  bottom: -1px;
+  bottom: -2px;
+}
+
+.wrap .title.reversion figcaption h3 {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.wrap .title.reversion figcaption h3:after {
+  background-color: #ffffff;
+}
+
+.wrap .title.reversion p {
+  color: #ffffff;
 }
 
 .wrap .more {
@@ -888,7 +918,7 @@ dd {
   margin-top: 4px;
   margin-left: 5px;
   color: #333333;
-  background: url("../img/icon-1.png") no-repeat -474px -26px;
+  background: url("../img/icon-1.png") no-repeat -343px -26px;
   display: inline-block;
   width: 14px;
   height: 14px;
@@ -899,7 +929,82 @@ dd {
 }
 
 .wrap .more:hover:after {
-  background: url("../img/icon-1.png") no-repeat -474px 0;
+  background: url("../img/icon-1.png") no-repeat -343px 0;
+}
+
+#slide {
+  width: 100%;
+  height: 580px;
+  overflow: hidden;
+}
+
+#slide .out {
+  position: relative;
+  width: 100%;
+  height: inherit;
+  overflow: hidden;
+}
+
+#slide .out .img li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#slide .out .num {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  font-size: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#slide .out .num li {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  font-size: 16px;
+  background-color: #fff;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+  margin: 0 10px;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+#slide .out .num li.active {
+  background-color: #d33331;
+}
+
+#slide .out .btn {
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 60px;
+  margin-top: -30px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+  font-size: 40px;
+  display: none;
+}
+
+#slide .out:hover .btn {
+  display: block;
+  cursor: pointer;
+}
+
+#slide .out .left {
+  left: 0;
+}
+
+#slide .out .right {
+  right: 0;
 }
 
 #service {
@@ -991,7 +1096,7 @@ dd {
   left: 50%;
   width: 56px;
   height: 56px;
-  background: url("../img/icon-1.png") no-repeat -232px -94px;
+  background: url("../img/icon-1.png") no-repeat -174px -152px;
 }
 
 #service .service-list li:nth-of-type(2) a:after {
@@ -1003,7 +1108,7 @@ dd {
   left: 50%;
   width: 56px;
   height: 56px;
-  background: url("../img/icon-1.png") no-repeat -290px -94px;
+  background: url("../img/icon-1.png") no-repeat 0 -152px;
 }
 
 #service .service-list li:nth-of-type(3) a:after {
@@ -1015,7 +1120,7 @@ dd {
   left: 50%;
   width: 56px;
   height: 56px;
-  background: url("../img/icon-1.png") no-repeat 0px -94px;
+  background: url("../img/icon-1.png") no-repeat -58px -152px;
 }
 
 #service .service-list li:nth-of-type(4) a:after {
@@ -1027,7 +1132,7 @@ dd {
   left: 50%;
   width: 56px;
   height: 56px;
-  background: url("../img/icon-1.png") no-repeat -348px -58px;
+  background: url("../img/icon-1.png") no-repeat -116px -152px;
 }
 
 #service .service-list li:hover a {
@@ -1043,7 +1148,7 @@ dd {
 }
 
 #service .service-list li:nth-of-type(1):hover a:after {
-  background: url("../img/icon-1.png") no-repeat -342px 0;
+  background: url("../img/icon-1.png") no-repeat -174px -94px;
 }
 
 #service .service-list li:nth-of-type(2):hover span:first-child {
@@ -1055,7 +1160,7 @@ dd {
 }
 
 #service .service-list li:nth-of-type(2):hover a:after {
-  background: url("../img/icon-1.png") no-repeat -116px -94px;
+  background: url("../img/icon-1.png") no-repeat 0 -94px;
 }
 
 #service .service-list li:nth-of-type(3):hover span:first-child {
@@ -1067,7 +1172,7 @@ dd {
 }
 
 #service .service-list li:nth-of-type(3):hover a:after {
-  background: url("../img/icon-1.png") no-repeat -174px -94px;
+  background: url("../img/icon-1.png") no-repeat -58px -94px;
 }
 
 #service .service-list li:nth-of-type(4):hover span:first-child {
@@ -1079,24 +1184,140 @@ dd {
 }
 
 #service .service-list li:nth-of-type(4):hover a:after {
-  background: url("../img/icon-1.png") no-repeat -58px -94px;
+  background: url("../img/icon-1.png") no-repeat -116px -94px;
 }
 
-#project .project-list > ul {
+#project .project-list {
   padding-top: 60px;
   padding-bottom: 60px;
   height: auto;
   overflow: hidden;
   width: 100%;
+  display: table;
+}
+
+#project .project-list > ul {
+  display: table-row;
 }
 
 #project .project-list li {
+  position: relative;
   width: 20%;
-  height: 300px;
-  float: left;
+  max-height: 300px;
+  display: table-cell;
 }
 
-#project .project-list li img {
+#project .project-list li .show-img img {
   display: block;
   max-width: 100%;
+}
+
+#project .project-list li .mask {
+  position: absolute;
+  color: #ffffff;
+  display: none;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+#project .project-list li .mask label {
+  display: block;
+}
+
+#project .project-list li .mask > label {
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+#project .project-list li .mask .text {
+  width: 100%;
+}
+
+#project .project-list li .mask .text > label {
+  text-align: center;
+  font-size: 22px;
+}
+
+#project .project-list li .mask .text > p {
+  height: 65px;
+  text-indent: 2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+#project .project-list li .mask .text > .link {
+  position: absolute;
+  text-align: right;
+  width: 100%;
+  height: 28px;
+  right: 30px;
+  bottom: 0;
+}
+
+#project .project-list li .mask .text > .link a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  background: url("../img/icon-1.png") no-repeat -203px -210px;
+}
+
+#news {
+  background-color: #f8f8f8;
+}
+
+#aboutUs {
+  background-color: #cbb7a2;
+}
+
+#aboutUs > .box {
+  position: relative;
+  display: block;
+  background: url("../img/aboutUs-people-show.png") no-repeat 0 center;
+  height: 600px;
+}
+
+#aboutUs > .box > .arrow {
+  position: absolute;
+  text-align: right;
+  padding-right: 10px;
+  margin-top: -30px;
+  color: #412106;
+  width: 100px;
+  height: 60px;
+  line-height: 60px;
+  top: 50%;
+  right: 0;
+  letter-spacing: -15px;
+  z-index: 99;
+  font-size: 60px;
+  font-family: "AvenirLTStd-Black";
+  font-style: normal;
+  font-weight: 800;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #412106;
+  background-image: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 0.6) 30%, #f9cf93 50%, rgba(0, 0, 0, 0.6) 70%);
+  /*设置渐变的背景，按对角线渐变*/
+  background-blend-mode: hard-light;
+  /*设置背景为混合模式下的强光模式*/
+  background-size: 240%;
+  -webkit-animation: shine 3s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    background-position: 100%;
+  }
+
+  to {
+    background-position: 0;
+  }
 }
