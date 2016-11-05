@@ -14,7 +14,7 @@
 
 <body>
 <!--Header -->
-<header id="header">
+<header id="header" class="defalt">
     <h1 id="logo">
         <a href="#">
             <img src="../img/logo.png" alt="">
@@ -86,8 +86,8 @@
     </nav>
 </header>
 <!--Slide-->
-<section id="slide">
-    <section class="out">
+<section id="slide" class="hide">
+    <section class="box">
         <ul class="img">
             <li><a href="#"><img src="../img/focusImg/slide1.png" alt=""></a></li>
             <li><a href="#"><img src="../img/focusImg/slide2.png" alt=""></a></li>
@@ -99,7 +99,6 @@
         <!--<div class="left btn"><</div>-->
         <!--<div class="right btn">></div>-->
     </section>
-
 </section>
 
 <!-- SERVICE -->
@@ -323,13 +322,32 @@
 </section>
 
 <!--NEWS-->
-<section id="news" class="wrap hide">
-    <figure class="title text-center">
+<section id="news" class="wrap text-center">
+    <figure class="title">
         <figcaption>
             <h3>我们的资讯·见证成长</h3>
         </figcaption>
-        <p>您的眼光高度，决定您的品牌厚度</p>
+        <menu class="tab-control">
+            <ul>
+                <li class="active">企业动态</li>
+                <li>媒体关注</li>
+                <li>行业动态</li>
+            </ul>
+        </menu>
     </figure>
+    <section class="container tab-content">
+        <section>
+            <section>
+
+            </section>
+        </section>
+        <ul>
+            <li>
+
+            </li>
+        </ul>
+    </section>
+    <span class="more"><a href="#">more</a></span>
 </section>
 
 <!--ABOUT-->
@@ -353,7 +371,6 @@
         </figcaption>
         <p>我们用心服务，站在客户的角度做好美一个细节</p>
     </figure>
-
 </section>
 
 
@@ -407,6 +424,7 @@
 
 <script src="../js/jquery.min.js"></script>
 <script src="../js/plugins/SuperSlide.2.1.js"></script>
+<script src="../js/common.js"></script>
 <script src="../js/pages/index.js"></script>
 </body>
 

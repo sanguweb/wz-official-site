@@ -9,7 +9,7 @@
     figcaption {
       h3 {
         .pos-r;
-        .m-auto;
+        .m-auto(0, 0);
         .font(28px, "微软雅黑", 400);
         .border-bottom-base(#e1e1e1);
         display: inline-block;
@@ -63,25 +63,33 @@
   }
 }
 
-
 //焦点图
-#slide{
+#slide {
   width: percentage(@half*2);
   height: 580px;
   overflow: hidden;
-  .out {
+  .box {
     position: relative;
     width: 100%;
     height: inherit;
     overflow: hidden;
   }
-  .out .img li {
+  .box .img {
+    height: 580px
+  }
+  .box .img li {
     position: absolute;
+    width: 100%;
+    height: 580px;
     top: 0;
     left: 0;
     display: none;
   }
-  .out .num {
+  .box .img img {
+    width: percentage(@half*2);
+    height: 580px;
+  }
+  .box .num {
     position: absolute;
     bottom: 20px;
     left: 0;
@@ -89,7 +97,7 @@
     width: percentage(@half*2);
     text-align: center;
   }
-  .out .num li {
+  .box .num li {
     width: 12px;
     height: 12px;
     display: inline-block;
@@ -103,26 +111,32 @@
     text-indent: -9999px;
     cursor: pointer;
   }
-  .out .num li.active { background-color:@red;}
-  .out .btn {
+  .box .num li.active {
+    background-color: @red;
+  }
+  .box .btn {
     position: absolute;
     top: 50%;
     width: 30px;
     height: 60px;
     margin-top: -30px;
-    background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, .5);
     color: #fff;
     text-align: center;
     line-height: 60px;
     font-size: 40px;
     display: none;
   }
-  .out:hover .btn{
+  .box:hover .btn {
     display: block;
     cursor: pointer;
   }
-  .out .left { left: 0;}
-  .out .right { right: 0;}
+  .box .left {
+    left: 0;
+  }
+  .box .right {
+    right: 0;
+  }
 }
 
 //服务
@@ -149,7 +163,7 @@
         .pl(20px);
         .pr(20px);
         span:first-child {
-          .m-auto;
+          .m-auto(0, 0);
           box-sizing: border-box;
           border-radius: 50%;
           padding: 10px;
@@ -158,7 +172,7 @@
           height: 120px;
         }
         a {
-          .m-auto;
+          .m-auto(0, 0);
           .pos-r;
           display: block;
           width: 100px;
@@ -330,8 +344,40 @@
 //新闻
 #news {
   background-color: rgba(248, 248, 248, 1);
-}
+  //菜单控制
+  .tab-control {
+    width: 560px;
+    .m-auto(20px, auto);
+    .list-inline(none, 75px);
+    .clearfix;
+    height: auto;
+    overflow: hidden;
+    ul {
+      padding-left: 30px;
+      .text-center;
+      li {
+        background: @white;
+        padding: 6px 10px;
+        display: inline-block;
+        cursor: pointer;
+        &:hover{
+          color: @red;
+        }
+        &.active{
+          background-color: @red;
+          color: @white;
+        }
+      }
+    }
+  }
+  .tab-content {
+    .mt(45px);
+    .mb(45px);
+    height: 276px;
+    background: red;
 
+  }
+}
 
 //关于我们
 #aboutUs {
@@ -349,7 +395,7 @@
       color: #412106;
       width: 100px;
       height: 60px;
-      line-height:60px;
+      line-height: 60px;
       top: 50%;
       right: 0;
       letter-spacing: -15px;

@@ -546,7 +546,7 @@ dd {
 }
 
 .container {
-  margin: auto;
+  margin: 0 auto 0 auto;
   width: 1170px;
   height: auto;
   overflow: hidden;
@@ -554,10 +554,6 @@ dd {
 
 .hide {
   display: none;
-}
-
-.m-auto {
-  margin: auto;
 }
 
 .text-center {
@@ -570,6 +566,10 @@ dd {
 
 .text-right {
   text-align: right;
+}
+
+.pos-f {
+  position: fixed;
 }
 
 .pos-r {
@@ -617,6 +617,8 @@ dd {
   zoom: 1;
   width: 100%;
   overflow: visible;
+  background-color: #ffffff;
+  z-index: 9999;
 }
 
 #header:before {
@@ -665,6 +667,7 @@ dd {
   width: 120px;
   background: #da271b;
   top: 94px;
+  left: 0;
   overflow: hidden;
 }
 
@@ -738,7 +741,7 @@ dd {
 
 #main-footer .btm-nav {
   border-bottom: 1px solid #ffffff;
-  margin: auto;
+  margin: 0 auto 0 auto;
   width: 1170px;
   height: auto;
   overflow: hidden;
@@ -867,7 +870,7 @@ dd {
 
 .wrap .title figcaption h3 {
   position: relative;
-  margin: auto;
+  margin: 0 auto 0 auto;
   font-size: 28px;
   font-family: "微软雅黑";
   font-style: normal;
@@ -938,21 +941,32 @@ dd {
   overflow: hidden;
 }
 
-#slide .out {
+#slide .box {
   position: relative;
   width: 100%;
   height: inherit;
   overflow: hidden;
 }
 
-#slide .out .img li {
+#slide .box .img {
+  height: 580px;
+}
+
+#slide .box .img li {
   position: absolute;
+  width: 100%;
+  height: 580px;
   top: 0;
   left: 0;
   display: none;
 }
 
-#slide .out .num {
+#slide .box .img img {
+  width: 100%;
+  height: 580px;
+}
+
+#slide .box .num {
   position: absolute;
   bottom: 20px;
   left: 0;
@@ -961,7 +975,7 @@ dd {
   text-align: center;
 }
 
-#slide .out .num li {
+#slide .box .num li {
   width: 12px;
   height: 12px;
   display: inline-block;
@@ -976,11 +990,11 @@ dd {
   cursor: pointer;
 }
 
-#slide .out .num li.active {
+#slide .box .num li.active {
   background-color: #d33331;
 }
 
-#slide .out .btn {
+#slide .box .btn {
   position: absolute;
   top: 50%;
   width: 30px;
@@ -994,16 +1008,16 @@ dd {
   display: none;
 }
 
-#slide .out:hover .btn {
+#slide .box:hover .btn {
   display: block;
   cursor: pointer;
 }
 
-#slide .out .left {
+#slide .box .left {
   left: 0;
 }
 
-#slide .out .right {
+#slide .box .right {
   right: 0;
 }
 
@@ -1055,7 +1069,7 @@ dd {
 }
 
 #service .service-list li .box span:first-child {
-  margin: auto;
+  margin: 0 auto 0 auto;
   box-sizing: border-box;
   border-radius: 50%;
   padding: 10px;
@@ -1065,7 +1079,7 @@ dd {
 }
 
 #service .service-list li .box a {
-  margin: auto;
+  margin: 0 auto 0 auto;
   position: relative;
   display: block;
   width: 100px;
@@ -1271,6 +1285,59 @@ dd {
 
 #news {
   background-color: #f8f8f8;
+}
+
+#news .tab-control {
+  width: 560px;
+  margin: 20px auto auto auto;
+  zoom: 1;
+  height: auto;
+  overflow: hidden;
+}
+
+#news .tab-control dl,
+#news .tab-control li {
+  float: none;
+  margin-right: 75px;
+}
+
+#news .tab-control:before {
+  content: '';
+  display: block;
+}
+
+#news .tab-control:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#news .tab-control ul {
+  padding-left: 30px;
+  text-align: center;
+}
+
+#news .tab-control ul li {
+  background: #ffffff;
+  padding: 6px 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#news .tab-control ul li:hover {
+  color: #d33331;
+}
+
+#news .tab-control ul li.active {
+  background-color: #d33331;
+  color: #ffffff;
+}
+
+#news .tab-content {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  height: 276px;
+  background: red;
 }
 
 #aboutUs {
