@@ -76,3 +76,22 @@ $(function () {
     })
 });
 
+
+//选项卡
+var TabbedContent = function () {
+
+    var tabControl = $('.tab-control', '#news').find('li'),
+        tabContent = $('.tab-content', '#news').find('.tabslider');
+    $.each(tabControl, function (i) {
+        $(this).attr('data-index', i);
+    });
+    $.each(tabContent, function (i) {
+        $(this).attr('data-index', i);
+    });
+
+
+};
+
+$(function () {
+    TabbedContent();
+});
