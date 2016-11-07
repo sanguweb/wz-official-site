@@ -14,7 +14,7 @@
 
 <body>
 <!--Header -->
-<header id="header" class="defalt">
+<header id="header">
     <h1 id="logo">
         <a href="#">
             <img src="../img/logo.png" alt="">
@@ -23,10 +23,10 @@
     </h1>
     <nav id="navBar" class="navBar">
         <ul class="nav clearfix">
-            <li class="m">
-                <h3><a target="_blank" href="#">网站首页</a></h3>
+            <li>
+                <h3 class="active"><a target="_blank" href="#">网站首页</a></h3>
             </li>
-            <li class="m">
+            <li>
                 <h3><a target="_blank" href="#">服务项目</a></h3>
                 <ul class="sub">
                     <li><a href="#"> 专利咨询</a></li>
@@ -35,7 +35,7 @@
                     <li><a href="#"> 项目申报</a></li>
                 </ul>
             </li>
-            <li class="m">
+            <li>
                 <h3><a target="_blank" href="#">成功案例</a></h3>
                 <ul class="sub double">
                     <li><a href="#"> 高等教育</a></li>
@@ -50,10 +50,10 @@
                     <li><a href="#"> 电子商务</a></li>
                 </ul>
             </li>
-            <li class="m">
+            <li>
                 <h3><a target="_blank" href="#">傻鸟知服</a></h3>
             </li>
-            <li class="m">
+            <li>
                 <h3><a target="_blank" href="#">资讯中心</a></h3>
                 <ul class="sub">
                     <li><a href="#">企业动态</a></li>
@@ -62,7 +62,7 @@
                     <li><a href="#">技术成果鉴定</a></li>
                 </ul>
             </li>
-            <li class="m">
+            <li>
                 <h3><a target="_blank" href="#">关于我们</a></h3>
                 <ul class="sub">
                     <li><a href="#">走进维正</a></li>
@@ -71,35 +71,41 @@
                     <li><a href="#">维正团队</a></li>
                 </ul>
             </li>
-            <li class="m">
+            <li>
                 <h3><a target="_blank" href="#">诚聘英才</a></h3>
                 <ul class="sub">
                     <li><a href="#">招聘职位</a></li>
                     <li><a href="#">用人理念</a></li>
                 </ul>
             </li>
-            <li class="m">
+            <li>
                 <h3><a target="_blank" href="#">联系我们</a></h3>
             </li>
         </ul>
-        <span id="current"></span>
     </nav>
 </header>
+
+
 <!--Slide-->
-<section id="slide" class="hide">
-    <section class="box">
-        <ul class="img">
-            <li><a href="#"><img src="../img/focusImg/slide1.png" alt=""></a></li>
-            <li><a href="#"><img src="../img/focusImg/slide2.png" alt=""></a></li>
-            <li><a href="#"><img src="../img/focusImg/slide3.png" alt=""></a></li>
-        </ul>
-        <ul class="num">
-            <!--底部数字栏-->
-        </ul>
-        <!--<div class="left btn"><</div>-->
-        <!--<div class="right btn">></div>-->
-    </section>
-</section>
+<div id="slider" class=" hide">
+    <ul class="slides">
+        <li class="slide">
+            <div class="box">
+                <a href="#"><img src="../img/focusImg/slide1.png" alt=""></a>
+            </div>
+        </li>
+        <li class="slide">
+            <div class="box">
+                <a href="#"><img src="../img/focusImg/slide2.png" alt=""></a>
+            </div>
+        </li>
+        <li class="slide">
+            <div class="box">
+                <a href="#"><img src="../img/focusImg/slide3.png" alt=""></a>
+            </div>
+        </li>
+    </ul>
+</div>
 
 <!-- SERVICE -->
 <section id="service" class="wrap text-center hide">
@@ -322,169 +328,200 @@
 </section>
 
 <!--NEWS-->
-<section id="news" class="wrap text-center">
+<section id="news" class="wrap text-center hide">
     <figure class="title">
         <figcaption>
             <h3>我们的资讯·见证成长</h3>
         </figcaption>
         <menu class="tab-control">
-            <ul>
+            <ul class="nav">
                 <li class="active">企业动态</li>
-                <li>媒体关注</li>
                 <li>行业动态</li>
+                <li>媒体动态</li>
             </ul>
         </menu>
     </figure>
+
     <section class="container tab-content text-left clearfix">
-        <section class="tabslider">
+        <section class="tab-target">
             <section class="last-news">
-                <section class="viewImg">
-                    <time>10<span>10月</span></time>
-                    <img src="../img/focusImg/slide1.png" alt="">
-                </section>
-                <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
-                <p>2016年10月8日，20多位维正新人在桑达科技大厦度过了一个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                <a href="#">
+                    <section class="viewImg">
+                        <time>10<span>10月</span></time>
+                        <img src="../img/focusImg/slide1.png" alt="">
+                    </section>
+                    <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
+                    <p>2016年10月8日，20多位维正新人在桑达科技大厦度过了一个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                </a>
             </section>
             <ul class="item4">
                 <li>
-                    <section class="viewImg">
-                        <time>10<span>10月</span></time>
-                        <img src="../img/focusImg/slide1.png" alt="">
-                    </section>
-                    <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
-                    <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    <a href="#">
+                        <section class="viewImg">
+                            <time>10<span>10月</span></time>
+                            <img src="../img/focusImg/slide1.png" alt="">
+                        </section>
+                        <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
+                        <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    </a>
                 </li>
                 <li>
-                    <section class="viewImg">
-                        <time>10<span>10月</span></time>
-                        <img src="../img/focusImg/slide1.png" alt="">
-                    </section>
-                    <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
-                    <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
-                </li>
-
-                <li>
-                    <section class="viewImg">
-                        <time>10<span>10月</span></time>
-                        <img src="../img/focusImg/slide1.png" alt="">
-                    </section>
-                    <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
-                    <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
-                </li>
-
-                <li>
-                    <section class="viewImg">
-                        <time>10<span>10月</span></time>
-                        <img src="../img/focusImg/slide1.png" alt="">
-                    </section>
-                    <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
-                    <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
-                </li>
-            </ul>
-        </section>
-        <section class="tabslider hide">
-            <ul class="item4">
-                <li>
-                    <section class="viewImg">
-                        <time>10<span>10月</span></time>
-                        <img src="../img/focusImg/slide1.png" alt="">
-                    </section>
-                    <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
-                    <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    <a href="#">
+                        <section class="viewImg">
+                            <time>10<span>10月</span></time>
+                            <img src="../img/focusImg/slide1.png" alt="">
+                        </section>
+                        <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
+                        <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    </a>
                 </li>
                 <li>
-                    <section class="viewImg">
-                        <time>10<span>10月</span></time>
-                        <img src="../img/focusImg/slide1.png" alt="">
-                    </section>
-                    <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
-                    <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    <a href="#">
+                        <section class="viewImg">
+                            <time>10<span>10月</span></time>
+                            <img src="../img/focusImg/slide1.png" alt="">
+                        </section>
+                        <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
+                        <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    </a>
                 </li>
                 <li>
-                    <section class="viewImg">
-                        <time>10<span>10月</span></time>
-                        <img src="../img/focusImg/slide1.png" alt="">
-                    </section>
-                    <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
-                    <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
-                </li>
-                <li>
-                    <section class="viewImg">
-                        <time>10<span>10月</span></time>
-                        <img src="../img/focusImg/slide1.png" alt="">
-                    </section>
-                    <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
-                    <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
-                </li>
-                <li>
-                    <section class="viewImg">
-                        <time>10<span>10月</span></time>
-                        <img src="../img/focusImg/slide1.png" alt="">
-                    </section>
-                    <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
-                    <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
-                </li>
-
-                <li>
-                    <section class="viewImg">
-                        <time>10<span>10月</span></time>
-                        <img src="../img/focusImg/slide1.png" alt="">
-                    </section>
-                    <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
-                    <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    <a href="#">
+                        <section class="viewImg">
+                            <time>10<span>10月</span></time>
+                            <img src="../img/focusImg/slide1.png" alt="">
+                        </section>
+                        <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
+                        <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    </a>
                 </li>
             </ul>
         </section>
-        <section class="tabslider hide">
-            <ul class="item4">
+        <section class="tab-target hide">
+            <ul class="item6">
                 <li>
-                    <section class="viewImg">
-                        <time>10<span>10月</span></time>
-                        <img src="../img/focusImg/slide1.png" alt="">
-                    </section>
-                    <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
-                    <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    <a href="#">
+                        <section class="viewImg">
+                            <time>10<span>10月</span></time>
+                            <img src="../img/focusImg/slide1.png" alt="">
+                        </section>
+                        <h5>【0000】一波生猛优秀的新面孔新气象铺面而来！ </h5>
+                        <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    </a>
                 </li>
                 <li>
-                    <section class="viewImg">
-                        <time>10<span>10月</span></time>
-                        <img src="../img/focusImg/slide1.png" alt="">
-                    </section>
-                    <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
-                    <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    <a href="#">
+                        <section class="viewImg">
+                            <time>10<span>10月</span></time>
+                            <img src="../img/focusImg/slide1.png" alt="">
+                        </section>
+                        <h5>【0000】一波生猛优秀的新面孔新气象铺面而来！ </h5>
+                        <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    </a>
                 </li>
                 <li>
-                    <section class="viewImg">
-                        <time>10<span>10月</span></time>
-                        <img src="../img/focusImg/slide1.png" alt="">
-                    </section>
-                    <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
-                    <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    <a href="#">
+                        <section class="viewImg">
+                            <time>10<span>10月</span></time>
+                            <img src="../img/focusImg/slide1.png" alt="">
+                        </section>
+                        <h5>【0000】一波生猛优秀的新面孔新气象铺面而来！ </h5>
+                        <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    </a>
                 </li>
                 <li>
-                    <section class="viewImg">
-                        <time>10<span>10月</span></time>
-                        <img src="../img/focusImg/slide1.png" alt="">
-                    </section>
-                    <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
-                    <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    <a href="#">
+                        <section class="viewImg">
+                            <time>10<span>10月</span></time>
+                            <img src="../img/focusImg/slide1.png" alt="">
+                        </section>
+                        <h5>【0000】一波生猛优秀的新面孔新气象铺面而来！ </h5>
+                        <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    </a>
                 </li>
                 <li>
-                    <section class="viewImg">
-                        <time>10<span>10月</span></time>
-                        <img src="../img/focusImg/slide1.png" alt="">
-                    </section>
-                    <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
-                    <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    <a href="#">
+                        <section class="viewImg">
+                            <time>10<span>10月</span></time>
+                            <img src="../img/focusImg/slide1.png" alt="">
+                        </section>
+                        <h5>【0000】一波生猛优秀的新面孔新气象铺面而来！ </h5>
+                        <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    </a>
                 </li>
-
                 <li>
-                    <section class="viewImg">
-                        <time>10<span>10月</span></time>
-                        <img src="../img/focusImg/slide1.png" alt="">
-                    </section>
-                    <h5>【维正迎新日】一波生猛优秀的新面孔新气象铺面而来！ </h5>
-                    <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    <a href="#">
+                        <section class="viewImg">
+                            <time>10<span>10月</span></time>
+                            <img src="../img/focusImg/slide1.png" alt="">
+                        </section>
+                        <h5>【0000】一波生猛优秀的新面孔新气象铺面而来！ </h5>
+                        <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="tab-target hide">
+            <ul class="item6">
+                <li>
+                    <a href="#">
+                        <section class="viewImg">
+                            <time>10<span>10月</span></time>
+                            <img src="../img/focusImg/slide1.png" alt="">
+                        </section>
+                        <h5>【11111】一波生猛优秀的新面孔新气象铺面而来！</h5>
+                        <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <section class="viewImg">
+                            <time>10<span>10月</span></time>
+                            <img src="../img/focusImg/slide1.png" alt="">
+                        </section>
+                        <h5>【11111】一波生猛优秀的新面孔新气象铺面而来！</h5>
+                        <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <section class="viewImg">
+                            <time>10<span>10月</span></time>
+                            <img src="../img/focusImg/slide1.png" alt="">
+                        </section>
+                        <h5>【11111】一波生猛优秀的新面孔新气象铺面而来！</h5>
+                        <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <section class="viewImg">
+                            <time>10<span>10月</span></time>
+                            <img src="../img/focusImg/slide1.png" alt="">
+                        </section>
+                        <h5>【11111】一波生猛优秀的新面孔新气象铺面而来！</h5>
+                        <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <section class="viewImg">
+                            <time>10<span>10月</span></time>
+                            <img src="../img/focusImg/slide1.png" alt="">
+                        </section>
+                        <h5>【11111】一波生猛优秀的新面孔新气象铺面而来！</h5>
+                        <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <section class="viewImg">
+                            <time>10<span>10月</span></time>
+                            <img src="../img/focusImg/slide1.png" alt="">
+                        </section>
+                        <h5>【11111】一波生猛优秀的新面孔新气象铺面而来！</h5>
+                        <p>2016年10月8日，20多位维正新人在桑个难忘的下午，感受维正文化、在温馨的环境下学习产品知识，新……</p>
+                    </a>
                 </li>
             </ul>
         </section>
@@ -514,8 +551,43 @@
         <p>我们用心服务，站在客户的角度做好美一个细节</p>
     </figure>
 
-    <section>
-
+    <section class="logos container">
+        <ul class="slides">
+            <li class="slide">
+                <table class="box" cellpadding="0" cellspacing="0">
+                    <tbody>
+                    <tr>
+                        <td><img src="../img/client/a1.jpg"></td>
+                        <td><img src="../img/client/a2.jpg"></td>
+                        <td><img src="../img/client/a3.jpg"></td>
+                        <td><img src="../img/client/a4.jpg"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="../img/client/a5.jpg"></td>
+                        <td><img src="../img/client/a6.jpg"></td>
+                        <td><img src="../img/client/a7.jpg"></td>
+                        <td><img src="../img/client/a8.jpg"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="../img/client/a9.jpg"></td>
+                        <td><img src="../img/client/a10.jpg"></td>
+                        <td><img src="../img/client/a11.jpg"></td>
+                        <td><img src="../img/client/a11.jpg"></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </li>
+            <li class="slide">
+                <div class="box">
+                    <a href="#"><img src="../img/focusImg/slide2.png" alt=""></a>
+                </div>
+            </li>
+            <li class="slide">
+                <div class="box">
+                    <a href="#"><img src="../img/focusImg/slide3.png" alt=""></a>
+                </div>
+            </li>
+        </ul>
     </section>
 
 </section>
@@ -568,12 +640,11 @@
     <p class="text-center copyright">Copyright &copy;2016 维正知识产权代理有限公司 版权所有 浙ICP备13035314号</p>
 </footer>
 
-
 <script src="../js/jquery.min.js"></script>
-<script src="../js/plugins/SuperSlide.2.1.js"></script>
-<script src="../js/common.js"></script>
+<script src="../js/plugins/jquery.glide.min.js"></script>
+<script src="../js/public.js"></script>
+<script src="../js/self-lib.js"></script>
 <script src="../js/pages/index.js"></script>
-
 
 </body>
 

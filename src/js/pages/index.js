@@ -2,96 +2,45 @@
  * Created by Administrator on 2016/11/2.
  */
 
-//图片展示
-$(function () {
-    var arrLiBox = $('.project-list', '#project');
-    var arrLi = arrLiBox.find('li');
-    $.each(arrLi, function () {
-        $(this).mouseover(function () {
-            var mask = $(this).find('.mask');
-            var img = $(this).find('show-img');
-            mask.show();
-        }).mouseleave(function () {
-            var mask = $(this).find('.mask');
-            mask.hide();
-        })
-    })
-});
-
-//轮播图
-$(function () {
-    //初始化
-    var size = $("li", ".img").size();  //获取图片的个数
-    for (var i = 1; i <= size; i++) {	//创建图片个数相对应的底部数字个数
-        var li = "<li>" + i + "</li>";	//创建li标签，并插入到页面中
-        $(".num").append(li);
-    }
-
-    //手动控制图片轮播
-    $("li", ".img").eq(0).show();	//显示第一张图片
-    $("li", ".num").eq(0).addClass("active");	//第一张图片底部相对应的数字列表添加active类
-    $("li", ".num").mouseover(function () {
-        $(this).addClass("active").siblings().removeClass("active");  //鼠标在哪个数字上那个数字添加class为active
-        var index = $(this).index();  //定义底部数字索引值
-        i = index;  //底部数字索引值等于图片索引值
-        $(".img li").eq(index).stop().fadeIn(300).siblings().stop().fadeOut(300);	//鼠标移动到的数字上显示对应的图片
-    });
-
-    //自动控制图片轮播
-    var i = 0,  //初始i=0
-        t = setInterval(move, 4000);  //设置定时器，1.5秒切换下一站轮播图
-    //向左切换函数
-    function moveL() {
-        i--;
-        if (i == -1) {
-            i = size - 1;  //如果这是第一张图片再按向左的按钮则切换到最后一张图
-        }
-        $(".num li").eq(i).addClass("active").siblings().removeClass("active");  //对应底部数字添加背景
-        $(".img li").eq(i).fadeIn(300).siblings().fadeOut(300);  //对应图片切换
-    }
-
-    //向右切换函数
-    function move() {
-        i++;
-        if (i == size) {
-            i = 0;  //如果这是最后一张图片再按向右的按钮则切换到第一张图
-        }
-        $(".num li").eq(i).addClass("active").siblings().removeClass("active");  //对应底部数字添加背景
-        $(".img li").eq(i).fadeIn(300).siblings().fadeOut(300);  //对应图片切换
-    }
-
-    //左按钮点击事件
-    $(".out .left").click(function () {
-        moveL();	//点击左键调用向左切换函数
-    });
-    //右按钮点击事件
-    $(".out .right").click(function () {
-        move();    //点击右键调用向右切换函数
-    });
-    //定时器开始与结束
-    $(".out").hover(function () {
-        clearInterval(t);	//鼠标放在轮播区域上时，清除定时器
-    }, function () {
-        t = setInterval(move, 4000);  //鼠标移开时定时器继续
-    })
-});
-
-
-//选项卡
-var TabbedContent = function () {
-
-    var tabControl = $('.tab-control', '#news').find('li'),
-        tabContent = $('.tab-content', '#news').find('.tabslider');
-    $.each(tabControl, function (i) {
-        $(this).attr('data-index', i);
-    });
-    $.each(tabContent, function (i) {
-        $(this).attr('data-index', i);
-    });
-
-
-};
 
 $(function () {
-    TabbedContent();
+    wzWeb.tabSwich($('#news'));  //选项卡
+    wzWeb.imgLayer($('.project-list', '#project'));//图片内容遮罩
+
+    wzWeb.Slider = $('.slider').glide({
+        animationTime:200, //动画过度效果，只有当浏览器支持CSS3的时候生效
+        arrows:false, //是否显示左右导航器
+
+        nav:true, //主导航器也就是本例中显示的小方块
+        navCenter:true, //主导航器位置是否居中
+        navClass:"slider-nav",//主导航器外部div类名
+        navItemClass:"slider-nav__item", //本例中小方块的样式
+        navCurrentItemClass:"slider-nav__item--current" //被选中后的样式
+
+        //autoplay:true,//是否自动播放 默认值 true如果不需要就设置此值
+        // animationTime:200, //动画过度效果，只有当浏览器支持CSS3的时候生效
+        // arrows:false, //是否显示左右导航器
+        // arrowsWrapperClass: "arrowsWrapper",//滑块箭头导航器外部DIV类名
+        // arrowMainClass: "slider-arrow",//滑块箭头公共类名
+        // arrowRightClass:"slider-arrow--right",//滑块右箭头类名
+        // arrowLeftClass:"slider-arrow--left",//滑块左箭头类名
+        // arrowRightText:">",//定义左右导航器文字或者符号也可以是类
+        // arrowLeftText:"<",
+        //
+
+    });
+
+    // wzWeb.CliensLogShow=$('.logos').glide({
+    //     animationTime:200,
+    //     arrows:true,
+    //     arrowsWrapperClass: "arrowsWrapper",//滑块箭头导航器外部DIV类名
+    //     arrowMainClass: "slider-arrow",//滑块箭头公共类名
+    //     arrowRightClass:"slider-arrow--right",//滑块右箭头类名
+    //     arrowLeftClass:"slider-arrow--left",//滑块左箭头类名
+    //     arrowRightText:">",//定义左右导航器文字或者符号也可以是类
+    //     arrowLeftText:"<",
+    //     nav:false //主导航器也就是本例中显示的小方块
+    // });
+
+
 });
