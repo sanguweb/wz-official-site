@@ -6,41 +6,46 @@
 $(function () {
     wzWeb.tabSwich($('#news'));  //选项卡
     wzWeb.imgLayer($('.project-list', '#project'));//图片内容遮罩
+    wzWeb.imgReload();
 
-    wzWeb.Slider = $('.slider').glide({
-        animationTime:200, //动画过度效果，只有当浏览器支持CSS3的时候生效
-        arrows:false, //是否显示左右导航器
-
-        nav:true, //主导航器也就是本例中显示的小方块
-        navCenter:true, //主导航器位置是否居中
-        navClass:"slider-nav",//主导航器外部div类名
-        navItemClass:"slider-nav__item", //本例中小方块的样式
-        navCurrentItemClass:"slider-nav__item--current" //被选中后的样式
-
-        //autoplay:true,//是否自动播放 默认值 true如果不需要就设置此值
-        // animationTime:200, //动画过度效果，只有当浏览器支持CSS3的时候生效
-        // arrows:false, //是否显示左右导航器
-        // arrowsWrapperClass: "arrowsWrapper",//滑块箭头导航器外部DIV类名
-        // arrowMainClass: "slider-arrow",//滑块箭头公共类名
-        // arrowRightClass:"slider-arrow--right",//滑块右箭头类名
-        // arrowLeftClass:"slider-arrow--left",//滑块左箭头类名
-        // arrowRightText:">",//定义左右导航器文字或者符号也可以是类
-        // arrowLeftText:"<",
-        //
-
+    $('#slider').unslider({//首屏轮播
+        dots: true,
+        fluid: true
     });
 
-    // wzWeb.CliensLogShow=$('.logos').glide({
-    //     animationTime:200,
-    //     arrows:true,
-    //     arrowsWrapperClass: "arrowsWrapper",//滑块箭头导航器外部DIV类名
-    //     arrowMainClass: "slider-arrow",//滑块箭头公共类名
-    //     arrowRightClass:"slider-arrow--right",//滑块右箭头类名
-    //     arrowLeftClass:"slider-arrow--left",//滑块左箭头类名
-    //     arrowRightText:">",//定义左右导航器文字或者符号也可以是类
-    //     arrowLeftText:"<",
-    //     nav:false //主导航器也就是本例中显示的小方块
+
+    var unslider04 = $('#logos').unslider({
+            dots: false
+        }),
+        data04 = unslider04.data('unslider');
+
+    $('.arrow').click(function () {
+        var fn = this.className.split(' ')[1];
+        data04[fn]();
+    });
+
+    // $('#logos').unslider({  //logo轮播
+    //     dots: true
     // });
-
-
 });
+
+
+wzWeb.imgReload = function () {
+    var imgHeight = 0;
+    var bWidth = $("body").width();
+    var slider = $('ul', '#slider').children('li');
+    $(slider).each(function () {
+        $(this).css({width: bWidth + "px"});
+    });
+    $(".sliderimg").each(function () {
+        $(this).css({width: bWidth + "px"});
+        imgHeight = $(this).height();
+    });
+};
+
+//响应窗口尺寸
+$(window).resize(function () {
+    wzWeb.imgReload();
+});
+
+

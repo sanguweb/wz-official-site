@@ -1,1 +1,0 @@
-$(function(){wzWeb.tabSwich($("#news")),wzWeb.imgLayer($(".project-list","#project")),wzWeb.Slider=$(".slider").glide({animationTime:200,arrows:!1}),wzWeb.CliensLogShow=$(".logos").glide({animationTime:200,arrows:!1})});

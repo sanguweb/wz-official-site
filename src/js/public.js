@@ -1,6 +1,7 @@
 /**
  * Created by Administrator on 2016/11/7.
  * 公共页面样式
+ * (页头页尾侧栏固定)
  */
 
 
