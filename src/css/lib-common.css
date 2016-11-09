@@ -389,6 +389,9 @@ dd {
   padding: 0;
   list-style: none;
 }
+.response-img {
+  max-width: 100%;
+}
 .icon-fb:before {
   background: url("../img/icon-1.png") no-repeat -288px -150px;
 }
@@ -403,6 +406,18 @@ dd {
 }
 .icon-backtop:before {
   background: url("../img/icon-1.png") no-repeat -233px -230px;
+}
+.icon-Q:before {
+  background: url("../img/icon-1.png") no-repeat -174px -152px;
+}
+.icon-C:before {
+  background: url("../img/icon-1.png") no-repeat 0 -152px;
+}
+.icon-P:before {
+  background: url("../img/icon-1.png") no-repeat -58px -152px;
+}
+.icon-E:before {
+  background: url("../img/icon-1.png") no-repeat -116px -152px;
 }
 .container {
   margin: 0 auto 0 auto;
@@ -459,6 +474,89 @@ dd {
 }
 #link-defalt .main-nav:hover {
   background-color: #ff0000;
+}
+.f12 {
+  font-size: 12px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f16 {
+  font-size: 16px;
+}
+.f18 {
+  font-size: 16px;
+}
+.f20 {
+  font-size: 20px;
+}
+.f24 {
+  font-size: 24px;
+}
+.f32 {
+  font-size: 32px;
+}
+.wrap {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  height: auto;
+}
+.wrap .title figcaption h3 {
+  position: relative;
+  margin: 0 auto 0 auto;
+  font-size: 28px;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: 400;
+  border-bottom: 1px solid #e1e1e1;
+  display: inline-block;
+  padding: 0 90px 20px;
+}
+.wrap .title figcaption h3:after {
+  position: absolute;
+  content: "";
+  margin-top: -2px;
+  margin-left: -35px;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 3px;
+  background-color: #d33331;
+  top: auto;
+  bottom: -2px;
+}
+.wrap .title.reversion figcaption h3 {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.wrap .title.reversion figcaption h3:after {
+  background-color: #ffffff;
+}
+.wrap .title.reversion p {
+  color: #ffffff;
+}
+.wrap .more {
+  display: inline-block;
+}
+.wrap .more > a {
+  color: #333333;
+}
+.wrap .more:after {
+  content: "";
+  float: right;
+  margin-top: 4px;
+  margin-left: 5px;
+  color: #333333;
+  background: url("../img/icon-1.png") no-repeat -343px -26px;
+  display: block;
+  width: 14px;
+  height: 14px;
+}
+.wrap .more:hover {
+  text-decoration: underline;
+}
+.wrap .more:hover:after {
+  background: url("../img/icon-1.png") no-repeat -343px 0;
 }
 #header {
   zoom: 1;

@@ -1,65 +1,19 @@
 @import "../lib-common";
-@images: "../img"; // 图片路径
-.wrap {
-    .pt(120px);
-    .pb(120px);
-    height: auto;
-    .title {
-        figcaption {
-            h3 {
-                .pos-r;
-                .m-auto(0, 0);
-                .font(28px, "微软雅黑", 400);
-                .border-bottom-base(#e1e1e1);
-                display: inline-block;
-                padding: 0 90px 20px;
-                &:after {
-                    .after(70px, 3px);
-                    background-color: @red;
-                    top: auto;
-                    bottom: -2px;
-                }
-            }
-        }
-        &.reversion {
-            figcaption {
-                h3 {
-                    color: @white;
-                    .border-bottom-base(@white);
-                    &:after {
-                        background-color: @white;
-                    }
-                }
-            }
-            p {
-                color: @white;
-            }
-        }
-    }
-    // 更多
-    .more {
-        display: inline-block;
-        &>a {
-            color: @base-color;
-        }
-        &:after {
-            content: "";
-            .fr;
-            .mt(4px);
-            .ml(5px);
-            color: @base-color;
-            background: url("@{images}/icon-1.png") no-repeat -343px -26px;
-            display: block;
-            width: 14px;
-            height: 14px;
-        }
-        &:hover {
-            text-decoration: underline;
-            &:after {
-                background: url("@{images}/icon-1.png") no-repeat -343px 0;
-            }
-        }
-    }
+
+.icon-Q:before{
+    background: url("@{images}/icon-1.png") no-repeat -174px -152px;
+}
+
+.icon-C:before{
+    background: url("@{images}/icon-1.png") no-repeat 0 -152px;
+}
+
+.icon-P:before{
+    background: url("@{images}/icon-1.png") no-repeat -58px -152px;
+}
+
+.icon-E:before{
+    background: url("@{images}/icon-1.png") no-repeat -116px -152px;
 }
 
 // 轮播通用样式
@@ -139,8 +93,7 @@
                 .pl(20px);
                 .pr(20px);
                 span:first-child {
-                    .m-auto(0,
-                    0);
+                    .m-auto(0, 0);
                     box-sizing: border-box;
                     border-radius: 50%;
                     padding: 10px;
@@ -149,8 +102,7 @@
                     height: 120px;
                 }
                 a {
-                    .m-auto(0,
-                    0);
+                    .m-auto(0, 0);
                     .pos-r;
                     display: block;
                     width: 100px;
@@ -165,25 +117,9 @@
                 .service-line(40px);
                 right: 0
             }
-            &:nth-of-type(1) a:after {
-                .after(56px,
-                56px);
-                background: url("@{images}/icon-1.png") no-repeat -174px -152px;
-            }
-            &:nth-of-type(2) a:after {
-                .after(56px,
-                56px);
-                background: url("@{images}/icon-1.png") no-repeat 0 -152px;
-            }
-            &:nth-of-type(3) a:after {
-                .after(56px,
-                56px);
-                background: url("@{images}/icon-1.png") no-repeat -58px -152px;
-            }
-            &:nth-of-type(4) a:after {
-                .after(56px,
-                56px);
-                background: url("@{images}/icon-1.png") no-repeat -116px -152px;
+            a:after,
+            a:before{
+              .after(56px, 56px);
             }
             // 服务图标交互
             &:hover a {

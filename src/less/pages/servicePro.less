@@ -1,8 +1,225 @@
 @import "../lib-common";
-@images: "../img";
+
 #sv-banner {
-    .pos-r;
-    img{
-        max-width: 100%
+  .pos-r;
+  img {
+    max-width:100%
+  }
+}
+
+//当前服务项目
+#service-current {
+  .pb(50px);
+  & > .title figcaption h3 {
+    width:100%;
+    padding:20px 0;
+  }
+  & > ul {
+    .clearfix;
+    .list-inline(left, 0);
+    .mt(50px);
+    .border-bottom-base(#d7d7d7);
+    height:auto;
+    overflow:hidden;
+    box-sizing:border-box;
+    padding:0 135px;
+    & > li {
+      width:225px;
+      height:120px;
+      .pb(20px);
+      & > a {
+        color:@base-color;
+      }
+      &.current {
+        border-bottom:3px solid @red;
+      }
+      em {
+        .pos-r;
+        width:100%;
+        height:80px;
+        display:block;
+        background:#fff;
+        &:before {
+          .before(56px, 56px);
+        }
+      }
+      span {
+        line-height:40px
+      }
     }
+  }
+}
+
+//服务概述
+#service-intro {
+  & > figure:first-of-type {
+    figcaption, p {
+      display:table-cell;
+      line-height:2;
+      vertical-align:middle;
+    }
+    figcaption {
+      font-size:24px;
+      width:30%;
+      strong {
+        .block;
+        color:@red;
+        font-size:14px;
+      }
+    }
+    p {
+      width:70%
+    }
+  }
+
+  & > img.earth {
+    .block;
+    .m-auto(80px, 100px);
+  }
+}
+
+//专利申请类型
+.service-patent-type {
+  width:100%;
+  height:550px;
+  .mt(100px);
+  background:url("@{images}/servicePatentBg.png") no-repeat right center #f8f8f8;
+  .box {
+    width:45%;
+    padding:140px 0;
+    line-height:1.8;
+    h3 {
+      font-size:30px;
+    }
+  }
+}
+
+//专利服务流程
+.service-flow {
+  padding:50px 0;
+  h3 {
+    .mb(50px);
+    span {
+      line-height:30px;
+    }
+  }
+  dl {
+    .clearfix;
+    .text-center;
+    .mb(70px);
+    dt, dd {
+      .fl;
+      .mr(65px);
+      box-sizing:border-box;
+    }
+    dt {
+      .border-base(#d7d7d7);
+      .f20;
+      width:155px;
+      height:155px;
+      border-radius:50%;
+      color:@red;
+      & > em {
+        content:"";
+        display:block;
+        width:50px;
+        height:50px;
+        background:red;
+        .m-auto(30px, 20px);
+        &.flow1 {
+
+        }
+      }
+    }
+    dd {
+      .mb(10px);
+      .f18;
+      width:165px;
+      height:140px;
+      padding:20px 25px;
+      border:1px dashed #d7d7d7;
+      i {
+        .block;
+        .f24;
+        .pb(10px);
+        font-weight:600;
+        font-style:normal;
+        color:@red;
+      }
+    }
+  }
+}
+
+//专利价值
+.service-value {
+  height:980px;
+  background-color:@white;
+  header {
+    color:@white;
+    font-size:60px;
+    height:200px;
+    line-height:200px;
+    background-color:rgba(72, 71, 71, .73);
+  }
+  &.bg1 {
+    height:940px;
+    background:url("@{images}/bground/serviceValueBg.png") no-repeat right center #f8f8f8;
+  }
+  .box {
+    overflow:visible;
+    .pt(70px);
+    h3 {
+      .mb(20px)
+    }
+    ul {
+      height:auto;
+      .list-inline(left, 30px);
+      .mt(70px);
+      .clearfix;
+      li {
+        width:270px;
+        height:390px;
+        padding:30px 20px;
+        box-sizing:border-box;
+        background-color:@white;
+        box-shadow:0 0 10px rgba(36, 26, 26, .35);
+        em {
+          .block;
+          .m-auto(0, 20px);
+          width:72px;
+          height:72px;
+          background:red;
+        }
+        label {
+          .block;
+          .text-center;
+          .f24;
+          color:@red;
+        }
+        p {
+          .f14;
+        }
+        &:last-of-type {
+          .mr(0);
+        }
+      }
+    }
+  }
+}
+
+//终身受益
+.service-ads {
+  padding:60px 0;
+  &.bg1{
+    background:rgba(248, 248, 248, 1);
+  }
+  &.bg2{
+    background:rgba(229, 229, 229, 1);
+  }
+  & > h3 {
+    .pb(30px);
+  }
+  img {
+    padding:50px 0
+  }
 }
