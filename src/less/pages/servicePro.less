@@ -1,6 +1,5 @@
 @import "../lib-common";
 
-//BANNER
 #sv-banner {
   .pos-r;
   img {
@@ -16,6 +15,7 @@
     padding:20px 0;
   }
   & > ul {
+    .clearfix;
     .list-inline(left, 0);
     .mt(50px);
     .border-bottom-base(#d7d7d7);
@@ -71,6 +71,7 @@
       width:70%
     }
   }
+
   & > img.earth {
     .block;
     .m-auto(80px, 100px);
@@ -95,6 +96,7 @@
 
 //专利服务流程
 .service-flow {
+  padding:50px 0;
   h3 {
     .mb(50px);
     span {
@@ -107,37 +109,25 @@
     .mb(70px);
     dt, dd {
       .fl;
-      .mr(88px);
+      .mr(65px);
       box-sizing:border-box;
     }
-    dd:nth-of-type(4n) {
-      .mr(0);
-    }
     dt {
+      .border-base(#d7d7d7);
       .f20;
-      .pos-r;
-      color:@red;
       width:155px;
       height:155px;
-      .border-base(#d7d7d7);
-      border-radius:percentage(@half);
-      &:after {
-
-      }
+      border-radius:50%;
+      color:@red;
       & > em {
         content:"";
         display:block;
+        width:50px;
+        height:50px;
         background:red;
         .m-auto(30px, 20px);
         &.flow1 {
-          width:73px;
-          height:35px;
-          background:url("@{icon-2}") no-repeat -376px -46px;
-        }
-        &.flow2 {
-          width:85px;
-          height:44px;
-          background:url("@{icon-2}") no-repeat -376px 0;
+
         }
       }
     }
@@ -148,11 +138,6 @@
       height:140px;
       padding:20px 25px;
       border:1px dashed #d7d7d7;
-      &.last {
-        .f24;
-        color:@red;
-        line-height:2;
-      }
       i {
         .block;
         .f24;
@@ -178,7 +163,7 @@
   }
   &.bg1 {
     height:940px;
-    background:url("@{bground}/serviceValueBg.png") no-repeat right center #f8f8f8;
+    background:url("@{images}/bground/serviceValueBg.png") no-repeat right center #f8f8f8;
   }
   .box {
     overflow:visible;
@@ -190,6 +175,7 @@
       height:auto;
       .list-inline(left, 30px);
       .mt(70px);
+      .clearfix;
       li {
         width:270px;
         height:390px;
@@ -200,21 +186,9 @@
         em {
           .block;
           .m-auto(0, 20px);
-          background-image:url("@{icon-2}");
           width:72px;
           height:72px;
-        }
-        &:nth-of-type(1) em {
-          background-position:-228px 0;
-        }
-        &:nth-of-type(2) em {
-          background-position:-154px 0;
-        }
-        &:nth-of-type(3) em {
-          background-position:-302px 0;
-        }
-        &:nth-of-type(4) em {
-          background-position:-80px 0;
+          background:red;
         }
         label {
           .block;
@@ -231,265 +205,21 @@
       }
     }
   }
-  .box2 {
-    .pos-r;
-    figure:first-child {
-      .pos-a;
-      width:440px;
-      height:130px;
-      top:130px;
-      right:120px;
-    }
-    ul {
-      height:650px;
-      width:100%;
-      .pos-r;
-      li {
-        .text-center;
-        .pos-a;
-        .border-base(@base-color);
-        border-radius:percentage(@half);
-        width:214px;
-        height:214px;
-        box-sizing:border-box;
-        padding:30px 20px;
-        .f14;
-        & > img:first-child {
-          .m-auto(30px, 20px);
-          .block;
-        }
-        & > span {
-          //.block;
-          //width:150px;
-          font-size:13px;
-          letter-spacing:-1px;
-        }
-        &:nth-of-type(1) {
-          width:435px;
-          height:435px;
-          left:15px;
-          top:0;
-        }
-        &:nth-of-type(2) {
-          width:240px;
-          height:240px;
-          left:305px;
-          bottom:10px;
-        }
-        &:nth-of-type(3) {
-          left:535px;
-          bottom:125px;
-        }
-        &:nth-of-type(4) {
-          left:715px;
-          bottom:0;
-        }
-        &:nth-of-type(5) {
-          left:920px;
-          bottom:92px;
-        }
-
-      }
-    }
-  }
 }
 
 //终身受益
 .service-ads {
   padding:60px 0;
-  &.bg1 {
+  &.bg1{
     background:rgba(248, 248, 248, 1);
   }
-  &.bg2 {
+  &.bg2{
     background:rgba(229, 229, 229, 1);
   }
   & > h3 {
     .pb(30px);
-    .f24;
   }
-  .box {
-    .pos-r;
-    height:350px;
-    .pd-v50;
-    .mt(100px);
-    background:url("@{bground}/advantageBg.png") no-repeat center;
-    & > figure {
-      .pos-a;
-      width:320px;
-      height:130px;
-      &:nth-of-type(1) {
-        left:0;
-        top:0;
-      }
-      &:nth-of-type(2) {
-        right:0;
-        top:0;
-      }
-      &:nth-of-type(3) {
-        left:0;
-        bottom:0;
-      }
-      &:nth-of-type(4) {
-        right:0;
-        bottom:0;
-      }
-      & > figcaption {
-        .f24;
-        color:@red;
-      }
-    }
-  }
-
-  .box2 {
-    .list-inline(left, 20px);
-    li {
-      .pos-r;
-      .f14;
-      line-height:1.8;
-      background-color:@white;
-      box-sizing:border-box;
-      &:last-of-type {
-        .mr(0);
-      }
-      em {
-        .pos-a;
-      }
-    }
-    //优势
-    .advantage {
-      .pt(150px);
-      li {
-        width:218px;
-        height:218px;
-        padding:50px 35px;
-        border-radius:percentage(@half);
-      }
-      label {
-        .f18;
-      }
-      em {
-        .after(150px, 150px);
-        top:-80px;
-        .font(130px, Helvetica, 600);
-        color:@white;
-      }
-    }
-    //  意义
-    .significance {
-      .pt(70px);
-      li {
-        .border-base(#d7d7d7);
-        padding:40px 10px;
-        width:180px;
-        height:180px;
-        &:not(:last-of-type) {
-          .mr(18px);
-        }
-        em{
-          .after(30px, 30px);
-          top:-30px;
-          color:#bfbfbf;
-          .font(40px, Helvetica, 600);
-        }
-      }
-    }
-  }
-}
-
-//商标注册价值
-.service-brand-value {
-  background:rgba(248, 248, 248, 1);
-  padding:50px 0;
-  .runner {
-    .pos-r;
-    .pl(30px);
-    display:table-cell;
-    width:450px;
-    height:350px;
-    background:url("@{bground}/runner.png") no-repeat center;
-    span {
-      .pos-a;
-      .text-center;
-      width:100px;
-      height:30px;
-      line-height:30px;
-      &.s1,
-      &.s3 {
-        left:50%;
-        .ml(-50px);
-      }
-      &.s2,
-      &.s4 {
-        top:50%;
-        .mt(-15px);
-      }
-      &.s1 {
-        top:0;
-      }
-      &.s2 {
-        right:0;
-      }
-      &.s3 {
-        bottom:0;
-      }
-      &.s4 {
-        left:0;
-      }
-    }
-  }
-  .box, .list {
-    display:table-cell;
-    .clearfix;
-    ol {
-      .fl;
-      .pos-r;
-      .text-center;
-      box-sizing:border-box;
-      .ml(80px);
-      .mr(30px);
-      width:60px;
-      height:350px;
-      display:inline-block;
-      &:after {
-        .after(2px, 350px);
-        background:@base-color;
-        z-index:1;
-      }
-      & > li {
-        .pos-a;
-        .f32;
-        background:rgba(248, 248, 248, 1);
-        width:58px;
-        height:58px;
-        line-height:58px;
-        border-radius:50%;
-        .border-base(@base-color);
-        z-index:9;
-        &:nth-of-type(1) {
-          top:20px;
-        }
-        &:nth-of-type(2) {
-          top:100px;
-        }
-        &:nth-of-type(3) {
-          top:180px;
-        }
-        &:nth-of-type(4) {
-          top:260px;
-        }
-      }
-    }
-    dl {
-      height:350px;
-      display:inline-block;
-      dt {
-        .f18;
-        .mt(32px);
-      }
-      dd {
-        .f14;
-        line-height:22px;
-      }
-    }
+  img {
+    padding:50px 0
   }
 }

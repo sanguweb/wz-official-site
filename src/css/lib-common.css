@@ -15,6 +15,9 @@ html {
 /**
  * Remove default margin.
  */
+body {
+  margin: 0;
+}
 /* HTML5 display definitions
    ========================================================================== */
 /**
@@ -27,6 +30,7 @@ figcaption,
 figure,
 footer,
 header,
+hgroup,
 main,
 nav,
 section,
@@ -348,7 +352,28 @@ td,
 th {
   padding: 0;
 }
-body h1,
+li,
+ul,
+dl,
+dd {
+  list-style: none;
+}
+body {
+  font-size: 16px;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+  color: #333333;
+  line-height: 1.4;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+}
+a {
+  text-decoration: none;
+}
+h1,
 h2,
 h3,
 h4,
@@ -363,21 +388,6 @@ dd {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-a {
-  text-decoration: none;
-}
-body {
-  font-size: 16px;
-  font-family: "微软雅黑";
-  font-style: normal;
-  font-weight: normal;
-  color: #333333;
-  line-height: 1.4;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -moz-font-feature-settings: "liga" on;
 }
 .response-img {
   max-width: 100%;
@@ -414,12 +424,6 @@ body {
   width: 1170px;
   height: auto;
   overflow: hidden;
-}
-.pd-v50 {
-  padding: 50px 0;
-}
-.pd-h50 {
-  padding: 0 50px;
 }
 .block {
   display: block;
@@ -481,7 +485,7 @@ body {
   font-size: 16px;
 }
 .f18 {
-  font-size: 18px;
+  font-size: 16px;
 }
 .f20 {
   font-size: 20px;
@@ -586,7 +590,6 @@ body {
   float: right;
   position: relative;
   text-align: center;
-  zoom: 1;
   height: 100px;
   line-height: 100px;
 }
@@ -594,15 +597,6 @@ body {
 #header #navBar li {
   float: left;
   margin-right: 0;
-}
-#header #navBar:before {
-  content: '';
-  display: block;
-}
-#header #navBar:after {
-  content: '';
-  display: table;
-  clear: both;
 }
 #header #navBar .nav > li {
   position: relative;

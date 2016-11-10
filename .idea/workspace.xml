@@ -2,34 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab176845-7d30-4e3e-935d-a4e28de9145b" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/bground/advantageBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/bground/runner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/client/a10s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/client/a11s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/client/a1s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/client/a2s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/client/a3s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/client/a4s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/client/a5s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/client/a6s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/client/a7s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/client/a8s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/client/a9s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/client/cry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/client/hasee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/client/hongtashan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/client/konka.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/client/tongrentang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/client/wuliangye.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/icon-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/icon-2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/less/lib-public.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/aboutUs-bg.png" afterPath="$PROJECT_DIR$/src/img/bground/aboutUs-bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/aboutUs-people-show.png" afterPath="$PROJECT_DIR$/src/img/bground/aboutUs-people-show.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Antares.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Antares.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/bground/serviceValueBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/earth2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/earth3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/earth4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/servicePatentBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/zheng.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Antares.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Kevin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/earth.png" afterPath="$PROJECT_DIR$/src/img/earth1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/lib-common.css" afterPath="$PROJECT_DIR$/src/css/lib-common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/lib-reset.css" afterPath="$PROJECT_DIR$/src/css/lib-reset.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/pages/index.css" afterPath="$PROJECT_DIR$/src/css/pages/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/pages/servicePro.css" afterPath="$PROJECT_DIR$/src/css/pages/servicePro.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
@@ -39,10 +23,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/servicePro/index.html" afterPath="$PROJECT_DIR$/src/html/servicePro/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/servicePro/projectApplication.html" afterPath="$PROJECT_DIR$/src/html/servicePro/projectApplication.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/lib-common.less" afterPath="$PROJECT_DIR$/src/less/lib-common.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/lib-reset.less" afterPath="$PROJECT_DIR$/src/less/lib-reset.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/pages/index.less" afterPath="$PROJECT_DIR$/src/less/pages/index.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/pages/servicePro.less" afterPath="$PROJECT_DIR$/src/less/pages/servicePro.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/style.less" afterPath="$PROJECT_DIR$/src/less/style.less" />
     </list>
     <ignored path="wzWeb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,72 +46,16 @@
     <favorites_list name="wzWeb" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.57583964">
+    <splitter split-orientation="horizontal" split-proportion="0.6126761">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="projectApplication.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/html/servicePro/projectApplication.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="154">
-                  <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="97" selection-end-column="8" />
-                  <folding>
-                    <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="copyright.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/html/servicePro/copyright.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="297">
-                  <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
-                  <folding>
-                    <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="lib-reset.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/less/lib-reset.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="27">
-                  <caret line="332" column="9" selection-start-line="332" selection-start-column="9" selection-end-line="332" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="lib-public.less" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/less/lib-public.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/less/style.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="81">
-                  <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/html/servicePro/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="532">
-                  <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+                <state relative-caret-position="46">
+                  <caret line="107" column="30" selection-start-line="107" selection-start-column="30" selection-end-line="111" selection-end-column="78" />
                   <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
@@ -140,15 +66,44 @@
           <file leaf-file-name="brandRegist.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/html/servicePro/brandRegist.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="269">
-                  <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="96" selection-end-column="10" />
+                <state relative-caret-position="643">
+                  <caret line="122" column="38" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
                   <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="copyright.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/html/servicePro/copyright.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="385">
+                  <caret line="121" column="27" selection-start-line="121" selection-start-column="15" selection-end-line="121" selection-end-column="27" />
+                  <folding>
+                    <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="projectApplication.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/html/servicePro/projectApplication.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="235">
+                  <caret line="123" column="51" selection-start-line="123" selection-start-column="51" selection-end-line="123" selection-end-column="51" />
+                  <folding>
+                    <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="icon-1.png" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/img/icon-1.png">
+              <provider selected="true" editor-type-id="images">
+                <state />
               </provider>
             </entry>
           </file>
@@ -156,67 +111,28 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="servicePro.less" pinned="false" current-in-tab="false">
+          <file leaf-file-name="servicePro.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/less/pages/servicePro.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="24" />
+                <state relative-caret-position="208">
+                  <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
                   <folding>
-                    <element signature="e#46#90#0" expanded="false" />
-                    <element signature="e#118#798#0" expanded="false" />
-                    <element signature="e#822#1195#0" expanded="false" />
-                    <element signature="e#1227#1463#0" expanded="false" />
-                    <element signature="e#1488#2674#0" expanded="false" />
-                    <element signature="e#2698#5218#0" expanded="false" />
-                    <element signature="e#3004#4039#0" expanded="false" />
-                    <element signature="e#5240#6919#0" expanded="false" />
-                    <element signature="e#5413#5949#0" expanded="false" />
-                    <element signature="e#6951#8577#0" expanded="false" />
+                    <element signature="e#109#804#0" expanded="false" />
+                    <element signature="e#1234#1470#0" expanded="false" />
+                    <element signature="e#1495#2325#0" expanded="false" />
+                    <element signature="e#2349#3378#0" expanded="false" />
+                    <element signature="e#2662#3376#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/less/pages/index.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="81">
-                  <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#44#713#0" expanded="false" />
-                    <element signature="e#723#877#0" expanded="false" />
-                    <element signature="e#894#3125#0" expanded="false" />
-                    <element signature="e#3144#4553#0" expanded="false" />
-                    <element signature="e#4567#7348#0" expanded="false" />
-                    <element signature="e#7367#8592#0" expanded="false" />
-                    <element signature="e#8602#9877#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="lib-common.less" pinned="false" current-in-tab="true">
+          <file leaf-file-name="lib-common.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/less/lib-common.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="182">
-                  <caret line="565" column="21" selection-start-line="565" selection-start-column="21" selection-end-line="565" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#4225#5323#0" expanded="false" />
-                    <element signature="e#4279#4875#0" expanded="false" />
-                    <element signature="e#4296#4625#0" expanded="false" />
-                    <element signature="e#4307#4619#0" expanded="false" />
-                    <element signature="e#4495#4611#0" expanded="false" />
-                    <element signature="e#4642#4871#0" expanded="false" />
-                    <element signature="e#4661#4825#0" expanded="false" />
-                    <element signature="e#4674#4817#0" expanded="false" />
-                    <element signature="e#4757#4807#0" expanded="false" />
-                    <element signature="e#4834#4865#0" expanded="false" />
-                    <element signature="e#4892#5321#0" expanded="false" />
-                    <element signature="e#4930#4962#0" expanded="false" />
-                    <element signature="e#4975#5184#0" expanded="false" />
-                    <element signature="e#5197#5317#0" expanded="false" />
-                    <element signature="e#5246#5311#0" expanded="false" />
-                  </folding>
+                <state relative-caret-position="-508">
+                  <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="13" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -232,17 +148,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/html/index.html" />
-        <option value="$PROJECT_DIR$/src/img/icon-2.md" />
         <option value="$PROJECT_DIR$/src/less/pages/index.less" />
-        <option value="$PROJECT_DIR$/src/html/servicePro/projectApplication.html" />
-        <option value="$PROJECT_DIR$/src/html/servicePro/brandRegist.html" />
         <option value="$PROJECT_DIR$/src/html/servicePro/index.html" />
+        <option value="$PROJECT_DIR$/src/html/servicePro/brandRegist.html" />
+        <option value="$PROJECT_DIR$/src/less/lib-common.less" />
         <option value="$PROJECT_DIR$/src/html/servicePro/copyright.html" />
         <option value="$PROJECT_DIR$/src/less/pages/servicePro.less" />
-        <option value="$PROJECT_DIR$/src/less/style.less" />
-        <option value="$PROJECT_DIR$/src/less/lib-reset.less" />
-        <option value="$PROJECT_DIR$/src/less/lib-common.less" />
-        <option value="$PROJECT_DIR$/src/less/lib-public.less" />
+        <option value="$PROJECT_DIR$/src/html/servicePro/projectApplication.html" />
       </list>
     </option>
   </component>
@@ -289,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -443,7 +356,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -523,6 +435,24 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="img">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wzWeb">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="html">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -564,11 +494,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/img/bground" />
-      <recent name="$PROJECT_DIR$/src/img/client" />
       <recent name="$PROJECT_DIR$/src/img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/img/bground" />
     </key>
   </component>
@@ -641,19 +567,18 @@
       <option name="presentableId" value="Default" />
       <updated>1478663396823</updated>
       <workItem from="1478663402104" duration="5668000" />
-      <workItem from="1478674256294" duration="21924000" />
-      <workItem from="1478755945219" duration="6663000" />
+      <workItem from="1478674256294" duration="10159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34255000" />
+    <option name="totallyTimeSpent" value="15827000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1867" height="1057" extended-state="6" />
+    <frame x="0" y="23" width="1867" height="1057" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972914" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972914" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -688,14 +613,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/html/servicePro/projectApplication.html">
+    <entry file="file://$PROJECT_DIR$/src/less/pages/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="432">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -704,176 +626,83 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/icon-1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/bground/aboutUs-bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/project/view-01.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/icon-2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="351">
-            <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/client/cry.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <caret line="92" column="36" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
+        <state relative-caret-position="-700">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/servicePro/projectApplication.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="97" selection-end-column="8" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/servicePro/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/servicePro/brandRegist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="96" selection-end-column="10" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/servicePro/copyright.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        <state relative-caret-position="643">
+          <caret line="122" column="38" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/style.less">
+    <entry file="file://$PROJECT_DIR$/src/html/servicePro/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/lib-reset.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="332" column="9" selection-start-line="332" selection-start-column="9" selection-end-line="332" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/pages/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        <state relative-caret-position="46">
+          <caret line="107" column="30" selection-start-line="107" selection-start-column="30" selection-end-line="111" selection-end-column="78" />
           <folding>
-            <element signature="e#44#713#0" expanded="false" />
-            <element signature="e#723#877#0" expanded="false" />
-            <element signature="e#894#3125#0" expanded="false" />
-            <element signature="e#3144#4553#0" expanded="false" />
-            <element signature="e#4567#7348#0" expanded="false" />
-            <element signature="e#7367#8592#0" expanded="false" />
-            <element signature="e#8602#9877#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/pages/servicePro.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="24" />
-          <folding>
-            <element signature="e#46#90#0" expanded="false" />
-            <element signature="e#118#798#0" expanded="false" />
-            <element signature="e#822#1195#0" expanded="false" />
-            <element signature="e#1227#1463#0" expanded="false" />
-            <element signature="e#1488#2674#0" expanded="false" />
-            <element signature="e#2698#5218#0" expanded="false" />
-            <element signature="e#3004#4039#0" expanded="false" />
-            <element signature="e#5240#6919#0" expanded="false" />
-            <element signature="e#5413#5949#0" expanded="false" />
-            <element signature="e#6951#8577#0" expanded="false" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/less/lib-common.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="565" column="21" selection-start-line="565" selection-start-column="21" selection-end-line="565" selection-end-column="21" />
+        <state relative-caret-position="-508">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/servicePro/copyright.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="121" column="27" selection-start-line="121" selection-start-column="15" selection-end-line="121" selection-end-column="27" />
           <folding>
-            <element signature="e#4225#5323#0" expanded="false" />
-            <element signature="e#4279#4875#0" expanded="false" />
-            <element signature="e#4296#4625#0" expanded="false" />
-            <element signature="e#4307#4619#0" expanded="false" />
-            <element signature="e#4495#4611#0" expanded="false" />
-            <element signature="e#4642#4871#0" expanded="false" />
-            <element signature="e#4661#4825#0" expanded="false" />
-            <element signature="e#4674#4817#0" expanded="false" />
-            <element signature="e#4757#4807#0" expanded="false" />
-            <element signature="e#4834#4865#0" expanded="false" />
-            <element signature="e#4892#5321#0" expanded="false" />
-            <element signature="e#4930#4962#0" expanded="false" />
-            <element signature="e#4975#5184#0" expanded="false" />
-            <element signature="e#5197#5317#0" expanded="false" />
-            <element signature="e#5246#5311#0" expanded="false" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/lib-public.less">
+    <entry file="file://$PROJECT_DIR$/src/html/servicePro/projectApplication.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="235">
+          <caret line="123" column="51" selection-start-line="123" selection-start-column="51" selection-end-line="123" selection-end-column="51" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/icon-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/pages/servicePro.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding>
+            <element signature="e#109#804#0" expanded="false" />
+            <element signature="e#1234#1470#0" expanded="false" />
+            <element signature="e#1495#2325#0" expanded="false" />
+            <element signature="e#2349#3378#0" expanded="false" />
+            <element signature="e#2662#3376#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
