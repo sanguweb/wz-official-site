@@ -16,11 +16,10 @@
     padding:20px 0;
   }
   & > ul {
-    .list-inline(left, 0);
     .mt(50px);
+    .h-auto;
+    .list-inline(left, 0);
     .border-bottom-base(#d7d7d7);
-    height:auto;
-    overflow:hidden;
     box-sizing:border-box;
     padding:0 135px;
     & > li {
@@ -82,7 +81,7 @@
   width:100%;
   height:550px;
   .mt(100px);
-  background:url("@{images}/servicePatentBg.png") no-repeat right center #f8f8f8;
+  background:url("@{bground}/servicePatentBg.png") no-repeat right center #f8f8f8;
   .box {
     width:45%;
     padding:140px 0;
@@ -122,7 +121,10 @@
       .border-base(#d7d7d7);
       border-radius:percentage(@half);
       &:after {
-
+        .after(20px, 18px);
+        background:url("@{icon-2}") no-repeat -463px 0;
+        left:auto;
+        right:-20px;
       }
       & > em {
         content:"";
@@ -187,7 +189,7 @@
       .mb(20px)
     }
     ul {
-      height:auto;
+      .h-auto;
       .list-inline(left, 30px);
       .mt(70px);
       li {
@@ -385,7 +387,7 @@
         &:not(:last-of-type) {
           .mr(18px);
         }
-        em{
+        em {
           .after(30px, 30px);
           top:-30px;
           color:#bfbfbf;

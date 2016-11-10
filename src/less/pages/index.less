@@ -3,8 +3,7 @@
 // 轮播通用样式
 .slider {
   position:relative;
-  height:auto;
-  overflow:hidden;
+  .h-auto;
   ul:first-child > li {
     .fl;
     img {
@@ -58,9 +57,7 @@
   .list-inline(left, 0);
   .service-list {
     .pos-r;
-    padding:40px 0;
-    overflow:hidden;
-    height:auto;
+    .wrapper(40px,40px);
     &:before {
       .service-line(80px);
       left:0
@@ -241,9 +238,8 @@
   .tab-control {
     width:560px;
     .m-auto(20px, auto);
+    .h-auto;
     .list-inline(none, 75px);
-    height:auto;
-    overflow:hidden;
     ul {
       padding-left:30px;
       .text-center;
@@ -480,8 +476,7 @@
     }
     .box {
       width:100%;
-      height:auto;
-      overflow:hidden;
+      .h-auto;
       & > li {
         .fl;
         .pos-r;
