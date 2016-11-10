@@ -1,0 +1,221 @@
+@import "lib-common";
+// HEADER
+#header {
+  .clearfix;
+  width:percentage(@half*2);
+  overflow:visible;
+  background-color:@white;
+  z-index:9999;
+  top:0;
+  #logo {
+    .fl;
+    .pl(35px);
+    .pt(15px);
+    a {
+      display:block;
+      ins {
+        text-indent:-99999px;
+        display:inline-block
+      }
+    }
+  }
+  //主导航
+  #navBar {
+    .fr;
+    .pos-r;
+    .text-center;
+    .list-inline(left, 0);
+    height:100px;
+    line-height:100px;
+    .nav > li {
+      .pos-r;
+      .text-center;
+      .mr(5px);
+      a {
+        color:@base-color;
+        display:block;
+      }
+      h3 {
+        .font(16px, "微软雅黑", normal);
+        a {
+          .pos-r;
+          width:120px;
+          &:after {
+            -webkit-transition:width .3s ease-out, left .3s ease-out, border-color .3s ease-out;
+            transition:width .3s ease-out, left .3s ease-out, border-color .3s ease-out;
+            .after(0, 36px);
+            height:10px;
+            top:auto;
+            bottom:-10px;
+            border-top:4px solid @red;
+            padding-bottom:inherit;
+          }
+        }
+        &.active a:after,
+        &:hover a:after {
+          width:122px;
+          left:-3px;
+        }
+      }
+      &.double {
+        h3 {
+          &:hover a:after {
+            width:242px;
+            left:-60px;
+          }
+        }
+        .sub {
+          width:240px;
+          left:percentage(-@half);
+        }
+      }
+    }
+    //二级
+    .sub {
+      .pos-a;
+      .text-center;
+      .border-base(#d7d7d7);
+      border-bottom-left-radius:4px;
+      border-bottom-right-radius:4px;
+      display:none;
+      left:-3px;
+      top:100px;
+      z-index:1;
+      width:120px;
+      background:@white;
+      li {
+        .mb(-1px);
+        width:120px;
+        box-sizing:border-box;
+        a {
+          .border-bottom-base(#d7d7d7);
+          line-height:30px;
+          padding:8px;
+          &:hover {
+            .pl(5px);
+            .ml(-1px);
+            border-left:3px solid #da271b;
+            background:#f8f8f8;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Footer
+#main-footer {
+  padding:50px 0;
+  color:@white;
+  background:#3d3d3d;
+  height:auto;
+  overflow:hidden;
+  //底部菜单
+  .btm-nav {
+    .border-bottom-base(@white);
+    .container;
+    .list-inline(left, 212px);
+    .pb(50px);
+    dl:last-of-type {
+      .mr(0);
+    }
+    dt {
+      .border-bottom-base(@white);
+      .mb(10px);
+      font-size:16px;
+      padding:10px 0
+    }
+    dd {
+      a {
+        #link-defalt> .base(@white, @white, 600);
+      }
+      line-height:30px
+    }
+  }
+  //关注渠道
+  .btm-contact {
+    .text-center;
+    .pt(50px);
+    .pb(50px);
+    li {
+      .pos-r;
+      .ml(30px);
+      .mr(30px);
+      display:inline-block;
+      a {
+        .pl(30px);
+        #link-defalt> .base(@white, @red, normal);
+        &:before {
+          .pos-a;
+          content:"";
+          width:26px;
+          height:26px;
+          left:0;
+          top:0;
+        }
+        //前置图标
+        &.icon-fb:before {
+          left:-25px;
+          width:48px;
+        }
+        &.icon-wechat:before {
+          left:-5px;
+          width:30px;
+        }
+        &.icon-fb:hover:before {
+          background:url("@{icon-1}") no-repeat -288px -122px;
+        }
+        &.icon-qq:hover:before {
+          background:url("@{icon-1}") no-repeat -285px -202px;
+        }
+        &.icon-tel:hover:before {
+          background:url("@{icon-1}") no-repeat -233px -202px;
+        }
+        &.icon-wechat:hover:before {
+          background:url("@{icon-1}") no-repeat -311px -178px;
+        }
+      }
+    }
+  }
+  .btm-copyright {
+    font-size:14px;
+  }
+}
+
+//侧边栏
+#sideBar {
+  position:fixed;
+  .mt(-100px);
+  height:200px;
+  top:50%;
+  right:0;
+  width:50px;
+  ul > li {
+    .mb(2px);
+    background:rgba(36, 36, 36, .8);
+    cursor:pointer;
+    em {
+      .pos-r;
+      display:block;
+      width:50px;
+      height:50px;
+      //图标
+      &.icon-qq:before,
+      &.icon-tel:before {
+        .before(26px, 26px);
+      }
+      &.icon-wechat:before {
+        .before(30px, 26px);
+      }
+      &.icon-backtop:before {
+        .before(28px, 18px);
+      }
+    }
+    span {
+      display:none
+    }
+    &:hover {
+      background-color:@red;
+    }
+  }
+}

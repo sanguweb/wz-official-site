@@ -15,9 +15,6 @@ html {
 /**
  * Remove default margin.
  */
-body {
-  margin: 0;
-}
 /* HTML5 display definitions
    ========================================================================== */
 /**
@@ -30,7 +27,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 main,
 nav,
 section,
@@ -352,9 +348,22 @@ td,
 th {
   padding: 0;
 }
-li,
-ul,
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
 dl,
+ol,
+ul,
+li,
 dd {
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+a {
+  text-decoration: none;
 }

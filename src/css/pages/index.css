@@ -15,9 +15,6 @@ html {
 /**
  * Remove default margin.
  */
-body {
-  margin: 0;
-}
 /* HTML5 display definitions
    ========================================================================== */
 /**
@@ -30,7 +27,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 main,
 nav,
 section,
@@ -352,28 +348,7 @@ td,
 th {
   padding: 0;
 }
-li,
-ul,
-dl,
-dd {
-  list-style: none;
-}
-body {
-  font-size: 16px;
-  font-family: "微软雅黑";
-  font-style: normal;
-  font-weight: normal;
-  color: #333333;
-  line-height: 1.4;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -moz-font-feature-settings: "liga" on;
-}
-a {
-  text-decoration: none;
-}
-h1,
+body h1,
 h2,
 h3,
 h4,
@@ -388,6 +363,21 @@ dd {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-size: 16px;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+  color: #333333;
+  line-height: 1.4;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
 }
 .response-img {
   max-width: 100%;
@@ -424,6 +414,12 @@ dd {
   width: 1170px;
   height: auto;
   overflow: hidden;
+}
+.pd-v50 {
+  padding: 50px 0;
+}
+.pd-h50 {
+  padding: 0 50px;
 }
 .block {
   display: block;
@@ -485,7 +481,7 @@ dd {
   font-size: 16px;
 }
 .f18 {
-  font-size: 16px;
+  font-size: 18px;
 }
 .f20 {
   font-size: 20px;
@@ -590,6 +586,7 @@ dd {
   float: right;
   position: relative;
   text-align: center;
+  zoom: 1;
   height: 100px;
   line-height: 100px;
 }
@@ -597,6 +594,15 @@ dd {
 #header #navBar li {
   float: left;
   margin-right: 0;
+}
+#header #navBar:before {
+  content: '';
+  display: block;
+}
+#header #navBar:after {
+  content: '';
+  display: table;
+  clear: both;
 }
 #header #navBar .nav > li {
   position: relative;
@@ -831,18 +837,6 @@ dd {
 #sideBar ul > li:hover {
   background-color: #d33331;
 }
-.icon-Q:before {
-  background: url("../img/icon-1.png") no-repeat -174px -152px;
-}
-.icon-C:before {
-  background: url("../img/icon-1.png") no-repeat 0 -152px;
-}
-.icon-P:before {
-  background: url("../img/icon-1.png") no-repeat -58px -152px;
-}
-.icon-E:before {
-  background: url("../img/icon-1.png") no-repeat -116px -152px;
-}
 .slider {
   position: relative;
   height: auto;
@@ -900,11 +894,21 @@ dd {
 }
 #service {
   background-color: #f8f8f8;
+  zoom: 1;
 }
 #service dl,
 #service li {
   float: left;
   margin-right: 0;
+}
+#service:before {
+  content: '';
+  display: block;
+}
+#service:after {
+  content: '';
+  display: table;
+  clear: both;
 }
 #service .service-list {
   position: relative;
@@ -1282,36 +1286,38 @@ dd {
 #aboutUs > .box {
   position: relative;
   display: block;
-  background: url("../img/aboutUs-people-show.png") no-repeat 0 center;
+  background: url("../img/bground/aboutUs-people-show.png") no-repeat center;
   height: 600px;
+  overflow: visible;
 }
-#aboutUs > .box .span {
-  display: none;
+#aboutUs > .box > .response-img {
+  vertical-align: middle;
+  padding-right: 50px;
 }
 #aboutUs > .box > .arrow {
   position: absolute;
   text-align: right;
   padding-right: 10px;
   margin-top: -30px;
+  font-size: 60px;
+  font-family: "AvenirLTStd-Black";
+  font-style: normal;
+  font-weight: 800;
   color: #412106;
   width: 100px;
   height: 60px;
   line-height: 60px;
   top: 50%;
-  right: 0;
+  right: -20px;
   letter-spacing: -15px;
   z-index: 99;
-  font-size: 60px;
-  font-family: "AvenirLTStd-Black";
-  font-style: normal;
-  font-weight: 800;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color: #412106;
-  background-image: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 0.6) 30%, #f9cf93 50%, rgba(0, 0, 0, 0.6) 70%);
   /* 设置渐变的背景，按对角线渐变 */
-  background-blend-mode: hard-light;
+  background-image: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 0.6) 30%, #f9cf93 50%, rgba(0, 0, 0, 0.6) 70%);
   /* 设置背景为混合模式下的强光模式 */
+  background-blend-mode: hard-light;
   background-size: 240%;
   -webkit-animation: shine 3s infinite;
 }

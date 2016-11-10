@@ -15,9 +15,6 @@ html {
 /**
  * Remove default margin.
  */
-body {
-  margin: 0;
-}
 /* HTML5 display definitions
    ========================================================================== */
 /**
@@ -30,7 +27,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 main,
 nav,
 section,
@@ -352,28 +348,7 @@ td,
 th {
   padding: 0;
 }
-li,
-ul,
-dl,
-dd {
-  list-style: none;
-}
-body {
-  font-size: 16px;
-  font-family: "微软雅黑";
-  font-style: normal;
-  font-weight: normal;
-  color: #333333;
-  line-height: 1.4;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -moz-font-feature-settings: "liga" on;
-}
-a {
-  text-decoration: none;
-}
-h1,
+body h1,
 h2,
 h3,
 h4,
@@ -388,6 +363,21 @@ dd {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-size: 16px;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+  color: #333333;
+  line-height: 1.4;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
 }
 .response-img {
   max-width: 100%;
@@ -424,6 +414,12 @@ dd {
   width: 1170px;
   height: auto;
   overflow: hidden;
+}
+.pd-v50 {
+  padding: 50px 0;
+}
+.pd-h50 {
+  padding: 0 50px;
 }
 .block {
   display: block;
@@ -485,7 +481,7 @@ dd {
   font-size: 16px;
 }
 .f18 {
-  font-size: 16px;
+  font-size: 18px;
 }
 .f20 {
   font-size: 20px;
@@ -590,6 +586,7 @@ dd {
   float: right;
   position: relative;
   text-align: center;
+  zoom: 1;
   height: 100px;
   line-height: 100px;
 }
@@ -597,6 +594,15 @@ dd {
 #header #navBar li {
   float: left;
   margin-right: 0;
+}
+#header #navBar:before {
+  content: '';
+  display: block;
+}
+#header #navBar:after {
+  content: '';
+  display: table;
+  clear: both;
 }
 #header #navBar .nav > li {
   position: relative;
@@ -853,6 +859,11 @@ dd {
   box-sizing: border-box;
   padding: 0 135px;
 }
+#service-current > ul dl,
+#service-current > ul li {
+  float: left;
+  margin-right: 0;
+}
 #service-current > ul:before {
   content: '';
   display: block;
@@ -861,11 +872,6 @@ dd {
   content: '';
   display: table;
   clear: both;
-}
-#service-current > ul dl,
-#service-current > ul li {
-  float: left;
-  margin-right: 0;
 }
 #service-current > ul > li {
   width: 225px;
@@ -924,7 +930,7 @@ dd {
   width: 100%;
   height: 550px;
   margin-top: 100px;
-  background: url("../img/servicePatentBg.png") no-repeat right center #f8f8f8;
+  background: url("../img//servicePatentBg.png") no-repeat right center #f8f8f8;
 }
 .service-patent-type .box {
   width: 45%;
@@ -933,9 +939,6 @@ dd {
 }
 .service-patent-type .box h3 {
   font-size: 30px;
-}
-.service-flow {
-  padding: 50px 0;
 }
 .service-flow h3 {
   margin-bottom: 50px;
@@ -960,32 +963,49 @@ dd {
 .service-flow dl dt,
 .service-flow dl dd {
   float: left;
-  margin-right: 65px;
+  margin-right: 88px;
   box-sizing: border-box;
 }
+.service-flow dl dd:nth-of-type(4n) {
+  margin-right: 0;
+}
 .service-flow dl dt {
-  border: 1px solid #d7d7d7;
   font-size: 20px;
+  position: relative;
+  color: #d33331;
   width: 155px;
   height: 155px;
+  border: 1px solid #d7d7d7;
   border-radius: 50%;
-  color: #d33331;
 }
 .service-flow dl dt > em {
   content: "";
   display: block;
-  width: 50px;
-  height: 50px;
   background: red;
   margin: 30px auto 20px auto;
 }
+.service-flow dl dt > em.flow1 {
+  width: 73px;
+  height: 35px;
+  background: url("../img/icon-2.png") no-repeat -376px -46px;
+}
+.service-flow dl dt > em.flow2 {
+  width: 85px;
+  height: 44px;
+  background: url("../img/icon-2.png") no-repeat -376px 0;
+}
 .service-flow dl dd {
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 18px;
   width: 165px;
   height: 140px;
   padding: 20px 25px;
   border: 1px dashed #d7d7d7;
+}
+.service-flow dl dd.last {
+  font-size: 24px;
+  color: #d33331;
+  line-height: 2;
 }
 .service-flow dl dd i {
   display: block;
@@ -1019,8 +1039,8 @@ dd {
 }
 .service-value .box ul {
   height: auto;
-  margin-top: 70px;
   zoom: 1;
+  margin-top: 70px;
 }
 .service-value .box ul dl,
 .service-value .box ul li {
@@ -1047,9 +1067,21 @@ dd {
 .service-value .box ul li em {
   display: block;
   margin: 0 auto 20px auto;
+  background-image: url("../img/icon-2.png");
   width: 72px;
   height: 72px;
-  background: red;
+}
+.service-value .box ul li:nth-of-type(1) em {
+  background-position: -228px 0;
+}
+.service-value .box ul li:nth-of-type(2) em {
+  background-position: -154px 0;
+}
+.service-value .box ul li:nth-of-type(3) em {
+  background-position: -302px 0;
+}
+.service-value .box ul li:nth-of-type(4) em {
+  background-position: -80px 0;
 }
 .service-value .box ul li label {
   display: block;
@@ -1063,6 +1095,64 @@ dd {
 .service-value .box ul li:last-of-type {
   margin-right: 0;
 }
+.service-value .box2 {
+  position: relative;
+}
+.service-value .box2 figure:first-child {
+  position: absolute;
+  width: 440px;
+  height: 130px;
+  top: 130px;
+  right: 120px;
+}
+.service-value .box2 ul {
+  height: 650px;
+  width: 100%;
+  position: relative;
+}
+.service-value .box2 ul li {
+  text-align: center;
+  position: absolute;
+  border: 1px solid #333333;
+  border-radius: 50%;
+  width: 214px;
+  height: 214px;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  font-size: 14px;
+}
+.service-value .box2 ul li > img:first-child {
+  margin: 30px auto 20px auto;
+  display: block;
+}
+.service-value .box2 ul li > span {
+  font-size: 13px;
+  letter-spacing: -1px;
+}
+.service-value .box2 ul li:nth-of-type(1) {
+  width: 435px;
+  height: 435px;
+  left: 15px;
+  top: 0;
+}
+.service-value .box2 ul li:nth-of-type(2) {
+  width: 240px;
+  height: 240px;
+  left: 305px;
+  bottom: 10px;
+}
+.service-value .box2 ul li:nth-of-type(3) {
+  left: 535px;
+  bottom: 125px;
+}
+.service-value .box2 ul li:nth-of-type(4) {
+  left: 715px;
+  bottom: 0;
+}
+.service-value .box2 ul li:nth-of-type(5) {
+  left: 920px;
+  bottom: 92px;
+}
 .service-ads {
   padding: 60px 0;
 }
@@ -1074,7 +1164,248 @@ dd {
 }
 .service-ads > h3 {
   padding-bottom: 30px;
+  font-size: 24px;
 }
-.service-ads img {
+.service-ads .box {
+  position: relative;
+  height: 350px;
   padding: 50px 0;
+  margin-top: 100px;
+  background: url("../img/bground/advantageBg.png") no-repeat center;
+}
+.service-ads .box > figure {
+  position: absolute;
+  width: 320px;
+  height: 130px;
+}
+.service-ads .box > figure:nth-of-type(1) {
+  left: 0;
+  top: 0;
+}
+.service-ads .box > figure:nth-of-type(2) {
+  right: 0;
+  top: 0;
+}
+.service-ads .box > figure:nth-of-type(3) {
+  left: 0;
+  bottom: 0;
+}
+.service-ads .box > figure:nth-of-type(4) {
+  right: 0;
+  bottom: 0;
+}
+.service-ads .box > figure > figcaption {
+  font-size: 24px;
+  color: #d33331;
+}
+.service-ads .box2 {
+  zoom: 1;
+}
+.service-ads .box2 dl,
+.service-ads .box2 li {
+  float: left;
+  margin-right: 20px;
+}
+.service-ads .box2:before {
+  content: '';
+  display: block;
+}
+.service-ads .box2:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.service-ads .box2 li {
+  position: relative;
+  font-size: 14px;
+  line-height: 1.8;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+.service-ads .box2 li:last-of-type {
+  margin-right: 0;
+}
+.service-ads .box2 li em {
+  position: absolute;
+}
+.service-ads .box2 .advantage {
+  padding-top: 150px;
+}
+.service-ads .box2 .advantage li {
+  width: 218px;
+  height: 218px;
+  padding: 50px 35px;
+  border-radius: 50%;
+}
+.service-ads .box2 .advantage label {
+  font-size: 18px;
+}
+.service-ads .box2 .advantage em {
+  position: absolute;
+  content: "";
+  margin-top: -75px;
+  margin-left: -75px;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 150px;
+  top: -80px;
+  font-size: 130px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
+}
+.service-ads .box2 .significance {
+  padding-top: 70px;
+}
+.service-ads .box2 .significance li {
+  border: 1px solid #d7d7d7;
+  padding: 40px 10px;
+  width: 180px;
+  height: 180px;
+}
+.service-ads .box2 .significance li:not(:last-of-type) {
+  margin-right: 18px;
+}
+.service-ads .box2 .significance li em {
+  position: absolute;
+  content: "";
+  margin-top: -15px;
+  margin-left: -15px;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  top: -30px;
+  color: #bfbfbf;
+  font-size: 40px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 600;
+}
+.service-brand-value {
+  background: #f8f8f8;
+  padding: 50px 0;
+}
+.service-brand-value .runner {
+  position: relative;
+  padding-left: 30px;
+  display: table-cell;
+  width: 450px;
+  height: 350px;
+  background: url("../img/bground/runner.png") no-repeat center;
+}
+.service-brand-value .runner span {
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+}
+.service-brand-value .runner span.s1,
+.service-brand-value .runner span.s3 {
+  left: 50%;
+  margin-left: -50px;
+}
+.service-brand-value .runner span.s2,
+.service-brand-value .runner span.s4 {
+  top: 50%;
+  margin-top: -15px;
+}
+.service-brand-value .runner span.s1 {
+  top: 0;
+}
+.service-brand-value .runner span.s2 {
+  right: 0;
+}
+.service-brand-value .runner span.s3 {
+  bottom: 0;
+}
+.service-brand-value .runner span.s4 {
+  left: 0;
+}
+.service-brand-value .box,
+.service-brand-value .list {
+  display: table-cell;
+  zoom: 1;
+}
+.service-brand-value .box:before,
+.service-brand-value .list:before {
+  content: '';
+  display: block;
+}
+.service-brand-value .box:after,
+.service-brand-value .list:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.service-brand-value .box ol,
+.service-brand-value .list ol {
+  float: left;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  margin-left: 80px;
+  margin-right: 30px;
+  width: 60px;
+  height: 350px;
+  display: inline-block;
+}
+.service-brand-value .box ol:after,
+.service-brand-value .list ol:after {
+  position: absolute;
+  content: "";
+  margin-top: -175px;
+  margin-left: -1px;
+  top: 50%;
+  left: 50%;
+  width: 2px;
+  height: 350px;
+  background: #333333;
+  z-index: 1;
+}
+.service-brand-value .box ol > li,
+.service-brand-value .list ol > li {
+  position: absolute;
+  font-size: 32px;
+  background: #f8f8f8;
+  width: 58px;
+  height: 58px;
+  line-height: 58px;
+  border-radius: 50%;
+  border: 1px solid #333333;
+  z-index: 9;
+}
+.service-brand-value .box ol > li:nth-of-type(1),
+.service-brand-value .list ol > li:nth-of-type(1) {
+  top: 20px;
+}
+.service-brand-value .box ol > li:nth-of-type(2),
+.service-brand-value .list ol > li:nth-of-type(2) {
+  top: 100px;
+}
+.service-brand-value .box ol > li:nth-of-type(3),
+.service-brand-value .list ol > li:nth-of-type(3) {
+  top: 180px;
+}
+.service-brand-value .box ol > li:nth-of-type(4),
+.service-brand-value .list ol > li:nth-of-type(4) {
+  top: 260px;
+}
+.service-brand-value .box dl,
+.service-brand-value .list dl {
+  height: 350px;
+  display: inline-block;
+}
+.service-brand-value .box dl dt,
+.service-brand-value .list dl dt {
+  font-size: 18px;
+  margin-top: 32px;
+}
+.service-brand-value .box dl dd,
+.service-brand-value .list dl dd {
+  font-size: 14px;
+  line-height: 22px;
 }

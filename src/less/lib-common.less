@@ -10,32 +10,16 @@ body {
   -moz-font-feature-settings:"liga" on;
 }
 
-a {
-  text-decoration:none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-figure,
-dl,
-ol,
-ul,
-li,
-dd {
-  margin:0;
-  padding:0;
-  list-style:none
-}
-
 // VARIABLE
 @half:0.5;
 
 //ICON
-@images:"../img"; //图片路径
+@images:"../img/"; //图片路径
+@bground:"../img/bground";//背景路径
+@icon-1:"../img/icon-1.png";
+@icon-2:"../img/icon-2.png";
+@icon-3:"../img/icon-3.png";
+@icon-4:"../img/icon-4.png";
 
 .response-img {
   max-width:100%;
@@ -43,41 +27,41 @@ dd {
 
 .icon-fb:before {
   //width: 48px;
-  background:url("@{images}/icon-1.png") no-repeat -288px -150px;
+  background:url("@{icon-1}") no-repeat -288px -150px;
 }
 
 .icon-qq:before {
-  background:url("@{images}/icon-1.png") no-repeat -288px -94px;
+  background:url("@{icon-1}") no-repeat -288px -94px;
 }
 
 .icon-tel:before {
-  background:url("@{images}/icon-1.png") no-repeat -259px -202px;
+  background:url("@{icon-1}") no-repeat -259px -202px;
 }
 
 .icon-wechat:before {
   //width: 30px;
-  background:url("@{images}/icon-1.png") no-repeat -311px -204px;
+  background:url("@{icon-1}") no-repeat -311px -204px;
 }
 
 .icon-backtop:before {
   //width: 28px;
-  background:url("@{images}/icon-1.png") no-repeat -233px -230px;
+  background:url("@{icon-1}") no-repeat -233px -230px;
 }
 
 .icon-Q:before {
-  background:url("@{images}/icon-1.png") no-repeat -174px -152px;
+  background:url("@{icon-1}") no-repeat -174px -152px;
 }
 
 .icon-C:before {
-  background:url("@{images}/icon-1.png") no-repeat 0 -152px;
+  background:url("@{icon-1}") no-repeat 0 -152px;
 }
 
 .icon-P:before {
-  background:url("@{images}/icon-1.png") no-repeat -58px -152px;
+  background:url("@{icon-1}") no-repeat -58px -152px;
 }
 
 .icon-E:before {
-  background:url("@{images}/icon-1.png") no-repeat -116px -152px;
+  background:url("@{icon-1}") no-repeat -116px -152px;
 }
 
 // LAYOUT  STYLE
@@ -86,6 +70,14 @@ dd {
   width:1170px;
   height:auto;
   overflow:hidden
+}
+
+.pd-v50 {
+  padding:50px 0;
+}
+
+.pd-h50 {
+  padding:0 50px;
 }
 
 .clearfix() {
@@ -137,8 +129,7 @@ dd {
   position:absolute;
 }
 
-.after(@width,
-@height) {
+.after(@width, @height){
   .pos-a;
   content:"";
   .mt(-(round(@height/2)));
@@ -149,8 +140,7 @@ dd {
   height:@height;
 }
 
-.before(@width,
-@height) {
+.before(@width, @height) {
   .pos-a;
   content:"";
   .mt(-(round(@height/2)));
@@ -160,6 +150,8 @@ dd {
   width:@width;
   height:@height;
 }
+
+
 
 .fl {
   float:left;
@@ -221,13 +213,13 @@ dd {
   border-left:1px solid @color;
 }
 
-.list-inline(@float-direction,
-@margin-right) {
+.list-inline(@float-direction, @margin-right) {
   dl,
   li {
     float:@float-direction;
     margin-right:@margin-right
   }
+  .clearfix;
 }
 
 .toTable {
@@ -251,10 +243,8 @@ dd {
       background-color:red
     }
   }
-  .base(@color,
-    @toColor,
-    @fontWeight) {
-    color:@color;
+  .base(@color, @toColor, @fontWeight)
+  { color:@color;
     &:hover {
       font-weight:@fontWeight;
       color:@toColor;
@@ -262,7 +252,7 @@ dd {
   }
 }
 
-//FONT STYLE
+//TEXT STYLE
 .font(@font-size, @font-family, @weight) {
   font-size:@font-size;
   font-family:@font-family;
@@ -283,7 +273,7 @@ dd {
 }
 
 .f18 {
-  font-size:16px
+  font-size:18px
 }
 
 .f20 {
@@ -359,7 +349,7 @@ dd {
       .mt(4px);
       .ml(5px);
       color:@base-color;
-      background:url("@{images}/icon-1.png") no-repeat -343px -26px;
+      background:url("@{icon-1}") no-repeat -343px -26px;
       display:block;
       width:14px;
       height:14px;
@@ -367,7 +357,7 @@ dd {
     &:hover {
       text-decoration:underline;
       &:after {
-        background:url("@{images}/icon-1.png") no-repeat -343px 0;
+        background:url("@{icon-1}") no-repeat -343px 0;
       }
     }
   }
@@ -487,9 +477,7 @@ dd {
   .btm-nav {
     .border-bottom-base(@white);
     .container;
-    .list-inline(left,
-            212px);
-    .clearfix;
+    .list-inline(left, 212px);
     .pb(50px);
     dl:last-of-type {
       .mr(0);
@@ -538,16 +526,16 @@ dd {
           width:30px;
         }
         &.icon-fb:hover:before {
-          background:url("@{images}/icon-1.png") no-repeat -288px -122px;
+          background:url("@{icon-1}") no-repeat -288px -122px;
         }
         &.icon-qq:hover:before {
-          background:url("@{images}/icon-1.png") no-repeat -285px -202px;
+          background:url("@{icon-1}") no-repeat -285px -202px;
         }
         &.icon-tel:hover:before {
-          background:url("@{images}/icon-1.png") no-repeat -233px -202px;
+          background:url("@{icon-1}") no-repeat -233px -202px;
         }
         &.icon-wechat:hover:before {
-          background:url("@{images}/icon-1.png") no-repeat -311px -178px;
+          background:url("@{icon-1}") no-repeat -311px -178px;
         }
       }
     }
