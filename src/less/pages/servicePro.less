@@ -43,7 +43,10 @@
         }
       }
       span {
-        line-height:40px
+        line-height:40px;
+      }
+      &:hover span {
+        color:@red;
       }
     }
   }
@@ -309,6 +312,10 @@
     .pb(30px);
     .f24;
   }
+  & > p {
+    .text-center;
+    .pb(30px);
+  }
   .box {
     .pos-r;
     height:350px;
@@ -495,3 +502,4 @@
     }
   }
 }
+
