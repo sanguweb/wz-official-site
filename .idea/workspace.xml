@@ -9,8 +9,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/focusImg/banner-1.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/team/big-1.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/team/small-1.png" />
@@ -77,30 +80,19 @@
 >>>>>>> origin/master
 =======
 >>>>>>> origin/master
-=======
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/pages/cases.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/cases/case1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/cases/case2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/cases/case3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/cases/case4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/cases/case5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/cases/case6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/cases/case7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/cases/case8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/cases/case9.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/cases/icon-3.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Antares.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Antares.xml" />
->>>>>>> parent of fcbbea6... 完成布局我们的团队
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/lib-common.css" afterPath="$PROJECT_DIR$/src/css/lib-common.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/lib-public.css" afterPath="$PROJECT_DIR$/src/css/lib-public.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/lib-reset.css" afterPath="$PROJECT_DIR$/src/css/lib-reset.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/pages/cases.css" afterPath="$PROJECT_DIR$/src/css/pages/cases.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/pages/index.css" afterPath="$PROJECT_DIR$/src/css/pages/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/pages/servicePro.css" afterPath="$PROJECT_DIR$/src/css/pages/servicePro.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/aboutUS/wzCulture.html" afterPath="$PROJECT_DIR$/src/html/aboutUS/wzCulture.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/aboutUS/wzDevelopment.html" afterPath="$PROJECT_DIR$/src/html/aboutUS/wzDevelopment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/aboutUS/wzTeam.html" afterPath="$PROJECT_DIR$/src/html/aboutUS/wzTeam.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/aboutUs/index.html" afterPath="$PROJECT_DIR$/src/html/aboutUs/index.html" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112,14 +104,17 @@
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/cases/index.html" afterPath="$PROJECT_DIR$/src/html/cases/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/index.html" afterPath="$PROJECT_DIR$/src/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/public.js" afterPath="$PROJECT_DIR$/src/js/public.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/servicePro/brandRegist.html" afterPath="$PROJECT_DIR$/src/html/servicePro/brandRegist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/servicePro/copyright.html" afterPath="$PROJECT_DIR$/src/html/servicePro/copyright.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/servicePro/index.html" afterPath="$PROJECT_DIR$/src/html/servicePro/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/servicePro/projectApplication.html" afterPath="$PROJECT_DIR$/src/html/servicePro/projectApplication.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/lib-common.less" afterPath="$PROJECT_DIR$/src/less/lib-common.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/lib-public.less" afterPath="$PROJECT_DIR$/src/less/lib-public.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/lib-reset.less" afterPath="$PROJECT_DIR$/src/less/lib-reset.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/pages/cases.less" afterPath="$PROJECT_DIR$/src/less/pages/cases.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/pages/servicePro.less" afterPath="$PROJECT_DIR$/src/less/pages/servicePro.less" />
-<<<<<<< HEAD
 =======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/contactUs/index.html" afterPath="$PROJECT_DIR$/src/html/contactUs/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/servicePro/brandRegist.html" afterPath="$PROJECT_DIR$/src/html/servicePro/brandRegist.html" />
@@ -161,8 +156,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/pages/index.less" afterPath="$PROJECT_DIR$/src/less/pages/index.less" />
 >>>>>>> origin/master
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/style.less" afterPath="$PROJECT_DIR$/src/less/style.less" />
-=======
->>>>>>> parent of fcbbea6... 完成布局我们的团队
     </list>
     <ignored path="wzWeb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -191,41 +184,25 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
     <splitter split-orientation="horizontal" split-proportion="0.37268665">
-=======
-    <splitter split-orientation="horizontal" split-proportion="0.5596682">
->>>>>>> parent of fcbbea6... 完成布局我们的团队
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/html/cases/index.html">
+          <file leaf-file-name="wzTeam.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/html/aboutUS/wzTeam.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46">
-                  <caret line="602" column="17" selection-start-line="602" selection-start-column="17" selection-end-line="602" selection-end-column="17" />
+                <state relative-caret-position="343">
+                  <caret line="121" column="19" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
                   <folding>
-                    <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#3;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#4;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#5;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#6;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#7;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#1;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#6;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#7;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#8;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#9;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#aside#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#section#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-<<<<<<< HEAD
 =======
     <splitter split-orientation="horizontal" split-proportion="0.7785578">
       <split-first>
@@ -287,10 +264,13 @@
                   <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
                   </folding>
                 </state>
               </provider>
@@ -303,8 +283,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
           <file leaf-file-name="wzCulture.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/html/aboutUS/wzCulture.html">
               <provider selected="true" editor-type-id="text-editor">
@@ -328,15 +311,10 @@
 =======
           <file leaf-file-name="brandRegist.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/html/servicePro/brandRegist.html">
-=======
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/html/index.html">
->>>>>>> parent of fcbbea6... 完成布局我们的团队
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1506">
-                  <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+                <state relative-caret-position="-76">
+                  <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
                   <folding>
-<<<<<<< HEAD
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
 >>>>>>> origin/master
                     <element signature="n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -348,26 +326,31 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/master
-=======
-                    <element signature="n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
->>>>>>> parent of fcbbea6... 完成布局我们的团队
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
         </leaf>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="servicePro.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/less/pages/servicePro.less">
+          <file leaf-file-name="cases.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/less/pages/cases.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2160">
-                  <caret line="505" column="0" selection-start-line="505" selection-start-column="0" selection-end-line="505" selection-end-column="0" />
+                <state relative-caret-position="351">
+                  <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
                   <folding>
-<<<<<<< HEAD
+                    <element signature="e#419#612#0" expanded="false" />
+                    <element signature="e#627#973#0" expanded="false" />
+=======
+          <file leaf-file-name="copyright.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/html/servicePro/copyright.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="86">
+                  <caret line="130" column="43" selection-start-line="130" selection-start-column="43" selection-end-line="130" selection-end-column="43" />
+                  <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
 >>>>>>> origin/master
 =======
@@ -379,6 +362,7 @@
 <<<<<<< HEAD
 =======
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
                     <element signature="e#46#90#0" expanded="false" />
                     <element signature="e#847#1220#0" expanded="false" />
@@ -391,6 +375,8 @@
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
                   </folding>
                 </state>
               </provider>
@@ -403,8 +389,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
           <file leaf-file-name="aboutUs.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/less/pages/aboutUs.less">
               <provider selected="true" editor-type-id="text-editor">
@@ -432,27 +421,22 @@
 =======
           <file leaf-file-name="copyright.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/html/servicePro/copyright.html">
-=======
-          <file leaf-file-name="cases.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/less/pages/cases.less">
->>>>>>> parent of fcbbea6... 完成布局我们的团队
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1836">
-                  <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+                <state relative-caret-position="86">
+                  <caret line="130" column="43" selection-start-line="130" selection-start-column="43" selection-end-line="130" selection-end-column="43" />
                   <folding>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
 >>>>>>> origin/master
 =======
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
 >>>>>>> origin/master
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-=======
-                    <element signature="e#422#615#0" expanded="false" />
-                    <element signature="e#630#976#0" expanded="false" />
->>>>>>> parent of fcbbea6... 完成布局我们的团队
                   </folding>
                 </state>
               </provider>
@@ -463,6 +447,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
 >>>>>>> origin/master
 =======
 =======
@@ -474,14 +461,11 @@
 >>>>>>> origin/master
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/html/servicePro/index.html">
-=======
-          <file leaf-file-name="cases.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/js/pages/cases.js">
->>>>>>> parent of fcbbea6... 完成布局我们的团队
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="7" selection-end-column="24" />
+                <state relative-caret-position="108">
+                  <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
                   <folding />
+>>>>>>> origin/master
                 </state>
               </provider>
             </entry>
@@ -493,20 +477,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
           <file leaf-file-name="wzTeam.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/js/pages/wzTeam.js">
-=======
-          <file leaf-file-name="public.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/js/public.js">
->>>>>>> parent of fcbbea6... 完成布局我们的团队
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="378">
-                  <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+                <state relative-caret-position="587">
+                  <caret line="86" column="61" selection-start-line="86" selection-start-column="61" selection-end-line="86" selection-end-column="61" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
-<<<<<<< HEAD
                     <marker date="1479118017000" expanded="true" signature="1118:1242" ph="..." />
                     <marker date="1479118017000" expanded="true" signature="1118:1282" ph="..." />
                     <marker date="1479118017000" expanded="true" signature="1118:1426" ph="..." />
@@ -579,10 +561,6 @@
 >>>>>>> origin/master
 =======
 >>>>>>> origin/master
-=======
-                    <element signature="e#265#599#0" expanded="false" />
-                    <element signature="e#641#1134#0" expanded="false" />
->>>>>>> parent of fcbbea6... 完成布局我们的团队
                   </folding>
                 </state>
               </provider>
@@ -595,19 +573,21 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
           <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/less/pages/index.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1431">
-                  <caret line="239" column="11" selection-start-line="239" selection-start-column="7" selection-end-line="239" selection-end-column="11" />
+                <state relative-caret-position="329">
+                  <caret line="180" column="38" selection-start-line="180" selection-start-column="32" selection-end-line="180" selection-end-column="38" />
                   <folding>
                     <element signature="e#700#854#0" expanded="false" />
                     <element signature="e#871#3069#0" expanded="false" />
-<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/master
@@ -624,10 +604,6 @@
                     <folding />
                   </first_editor>
                   <second_editor />
-=======
-                    <element signature="e#3088#4497#0" expanded="false" />
-                  </folding>
->>>>>>> parent of fcbbea6... 完成布局我们的团队
                 </state>
               </provider>
             </entry>
@@ -635,8 +611,8 @@
           <file leaf-file-name="lib-reset.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/less/lib-reset.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1134">
-                  <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+                <state relative-caret-position="486">
+                  <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -645,10 +621,9 @@
           <file leaf-file-name="lib-common.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/less/lib-common.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4158">
-                  <caret line="154" column="5" selection-start-line="154" selection-start-column="2" selection-end-line="154" selection-end-column="5" />
+                <state relative-caret-position="621">
+                  <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
                   <folding>
-<<<<<<< HEAD
                     <element signature="e#4428#5024#0" expanded="false" />
                     <element signature="e#4445#4774#0" expanded="false" />
                     <element signature="e#4456#4768#0" expanded="false" />
@@ -672,21 +647,6 @@
 >>>>>>> origin/master
 =======
 >>>>>>> origin/master
-=======
-                    <element signature="e#4370#4966#0" expanded="false" />
-                    <element signature="e#4387#4716#0" expanded="false" />
-                    <element signature="e#4398#4710#0" expanded="false" />
-                    <element signature="e#4586#4702#0" expanded="false" />
-                    <element signature="e#4733#4962#0" expanded="false" />
-                    <element signature="e#4752#4916#0" expanded="false" />
-                    <element signature="e#4765#4908#0" expanded="false" />
-                    <element signature="e#4848#4898#0" expanded="false" />
-                    <element signature="e#4925#4956#0" expanded="false" />
-                    <element signature="e#5072#5104#0" expanded="false" />
-                    <element signature="e#5117#5326#0" expanded="false" />
-                    <element signature="e#5339#5459#0" expanded="false" />
-                    <element signature="e#5388#5453#0" expanded="false" />
->>>>>>> parent of fcbbea6... 完成布局我们的团队
                   </folding>
                 </state>
               </provider>
@@ -717,8 +677,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
         <option value="$PROJECT_DIR$/src/less/style.less" />
 =======
         <option value="$PROJECT_DIR$/src/html/servicePro/projectApplication.html" />
@@ -736,6 +699,7 @@
 =======
         <option value="$PROJECT_DIR$/src/html/servicePro/projectApplication.html" />
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
         <option value="$PROJECT_DIR$/src/html/servicePro/projectApplication.html" />
         <option value="$PROJECT_DIR$/src/html/servicePro/brandRegist.html" />
@@ -745,10 +709,10 @@
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
         <option value="$PROJECT_DIR$/src/css/style.css" />
         <option value="$PROJECT_DIR$/src/css/pages/index.css" />
-        <option value="$PROJECT_DIR$/src/less/lib-reset.less" />
-        <option value="$PROJECT_DIR$/src/less/pages/index.less" />
         <option value="$PROJECT_DIR$/src/html/cases/icon-3.md" />
         <option value="$PROJECT_DIR$/src/less/lib-public.less" />
 <<<<<<< HEAD
@@ -758,8 +722,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
         <option value="$PROJECT_DIR$/src/test" />
         <option value="$PROJECT_DIR$/src/html/aboutUS/index.html" />
         <option value="$PROJECT_DIR$/src/html/aboutUS/wzDevelopment.html" />
@@ -775,12 +742,8 @@
         <option value="$PROJECT_DIR$/src/test" />
 >>>>>>> origin/master
 =======
-=======
->>>>>>> parent of fcbbea6... 完成布局我们的团队
         <option value="$PROJECT_DIR$/src/less/pages/servicePro.less" />
-        <option value="$PROJECT_DIR$/src/less/lib-common.less" />
         <option value="$PROJECT_DIR$/src/test" />
-<<<<<<< HEAD
 >>>>>>> origin/master
         <option value="$PROJECT_DIR$/src/less/pages/cases.less" />
         <option value="$PROJECT_DIR$/src/html/cases/index.html" />
@@ -819,13 +782,10 @@
         <option value="$PROJECT_DIR$/src/less/lib-reset.less" />
         <option value="$PROJECT_DIR$/src/less/lib-common.less" />
         <option value="$PROJECT_DIR$/src/img/icon-4.md" />
-=======
-        <option value="$PROJECT_DIR$/src/less/pages/cases.less" />
->>>>>>> parent of fcbbea6... 完成布局我们的团队
         <option value="$PROJECT_DIR$/src/html/aboutUS/index.html" />
+        <option value="$PROJECT_DIR$/src/less/pages/index.less" />
         <option value="$PROJECT_DIR$/src/html/aboutUS/wzCulture.html" />
         <option value="$PROJECT_DIR$/src/html/aboutUS/wzDevelopment.html" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/less/pages/aboutUs.less" />
         <option value="$PROJECT_DIR$/src/html/servicePro/index.html" />
         <option value="$PROJECT_DIR$/src/html/servicePro/brandRegist.html" />
@@ -840,12 +800,6 @@
 >>>>>>> origin/master
 =======
 >>>>>>> origin/master
-=======
-        <option value="$PROJECT_DIR$/src/html/cases/index.html" />
-        <option value="$PROJECT_DIR$/src/html/index.html" />
-        <option value="$PROJECT_DIR$/src/js/pages/cases.js" />
-        <option value="$PROJECT_DIR$/src/js/public.js" />
->>>>>>> parent of fcbbea6... 完成布局我们的团队
       </list>
     </option>
   </component>
@@ -892,413 +846,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servicePro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-<<<<<<< HEAD
-      <pane id="Scratches" />
->>>>>>> origin/master
-=======
->>>>>>> parent of fcbbea6... 完成布局我们的团队
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="wzWeb">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="wzWeb">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="wzWeb">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="less">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="wzWeb">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="less">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="pages">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="wzWeb">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="js">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="wzWeb">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-<<<<<<< HEAD
-            <PATH_ELEMENT USER_OBJECT="img">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="wzWeb">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="html">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="wzWeb">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="img">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="servicePro">
 <<<<<<< HEAD
 =======
->>>>>>> origin/master
-=======
-            <PATH_ELEMENT USER_OBJECT="js">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="pages">
->>>>>>> parent of fcbbea6... 完成布局我们的团队
-=======
->>>>>>> parent of 53061c5... 完成“我们的团队”
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="wzWeb">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="html">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            <PATH_ELEMENT USER_OBJECT="servicePro">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
->>>>>>> origin/master
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="wzWeb">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="html">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-<<<<<<< HEAD
-=======
-            <PATH_ELEMENT USER_OBJECT="contactUs">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-=======
->>>>>>> parent of fcbbea6... 完成布局我们的团队
-=======
->>>>>>> parent of 53061c5... 完成“我们的团队”
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="wzWeb">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="html">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
->>>>>>> parent of 53061c5... 完成“我们的团队”
-            <PATH_ELEMENT USER_OBJECT="aboutUS">
-=======
-            <PATH_ELEMENT USER_OBJECT="cases">
->>>>>>> parent of fcbbea6... 完成布局我们的团队
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 53061c5... 完成“我们的团队”
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1454,6 +1003,421 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+>>>>>>> origin/master
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wzWeb">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wzWeb">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wzWeb">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="less">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wzWeb">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="less">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="pages">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wzWeb">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="js">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wzWeb">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="img">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wzWeb">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="html">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wzWeb">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="img">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="servicePro">
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
+<<<<<<< HEAD
+=======
+            <PATH_ELEMENT USER_OBJECT="js">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="pages">
+>>>>>>> parent of fcbbea6... 完成布局我们的团队
+=======
+>>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wzWeb">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="html">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
+=======
+            <PATH_ELEMENT USER_OBJECT="servicePro">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+>>>>>>> origin/master
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wzWeb">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="html">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+<<<<<<< HEAD
+=======
+            <PATH_ELEMENT USER_OBJECT="contactUs">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+<<<<<<< HEAD
+=======
+>>>>>>> parent of fcbbea6... 完成布局我们的团队
+=======
+>>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wzWeb">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="html">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
+>>>>>>> origin/master
+=======
+>>>>>>> parent of 53061c5... 完成“我们的团队”
+            <PATH_ELEMENT USER_OBJECT="aboutUS">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servicePro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1718,11 +1682,14 @@
 <<<<<<< HEAD
 =======
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
       <pane id="Scratches" />
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1734,7 +1701,12 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/img/bground" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1744,6 +1716,8 @@
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
       <recent name="$PROJECT_DIR$/src/img/team" />
 =======
       <recent name="$PROJECT_DIR$/src/img/shop" />
@@ -1757,14 +1731,15 @@
 =======
       <recent name="$PROJECT_DIR$/src/img/shop" />
 >>>>>>> origin/master
-=======
->>>>>>> parent of fcbbea6... 完成布局我们的团队
       <recent name="$PROJECT_DIR$/src/img" />
-      <recent name="$PROJECT_DIR$/src/img/bground" />
-      <recent name="$PROJECT_DIR$/src/img/focusImg" />
       <recent name="$PROJECT_DIR$/src/img/client" />
-    </key>
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <recent name="$PROJECT_DIR$/src/img/focusImg" />
+      <recent name="$PROJECT_DIR$/src/img/bground" />
+    </key>
 =======
 =======
 >>>>>>> origin/master
@@ -1921,13 +1896,6 @@
 =======
 >>>>>>> origin/master
   </component>
-=======
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/img/bground" />
-    </key>
-  </component>
->>>>>>> parent of fcbbea6... 完成布局我们的团队
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
@@ -2009,16 +1977,22 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
       <workItem from="1478945462046" duration="6555000" />
       <workItem from="1479105101863" duration="12669000" />
 =======
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
       <workItem from="1478945462046" duration="6555000" />
       <workItem from="1479105101863" duration="12669000" />
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
     </task>
     <servers />
   </component>
@@ -2030,8 +2004,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
     <option name="totallyTimeSpent" value="85661000" />
 =======
     <option name="totallyTimeSpent" value="86124000" />
@@ -2049,20 +2026,23 @@
 =======
     <option name="totallyTimeSpent" value="86124000" />
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
     <option name="totallyTimeSpent" value="66437000" />
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1867" height="1057" extended-state="6" />
+    <frame x="0" y="23" width="1867" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15113759" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2101,8 +2081,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
 =======
 =======
 >>>>>>> origin/master
@@ -2683,54 +2666,53 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/style.css">
-=======
-    <entry file="file://$PROJECT_DIR$/src/less/pages/index.less">
->>>>>>> parent of fcbbea6... 完成布局我们的团队
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1431">
-          <caret line="239" column="11" selection-start-line="239" selection-start-column="7" selection-end-line="239" selection-end-column="11" />
-          <folding>
-            <element signature="e#700#854#0" expanded="false" />
-            <element signature="e#871#3069#0" expanded="false" />
-            <element signature="e#3088#4497#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/lib-reset.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="-27">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/lib-common.less">
+    <entry file="file://$PROJECT_DIR$/src/html/joinUs/idea.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4158">
-          <caret line="154" column="5" selection-start-line="154" selection-start-column="2" selection-end-line="154" selection-end-column="5" />
+>>>>>>> origin/master
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
-            <element signature="e#4370#4966#0" expanded="false" />
-            <element signature="e#4387#4716#0" expanded="false" />
-            <element signature="e#4398#4710#0" expanded="false" />
-            <element signature="e#4586#4702#0" expanded="false" />
-            <element signature="e#4733#4962#0" expanded="false" />
-            <element signature="e#4752#4916#0" expanded="false" />
-            <element signature="e#4765#4908#0" expanded="false" />
-            <element signature="e#4848#4898#0" expanded="false" />
-            <element signature="e#4925#4956#0" expanded="false" />
-            <element signature="e#5072#5104#0" expanded="false" />
-            <element signature="e#5117#5326#0" expanded="false" />
-            <element signature="e#5339#5459#0" expanded="false" />
-            <element signature="e#5388#5453#0" expanded="false" />
+            <element signature="n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/js/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/cases/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="584" column="8" selection-start-line="584" selection-start-column="8" selection-end-line="584" selection-end-column="8" />
+        <state relative-caret-position="46">
+          <caret line="602" column="17" selection-start-line="602" selection-start-column="17" selection-end-line="602" selection-end-column="17" />
           <folding>
             <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#3;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -2753,7 +2735,6 @@
             <element signature="n#aside#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/src/js/public.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -2883,15 +2864,10 @@
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
 <<<<<<< HEAD
 =======
-=======
-        </state>
-      </provider>
-    </entry>
->>>>>>> parent of fcbbea6... 完成布局我们的团队
     <entry file="file://$PROJECT_DIR$/src/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="160" column="13" selection-start-line="155" selection-start-column="4" selection-end-line="160" selection-end-column="13" />
+        <state relative-caret-position="324">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -2899,42 +2875,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/pages/servicePro.less">
+    <entry file="file://$PROJECT_DIR$/src/js/public.js">
+=======
+    <entry file="file://$PROJECT_DIR$/src/img/bground/aboutUs-bg.png" />
+    <entry file="file://$PROJECT_DIR$/src/img/project/view-01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/client/cry.png" />
+    <entry file="file://$PROJECT_DIR$/src/html/servicePro/projectApplication.html">
+>>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1593">
-          <caret line="126" column="17" selection-start-line="126" selection-start-column="17" selection-end-line="126" selection-end-column="17" />
+        <state relative-caret-position="3294">
+          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding>
-            <element signature="e#46#90#0" expanded="false" />
-            <element signature="e#847#1220#0" expanded="false" />
-            <element signature="e#1514#2823#0" expanded="false" />
-            <element signature="e#2847#5363#0" expanded="false" />
-            <element signature="e#3153#4184#0" expanded="false" />
-            <element signature="e#5385#7112#0" expanded="false" />
-            <element signature="e#5605#6141#0" expanded="false" />
-            <element signature="e#7144#8770#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
+>>>>>>> origin/master
+=======
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/pages/cases.less">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/js/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-169">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#422#615#0" expanded="false" />
-            <element signature="e#630#976#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/src/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+>>>>>>> origin/master
+=======
     <entry file="file://$PROJECT_DIR$/src/less/pages/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1431">
-          <caret line="239" column="11" selection-start-line="239" selection-start-column="7" selection-end-line="239" selection-end-column="11" />
+        <state relative-caret-position="837">
+          <caret line="417" column="9" selection-start-line="417" selection-start-column="9" selection-end-line="417" selection-end-column="9" />
+          <folding>
+            <element signature="e#700#854#0" expanded="false" />
+            <element signature="e#871#3070#0" expanded="false" />
+            <element signature="e#3089#4498#0" expanded="false" />
+          </folding>
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/aboutUS/wzCulture.html">
+=======
+    <entry file="file://$PROJECT_DIR$/src/css/pages/cases.css">
+>>>>>>> origin/master
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="109" column="58" selection-start-line="109" selection-start-column="58" selection-end-line="109" selection-end-column="58" />
           <folding>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
 =======
             <element signature="e#4428#5024#0" expanded="false" />
@@ -2951,6 +2960,7 @@
             <element signature="e#5397#5517#0" expanded="false" />
             <element signature="e#5446#5511#0" expanded="false" />
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
             <element signature="e#700#854#0" expanded="false" />
             <element signature="e#871#3069#0" expanded="false" />
@@ -2959,48 +2969,87 @@
 =======
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/lib-reset.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/lib-common.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8289">
-          <caret line="307" column="5" selection-start-line="307" selection-start-column="1" selection-end-line="307" selection-end-column="5" />
-          <folding>
-            <element signature="e#4370#4966#0" expanded="false" />
-            <element signature="e#4387#4716#0" expanded="false" />
-            <element signature="e#4398#4710#0" expanded="false" />
-            <element signature="e#4586#4702#0" expanded="false" />
-            <element signature="e#4733#4962#0" expanded="false" />
-            <element signature="e#4752#4916#0" expanded="false" />
-            <element signature="e#4765#4908#0" expanded="false" />
-            <element signature="e#4848#4898#0" expanded="false" />
-            <element signature="e#4925#4956#0" expanded="false" />
-            <element signature="e#5072#5104#0" expanded="false" />
-            <element signature="e#5117#5326#0" expanded="false" />
-            <element signature="e#5339#5459#0" expanded="false" />
-            <element signature="e#5388#5453#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/servicePro/projectApplication.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/html/servicePro/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="162">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="7" selection-end-column="24" />
+=======
+        <state relative-caret-position="486">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+>>>>>>> origin/master
+=======
+        <state relative-caret-position="108">
+          <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/pages/aboutUs.less">
+=======
+    <entry file="file://$PROJECT_DIR$/src/css/lib-public.css">
+>>>>>>> origin/master
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="864">
+          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#265#599#0" expanded="false" />
+            <element signature="e#641#1134#0" expanded="false" />
+=======
+        <state relative-caret-position="621">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#4428#5024#0" expanded="false" />
+            <element signature="e#4445#4774#0" expanded="false" />
+            <element signature="e#4456#4768#0" expanded="false" />
+            <element signature="e#4644#4760#0" expanded="false" />
+            <element signature="e#4791#5020#0" expanded="false" />
+            <element signature="e#4810#4974#0" expanded="false" />
+            <element signature="e#4823#4966#0" expanded="false" />
+            <element signature="e#4906#4956#0" expanded="false" />
+            <element signature="e#4983#5014#0" expanded="false" />
+            <element signature="e#5130#5162#0" expanded="false" />
+            <element signature="e#5175#5384#0" expanded="false" />
+            <element signature="e#5397#5517#0" expanded="false" />
+            <element signature="e#5446#5511#0" expanded="false" />
+>>>>>>> origin/master
+=======
+        <state relative-caret-position="140">
+          <caret line="302" column="12" selection-start-line="302" selection-start-column="12" selection-end-line="302" selection-end-column="12" />
+          <folding>
+            <element signature="e#48#939#0" expanded="false" />
+            <element signature="e#293#594#0" expanded="false" />
+            <element signature="e#2127#2813#0" expanded="false" />
+            <element signature="e#2826#3116#0" expanded="false" />
+            <element signature="e#3136#3650#0" expanded="false" />
+            <element signature="e#3670#4589#0" expanded="false" />
+>>>>>>> origin/master
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/less/lib-reset.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4752">
+          <caret line="176" column="18" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/img/focusImg/banner-2.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -3013,23 +3062,40 @@
     </entry>
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/html/servicePro/brandRegist.html">
-=======
-    <entry file="file://$PROJECT_DIR$/src/html/servicePro/copyright.html">
->>>>>>> parent of fcbbea6... 完成布局我们的团队
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        <state relative-caret-position="432">
+          <caret line="94" column="58" selection-start-line="94" selection-start-column="58" selection-end-line="94" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/servicePro/projectApplication.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="96" column="58" selection-start-line="96" selection-start-column="58" selection-end-line="96" selection-end-column="58" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/less/pages/cases.less">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="24" />
+          <folding>
+            <element signature="e#422#615#0" expanded="false" />
+            <element signature="e#630#976#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/img/icon-4.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="81">
+            <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/aboutUS/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -3054,83 +3120,152 @@
     <entry file="file://$PROJECT_DIR$/src/img/bground/aboutUs-bg.png" />
     <entry file="file://$PROJECT_DIR$/src/img/project/view-01.jpg">
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/src/img/bground/serviceValueBg.png">
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
       <provider selected="true" editor-type-id="images">
         <state />
+>>>>>>> origin/master
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/icon-1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/less/pages/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="417" column="9" selection-start-line="417" selection-start-column="9" selection-end-line="417" selection-end-column="9" />
+          <folding>
+            <element signature="e#700#854#0" expanded="false" />
+            <element signature="e#871#3070#0" expanded="false" />
+            <element signature="e#3089#4498#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/bground/aboutUs-bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/html/aboutUS/wzCulture.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="109" column="58" selection-start-line="109" selection-start-column="58" selection-end-line="109" selection-end-column="58" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
     <entry file="file://$PROJECT_DIR$/src/js/common.js">
+=======
+    <entry file="file://$PROJECT_DIR$/src/html/servicePro/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+>>>>>>> origin/master
+=======
+    <entry file="file://$PROJECT_DIR$/src/manifest.json">
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-=======
-    <entry file="file://$PROJECT_DIR$/src/img/project/view-01.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
->>>>>>> parent of fcbbea6... 完成布局我们的团队
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/client/cry.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/servicePro/copyright.html">
+    <entry file="file://$PROJECT_DIR$/src/less/pages/servicePro.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/servicePro/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/servicePro/brandRegist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="96" selection-end-column="10" />
+        <state relative-caret-position="2160">
+          <caret line="505" column="0" selection-start-line="505" selection-start-column="0" selection-end-line="505" selection-end-column="0" />
+          <folding>
+            <element signature="e#46#90#0" expanded="false" />
+            <element signature="e#847#1220#0" expanded="false" />
+            <element signature="e#1514#2823#0" expanded="false" />
+            <element signature="e#2847#5363#0" expanded="false" />
+            <element signature="e#3153#4184#0" expanded="false" />
+            <element signature="e#5385#7112#0" expanded="false" />
+            <element signature="e#5605#6141#0" expanded="false" />
+            <element signature="e#7144#8770#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/cases/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="602" column="17" selection-start-line="602" selection-start-column="17" selection-end-line="602" selection-end-column="17" />
+          <folding>
+            <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#4;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#5;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#6;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#7;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#6;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#7;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#8;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#9;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#aside#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/aboutUS/wzTeam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/pages/cases.js">
 <<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/src/img/client/cry.png" />
     <entry file="file://$PROJECT_DIR$/src/html/servicePro/projectApplication.html">
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/src/html/servicePro/projectApplication.html">
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="97" selection-end-column="8" />
+        <state relative-caret-position="270">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+>>>>>>> origin/master
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3139,29 +3274,30 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
     <entry file="file://$PROJECT_DIR$/src/html/servicePro/copyright.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="94" column="62" selection-start-line="94" selection-start-column="62" selection-end-line="94" selection-end-column="62" />
 =======
     <entry file="file://$PROJECT_DIR$/src/html/contactUs/index.html">
-=======
-    <entry file="file://$PROJECT_DIR$/src/less/style.less">
->>>>>>> parent of fcbbea6... 完成布局我们的团队
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/css/style.css">
 <<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/src/css/pages/cases.css">
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-27">
@@ -3172,9 +3308,27 @@
 =======
     <entry file="file://$PROJECT_DIR$/src/css/pages/cases.css">
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-27">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> origin/master
+          <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/src/less/pages/aboutUs.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="302" column="12" selection-start-line="302" selection-start-column="12" selection-end-line="302" selection-end-column="12" />
+          <folding>
+            <element signature="e#48#939#0" expanded="false" />
+            <element signature="e#293#594#0" expanded="false" />
+            <element signature="e#2127#2813#0" expanded="false" />
+            <element signature="e#2826#3116#0" expanded="false" />
+            <element signature="e#3136#3650#0" expanded="false" />
+            <element signature="e#3670#4589#0" expanded="false" />
+          </folding>
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
@@ -3182,8 +3336,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
     <entry file="file://$PROJECT_DIR$/src/html/aboutUS/wzDevelopment.html">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -3196,16 +3353,16 @@
           <folding>
 =======
     <entry file="file://$PROJECT_DIR$/src/html/aboutUS/wzDevelopment.html">
-=======
-    <entry file="file://$PROJECT_DIR$/src/css/style.css">
->>>>>>> parent of fcbbea6... 完成布局我们的团队
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="370" column="19" selection-start-line="370" selection-start-column="19" selection-end-line="370" selection-end-column="19" />
+        <state relative-caret-position="275">
+          <caret line="210" column="38" selection-start-line="210" selection-start-column="38" selection-end-line="210" selection-end-column="38" />
+          <folding>
+>>>>>>> origin/master
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/html/servicePro/brandRegist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-76">
@@ -3235,30 +3392,42 @@
 =======
     <entry file="file://$PROJECT_DIR$/src/css/lib-public.css">
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/src/css/lib-public.css">
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/pages/index.css">
+    <entry file="file://$PROJECT_DIR$/src/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="74" column="17" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+        <state relative-caret-position="324">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+>>>>>>> origin/master
+          </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
     <entry file="file://$PROJECT_DIR$/src/html/servicePro/copyright.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
@@ -3295,29 +3464,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/img/icon-2.md" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/img/servicePatentBg.png" />
-    <entry file="file://$PROJECT_DIR$/src/img/zheng.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/case1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/icon-2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="189">
-            <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
->>>>>>> parent of fcbbea6... 完成布局我们的团队
     <entry file="file://$PROJECT_DIR$/src/html/cases/icon-3.md" />
     <entry file="file://$PROJECT_DIR$/src/img/icon-3.md" />
     <entry file="file://$PROJECT_DIR$/src/img/icon-3.png">
@@ -3327,23 +3473,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test" />
     <entry file="file://$PROJECT_DIR$/src/less/lib-public.less">
-<<<<<<< HEAD
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="195" column="9" selection-start-line="195" selection-start-column="9" selection-end-line="195" selection-end-column="9" />
+        <state relative-caret-position="513">
+          <caret line="94" column="58" selection-start-line="94" selection-start-column="58" selection-end-line="94" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
     <entry file="file://$PROJECT_DIR$/src/html/aboutUS/wzDevelopment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -3422,6 +3574,7 @@
         <state relative-caret-position="594">
           <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/src/html/aboutUS/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -3430,6 +3583,8 @@
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
           <folding />
         </state>
       </provider>
@@ -3439,8 +3594,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
         <state relative-caret-position="168">
           <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="114" selection-end-column="10" />
           <folding>
@@ -3457,21 +3615,28 @@
         <state relative-caret-position="270">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
         <state relative-caret-position="1485">
           <caret line="55" column="68" selection-start-line="55" selection-start-column="68" selection-end-line="55" selection-end-column="68" />
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
           <folding />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
     <entry file="file://$PROJECT_DIR$/src/less/pages/index.less">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -3499,6 +3664,7 @@
         <state relative-caret-position="-27">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/src/html/aboutUS/wzDevelopment.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -3507,10 +3673,14 @@
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
           <folding />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -3518,25 +3688,58 @@
       <provider selected="true" editor-type-id="text-editor">
 >>>>>>> parent of 53061c5... 完成“我们的团队”
 <<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/less/lib-common.less">
 =======
-    <entry file="file://$PROJECT_DIR$/src/manifest.json">
->>>>>>> parent of fcbbea6... 完成布局我们的团队
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
+    <entry file="file://$PROJECT_DIR$/src/less/lib-common.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+        <state relative-caret-position="182">
+          <caret line="325" column="11" selection-start-line="325" selection-start-column="11" selection-end-line="325" selection-end-column="11" />
+          <folding>
+            <element signature="e#4463#5059#0" expanded="false" />
+            <element signature="e#4480#4809#0" expanded="false" />
+            <element signature="e#4491#4803#0" expanded="false" />
+            <element signature="e#4679#4795#0" expanded="false" />
+            <element signature="e#4826#5055#0" expanded="false" />
+            <element signature="e#4845#5009#0" expanded="false" />
+            <element signature="e#4858#5001#0" expanded="false" />
+            <element signature="e#4941#4991#0" expanded="false" />
+            <element signature="e#5018#5049#0" expanded="false" />
+            <element signature="e#5165#5197#0" expanded="false" />
+            <element signature="e#5210#5419#0" expanded="false" />
+            <element signature="e#5432#5552#0" expanded="false" />
+            <element signature="e#5481#5546#0" expanded="false" />
+=======
+        <state relative-caret-position="621">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#4428#5024#0" expanded="false" />
+            <element signature="e#4445#4774#0" expanded="false" />
+            <element signature="e#4456#4768#0" expanded="false" />
+            <element signature="e#4644#4760#0" expanded="false" />
+            <element signature="e#4791#5020#0" expanded="false" />
+            <element signature="e#4810#4974#0" expanded="false" />
+            <element signature="e#4823#4966#0" expanded="false" />
+            <element signature="e#4906#4956#0" expanded="false" />
+            <element signature="e#4983#5014#0" expanded="false" />
+            <element signature="e#5130#5162#0" expanded="false" />
+            <element signature="e#5175#5384#0" expanded="false" />
+            <element signature="e#5397#5517#0" expanded="false" />
+            <element signature="e#5446#5511#0" expanded="false" />
+>>>>>>> origin/master
+          </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/less/pages/servicePro.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="505" column="0" selection-start-line="505" selection-start-column="0" selection-end-line="505" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#46#90#0" expanded="false" />
             <element signature="e#847#1220#0" expanded="false" />
             <element signature="e#1514#2823#0" expanded="false" />
-<<<<<<< HEAD
             <element signature="e#3153#4208#0" expanded="false" />
             <element signature="e#5542#7269#0" expanded="false" />
             <element signature="e#5762#6298#0" expanded="false" />
@@ -3567,6 +3770,7 @@
           <folding>
             <element signature="n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+<<<<<<< HEAD
 =======
             <element signature="e#2847#5363#0" expanded="false" />
             <element signature="e#3153#4184#0" expanded="false" />
@@ -3576,12 +3780,17 @@
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
           </folding>
         </state>
       </provider>
     </entry>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
     <entry file="file://$PROJECT_DIR$/src/js/public.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3294">
@@ -3597,14 +3806,11 @@
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
 <<<<<<< HEAD
-=======
->>>>>>> parent of fcbbea6... 完成布局我们的团队
     <entry file="file://$PROJECT_DIR$/src/less/pages/cases.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        <state relative-caret-position="351">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
-<<<<<<< HEAD
             <element signature="e#419#612#0" expanded="false" />
             <element signature="e#627#973#0" expanded="false" />
 =======
@@ -3624,6 +3830,7 @@
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
             <element signature="e#422#615#0" expanded="false" />
             <element signature="e#630#976#0" expanded="false" />
@@ -3631,45 +3838,57 @@
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/pages/index.less">
+    <entry file="file://$PROJECT_DIR$/src/html/aboutUS/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
         <state relative-caret-position="248">
           <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-=======
-        <state relative-caret-position="1431">
-          <caret line="239" column="11" selection-start-line="239" selection-start-column="7" selection-end-line="239" selection-end-column="11" />
->>>>>>> parent of fcbbea6... 完成布局我们的团队
           <folding>
-            <element signature="e#700#854#0" expanded="false" />
-            <element signature="e#871#3069#0" expanded="false" />
-            <element signature="e#3088#4497#0" expanded="false" />
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/lib-reset.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-          <folding />
-        </state>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/img/aboutUs-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/lib-common.less">
+    <entry file="file://$PROJECT_DIR$/src/img/culture1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/aboutUS/wzTeam.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
         <state relative-caret-position="343">
           <caret line="121" column="19" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
           <folding>
@@ -3697,6 +3916,7 @@
             <element signature="e#5397#5517#0" expanded="false" />
             <element signature="e#5446#5511#0" expanded="false" />
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
         <state relative-caret-position="4158">
           <caret line="154" column="5" selection-start-line="154" selection-start-column="2" selection-end-line="154" selection-end-column="5" />
@@ -3717,6 +3937,8 @@
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
           </folding>
         </state>
       </provider>
@@ -3724,8 +3946,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
     <entry file="file://$PROJECT_DIR$/src/js/pages/wzTeam.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="587">
@@ -3755,22 +3980,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/aboutUS/wzCulture.html">
-=======
-    <entry file="file://$PROJECT_DIR$/src/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/index.html">
->>>>>>> parent of fcbbea6... 完成布局我们的团队
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1506">
-          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        <state relative-caret-position="329">
+          <caret line="109" column="58" selection-start-line="109" selection-start-column="58" selection-end-line="109" selection-end-column="58" />
           <folding>
-<<<<<<< HEAD
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
 <<<<<<< HEAD
 =======
@@ -3798,12 +4011,15 @@
             <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
             <element signature="n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
           </folding>
         </state>
       </provider>
@@ -3811,33 +4027,56 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
-    <entry file="file://$PROJECT_DIR$/src/html/servicePro/index.html">
 =======
-    <entry file="file://$PROJECT_DIR$/src/js/pages/index.js">
->>>>>>> parent of fcbbea6... 完成布局我们的团队
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
+    <entry file="file://$PROJECT_DIR$/src/html/servicePro/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-169">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/pages/cases.js">
+    <entry file="file://$PROJECT_DIR$/src/less/pages/aboutUs.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/public.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        <state relative-caret-position="140">
+          <caret line="302" column="12" selection-start-line="302" selection-start-column="12" selection-end-line="302" selection-end-column="12" />
           <folding>
+            <element signature="e#48#939#0" expanded="false" />
+            <element signature="e#293#594#0" expanded="false" />
+            <element signature="e#2127#2813#0" expanded="false" />
+            <element signature="e#2826#3116#0" expanded="false" />
+            <element signature="e#3136#3650#0" expanded="false" />
+            <element signature="e#3670#4589#0" expanded="false" />
+>>>>>>> origin/master
+          </folding>
+        </state>
+      </provider>
+    </entry>
 <<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/less/pages/aboutUs.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="354" column="19" selection-start-line="354" selection-start-column="19" selection-end-line="354" selection-end-column="19" />
+          <folding>
+            <element signature="e#48#939#0" expanded="false" />
+            <element signature="e#969#2103#0" expanded="false" />
+            <element signature="e#2127#2813#0" expanded="false" />
+            <element signature="e#2826#3116#0" expanded="false" />
+            <element signature="e#3136#3719#0" expanded="false" />
+            <element signature="e#3739#4658#0" expanded="false" />
+            <element signature="e#4689#5677#0" expanded="false" />
+=======
+>>>>>>> origin/master
+=======
+    <entry file="file://$PROJECT_DIR$/src/html/aboutUS/wzDevelopment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="210" column="38" selection-start-line="210" selection-start-column="38" selection-end-line="210" selection-end-column="38" />
+          <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
 <<<<<<< HEAD
 =======
@@ -3883,6 +4122,7 @@
             <element signature="e#3136#3650#0" expanded="false" />
             <element signature="e#3670#4589#0" expanded="false" />
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#265#599#0" expanded="false" />
@@ -3890,6 +4130,8 @@
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
           </folding>
         </state>
       </provider>
@@ -3897,17 +4139,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
-    <entry file="file://$PROJECT_DIR$/src/html/servicePro/brandRegist.html">
 =======
-    <entry file="file://$PROJECT_DIR$/src/html/cases/index.html">
->>>>>>> parent of fcbbea6... 完成布局我们的团队
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
+    <entry file="file://$PROJECT_DIR$/src/html/servicePro/brandRegist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="602" column="17" selection-start-line="602" selection-start-column="17" selection-end-line="602" selection-end-column="17" />
+        <state relative-caret-position="-76">
+          <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
           <folding>
-<<<<<<< HEAD
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
 <<<<<<< HEAD
 =======
@@ -3928,6 +4169,7 @@
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
 >>>>>>> origin/master
+<<<<<<< HEAD
 =======
             <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#3;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -3939,12 +4181,12 @@
 >>>>>>> parent of fcbbea6... 完成布局我们的团队
 =======
 >>>>>>> parent of 53061c5... 完成“我们的团队”
+=======
+>>>>>>> parent of cbba5cb... 完成“维正团队”的js编写
             <element signature="n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-<<<<<<< HEAD
             <element signature="e#10624#10630#0" expanded="true" />
           </folding>
         </state>
@@ -3957,16 +4199,6 @@
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
 >>>>>>> origin/master
-=======
-            <element signature="n#section#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#5;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#6;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#7;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#8;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#9;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#aside#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
->>>>>>> parent of fcbbea6... 完成布局我们的团队
           </folding>
         </state>
       </provider>

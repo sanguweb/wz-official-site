@@ -1,16 +1,15 @@
 @import "../lib-common";
 
 #cases {
-  .wrapper(180px, 180px);
-
+  .wrapper(20px, 180px);
   .wrapper {
-    .wrapper(0, 160px);
+    .wrapper(160px, 20px);
     .pos-r;
     &:after {
       .after(34px, 21px);
       background:url("@{icon-3}") no-repeat 0;
       top:auto;
-      bottom:160px;
+      bottom:0;
     }
     &:last-of-type {
       &:after {

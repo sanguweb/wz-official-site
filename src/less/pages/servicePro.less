@@ -193,8 +193,9 @@
     }
     ul {
       .h-auto;
-      .list-inline(left, 30px);
       .mt(70px);
+      .list-inline(left, 30px);
+      overflow:visible;
       li {
         width:270px;
         height:390px;
@@ -274,6 +275,12 @@
           height:435px;
           left:15px;
           top:0;
+          img:first-child {
+            .m-auto(0, 20px);
+          }
+          p {
+            padding:10px 20px 0 20px
+          }
         }
         &:nth-of-type(2) {
           width:240px;

@@ -29,6 +29,8 @@ input,
 textarea,
 th,
 td,
+sub,
+sup,
 article,
 aside,
 canvas,
@@ -218,6 +220,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga" on;
 }
+::selection {
+  color: darkgrey;
+}
 body {
   font-size: 16px;
   font-family: "微软雅黑";
@@ -230,6 +235,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga" on;
 }
+/* VARIABLE*/
+/*ICON*/
 .response-img {
   max-width: 100%;
   display: block;
@@ -262,6 +269,7 @@ body {
 .icon-E:before {
   background: url("../img/icon-1.png") no-repeat -116px -152px;
 }
+/* LAYOUT  STYLE*/
 .container {
   margin: 0 auto 0 auto;
   width: 1170px;
@@ -326,6 +334,7 @@ body {
   width: 100%;
   display: table;
 }
+/*LINK  STYLE*/
 #link-defalt {
   color: #00b9d1;
   display: block;
@@ -340,6 +349,7 @@ body {
 #link-defalt .main-nav:hover {
   background-color: #ff0000;
 }
+/*TEXT STYLE*/
 .f10 {
   font-size: 10px;
 }
@@ -361,11 +371,20 @@ body {
 .f24 {
   font-size: 24px;
 }
+.f26 {
+  font-size: 26px;
+}
+.f28 {
+  font-size: 28px;
+}
 .f32 {
   font-size: 32px;
 }
+/* FONT COLOR*/
+/*SNIPPET*/
 .wrap {
-  padding: 120px 0;
+  padding: 120px 0 120px 0;
+  overflow: hidden;
   height: auto;
 }
 .wrap .title figcaption h3 {
@@ -648,8 +667,9 @@ body {
 .service-value .box ul {
   height: auto;
   overflow: hidden;
-  zoom: 1;
   margin-top: 70px;
+  zoom: 1;
+  overflow: visible;
 }
 .service-value .box ul dl,
 .service-value .box ul li {
@@ -743,6 +763,12 @@ body {
   height: 435px;
   left: 15px;
   top: 0;
+}
+.service-value .box2 ul li:nth-of-type(1) img:first-child {
+  margin: 0 auto 20px auto;
+}
+.service-value .box2 ul li:nth-of-type(1) p {
+  padding: 10px 20px 0 20px;
 }
 .service-value .box2 ul li:nth-of-type(2) {
   width: 240px;
