@@ -10,24 +10,21 @@ body {
   -moz-font-feature-settings:"liga" on;
 }
 
-/* VARIABLE*/
+// VARIABLE
 @half:0.5;
-@whole:1;
 
-/*ICON*/
+//ICON
 @images:"../img/"; //图片路径
 @bground:"../img/bground"; //背景路径
 @icon-1:"../img/icon-1.png";
 @icon-2:"../img/icon-2.png";
 @icon-3:"../img/icon-3.png";
 @icon-4:"../img/icon-4.png";
-@icon-5:"../img/icon-5.png";
-@icon-6:"../img/icon-6.png";
 
 .response-img {
   max-width:100%;
   .block;
-  .m-auto(0, 0);
+  .m-auto(0,0);
 }
 
 .icon-fb:before {
@@ -69,9 +66,7 @@ body {
   background:url("@{icon-1}") no-repeat -116px -152px;
 }
 
-/* LAYOUT  STYLE*/
-
-//基础盒
+// LAYOUT  STYLE
 .container {
   .m-auto(0, 0);
   width:1170px;
@@ -235,11 +230,11 @@ body {
 .toTable {
   height:auto;
   overflow:hidden;
-  width:percentage(@whole);
+  width:percentage(@half*2);
   display:table;
 }
 
-/*LINK  STYLE*/
+//LINK  STYLE
 #link-defalt {
   color:#00b9d1;
   display:block;
@@ -262,7 +257,7 @@ body {
   }
 }
 
-/*TEXT STYLE*/
+//TEXT STYLE
 .font(@font-size, @font-family, @weight) {
   font-size:@font-size;
   font-family:@font-family;
@@ -298,14 +293,6 @@ body {
   font-size:24px
 }
 
-.f26 {
-  font-size:26px
-}
-
-.f28 {
-  font-size:28px
-}
-
 .f32 {
   font-size:32px
 }
@@ -317,15 +304,14 @@ body {
   -webkit-box-orient:vertical;
 }
 
-/* FONT COLOR*/
+// FONT COLOR
 @base-color:rgba(51, 51, 51, 1);
 @white:rgba(255, 255, 255, 1);
 @red:rgba(211, 51, 49, 1);
 
-/*SNIPPET*/
-
+//SNIPPET
 .wrap {
-  .wrapper(120px, 120px);
+  padding:120px 0;
   height:auto;
   .title {
     figcaption {
