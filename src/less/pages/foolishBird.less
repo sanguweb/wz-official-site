@@ -1,0 +1,85 @@
+@import "../lib-common";
+
+#foolishBird-wrap {
+  .pos-r;
+  height:920px;
+  background:url("@{bground}/fbBg.png") no-repeat rgba(248, 248, 248, 1) center top;
+
+  .box {
+    //background:#6bc5eb;
+    box-sizing:border-box;
+    .wrapper(180px, 0);
+    & > header:first-child {
+      .text-center;
+      h2 {
+        display:inline-block;
+        .font(92px, "Microsoft Yahei", 700);
+        color:rgba(254, 122, 26, 1);
+        .pr(20px);
+      }
+      strong {
+        .f32;
+        .text-left;
+        line-height:40px;
+        font-weight:normal;
+        display:inline-block;
+      }
+      & + p {
+        .block;
+        .mt(40px);
+        .text-center;
+        font-size:36px;
+        & + .link {
+          .mt(40px);
+          .text-center;
+          .font(40px, "Microsoft Yahei", 700);
+          & > a {
+            .pos-r;
+            display:inline-block;
+            color:rgba(254, 122, 26, 1);
+            .pr(50px);
+            &:after {
+              .after(40px, 40px);
+              background:url("@{icon-6}") -1220px -287px no-repeat;
+              left:auto;
+              right:0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //设备图片
+  .device-img {
+    .pos-a;
+    background:url("@{icon-6}") no-repeat 0 0;
+    bottom:0;
+    width:1218px;
+    height:351px;
+    .m-auto(0, 0);
+    left:50%;
+    top:50%;
+    margin:auto 0 0 -609px;
+
+    &:before,
+    &:after {
+      content:"";
+      .pos-a;
+      background:url("@{icon-6}") no-repeat;
+    }
+    &:before {
+      width:106px;
+      height:159px;
+      background-position:-1220px 0;
+      top:-120px;
+    }
+    &:after {
+      width:126px;
+      height:124px;
+      background-position:-1220px -161px;
+      right:0;
+      top:-200px;
+    }
+  }
+}
