@@ -763,6 +763,16 @@ body {
 #sideBar ul > li:hover {
   background-color: #d33331;
 }
+#sideBar ul > li .qrImg {
+  position: absolute;
+  width: 118px;
+  height: 118px;
+  right: -200px;
+  top: 0;
+}
+#sideBar ul > li .qrImg img:only-child {
+  display: block;
+}
 .sub-tabBar {
   height: 60px;
   line-height: 60px;

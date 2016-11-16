@@ -56,10 +56,9 @@ wzWeb.sideBar = function () {
   var sideBar = $('#sideBar');
   var sideItem = sideBar.find('li');
 
-
   var backTop = sideBar.find('.icon-backtop');
-  var qrCode = sideItem.eq(2);
-  
+  var qrCodeBtn = sideItem.eq(2),  //微信
+    $qrCodePic = qrCodeBtn.find('.qrImg');
 
   $.each(sideItem, function () {
     var $oSpan = $(this).find('span');
@@ -68,15 +67,22 @@ wzWeb.sideBar = function () {
       $(this).hover(function () {
         clearTimeout(timer);
         timer = setTimeout(function () {
-          $oSpan.animate({left: '-150px'}, 'slow').show();
+          $oSpan.animate({left: '-150px'}, '300').show();
         }, 400);
       }, function () {
         clearTimeout(timer);
-        $oSpan.animate({left: '50px'}, 'slow').show();
+        $oSpan.animate({left: '50px'}, '300').show();
       })
     }
   });
 
+  qrCodeBtn.hover(
+    function () {
+      $qrCodePic.animate({right: '50px'}, '300').show();
+    }, function () {
+      $qrCodePic.animate({right: '-200px'}, '300').hide();
+    }
+  );
 
   //返回顶部
   $(backTop).click(function () {
