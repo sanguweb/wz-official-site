@@ -1,7 +1,229 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../WZ/src/html/contactUs/index.html" description="&lt;!--Footer--&gt;&#10;&lt;footer id=&quot;main-footer&quot;&gt;&#10;    &lt;secti..." line="346" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab176845-7d30-4e3e-935d-a4e28de9145b" name="默认" comment="" />
+    <list default="true" id="ab176845-7d30-4e3e-935d-a4e28de9145b" name="默认" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/lib-common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/lib-public.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/lib-reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/pages/aboutUs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/pages/cases.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/pages/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/pages/newsCenter.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/pages/servicePro.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/aboutUS/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/aboutUS/wzCulture.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/aboutUS/wzDevelopment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/aboutUS/wzTeam.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/cases/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/contactUs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/foolishBird/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/joinUs/idea.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/joinUs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/newsCenter/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/newsCenter/industryNews.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/newsCenter/mediaNews.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/newsCenter/newsDetail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/newsCenter/tclAppraisal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/servicePro/brandRegist.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/servicePro/copyright.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/servicePro/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/servicePro/projectApplication.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/Gif-arr.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/aboutUs-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/aboutUs-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bground/aboutUs-people-show.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bground/advantageBg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bground/fbBg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bground/gridBg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bground/runner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bground/servicePatentBg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bground/serviceValueBg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/case1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/case10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/case2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/case3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/case4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/case5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/case6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/case7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/case8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/case9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/city/city-beijing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/city/city-hangzhou.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/city/city-jiaxing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/city/city-nanjing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/city/city-ningbo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/city/city-shanghai.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/city/city-shaoxing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/city/city-shenzhen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/city/city-suzhou.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/city/city-taizhou.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/city/city-tianjin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/city/city-wenzhou.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/city/city-wuxi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a10s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a11s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a1s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a2s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a3s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a4s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a5s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a6s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a7s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a8s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/a9s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b10s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b11s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b1s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b2s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b3s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b4s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b5s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b6s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b7s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b8s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/b9s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c10s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c11s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c1s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c2s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c3s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c4s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c5s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c6s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c7s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c8s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/c9s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/cry.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/hasee.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/hongtashan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/konka.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/nextYou.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/tongrentang.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/wuliangye.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/culture1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/culture2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/culture3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/culture4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/culture5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/culture6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/earth1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/earth2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/earth3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/earth4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/focusImg/banner-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/focusImg/banner-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/focusImg/banner-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/focusImg/banner-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/focusImg/banner-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/focusImg/slide1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/focusImg/slide2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/focusImg/slide3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icon-1.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icon-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icon-2.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icon-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icon-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icon-4.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icon-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icon-5.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icon-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icon-6.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icon-6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icon-7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icon-8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/qrcode.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/shop/shop1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/shop/shop10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/shop/shop11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/shop/shop12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/shop/shop13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/shop/shop14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/shop/shop2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/shop/shop3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/shop/shop4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/shop/shop5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/shop/shop6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/shop/shop7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/shop/shop8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/shop/shop9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/team/big-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/team/small-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/zheng.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/pages/cases.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/pages/contactUs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/pages/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/pages/joinUs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/pages/wzTeam.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/plugins/unslider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/public.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/lib-common.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/lib-public.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/lib-reset.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/pages/aboutUs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/pages/cases.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/pages/contactUs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/pages/foolishBird.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/pages/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/pages/joinUs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/pages/newsCenter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/pages/servicePro.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/style.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/manifest.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="wzWeb.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -32,7 +254,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -83,7 +305,6 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
     <option name="y" value="23" />
     <option name="width" value="1867" />
     <option name="height" value="1057" />
@@ -274,6 +495,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -281,14 +503,9 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="wzWeb">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,6 +515,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../WZ" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -391,6 +609,7 @@
       <workItem from="1478851381884" duration="896000" />
       <workItem from="1478852307108" duration="5407000" />
       <workItem from="1479258924737" duration="597000" />
+      <workItem from="1479345170927" duration="981000" />
     </task>
     <task id="LOCAL-00001" summary="flag">
       <created>1479191393192</created>
@@ -410,10 +629,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77911000" />
+    <option name="totallyTimeSpent" value="78892000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1867" height="1057" extended-state="6" />
+    <frame x="0" y="23" width="1867" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15113759" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -731,13 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="579" column="37" selection-start-line="579" selection-start-column="37" selection-end-line="579" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/newsCenter/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -782,6 +994,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="82" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
+          <folding />
         </state>
       </provider>
     </entry>
