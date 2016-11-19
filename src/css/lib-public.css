@@ -1,0 +1,899 @@
+/*
+     CSS Reset
+理念：1. reset 的目的不是清除浏览器的默认样式，这仅是部分工作。清除和重置是紧密不可分的。
+     2. reset 的目的不是让默认样式在所有浏览器下一致，而是减少默认样式有可能带来的问题。
+     3. reset 期望提供一套普适通用的基础样式。但没有银弹，推荐根据具体需求，裁剪和修改后再使用。
+*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+/* ------- HTML5 display-role reset for older browsers ------- */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block;
+}
+/** 设置默认字体 **/
+body,
+button,
+input,
+select,
+textarea {
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+address,
+cite,
+dfn,
+em,
+var {
+  font-style: normal;
+}
+/* 将斜体扶正 */
+code,
+kbd,
+pre,
+samp {
+  font-family: courier new, courier, monospace;
+}
+/* 统一等宽字体 */
+small {
+  font-size: 12px;
+}
+/* 小于 12px 的中文很难阅读，让 small 正常化 */
+address,
+cite,
+dfn,
+em,
+var,
+i {
+  font-style: normal;
+}
+:focus {
+  outline: 0;
+}
+small {
+  font-size: 12px;
+}
+ul,
+ol,
+dl {
+  list-style: none;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  outline: 0;
+}
+fieldset,
+img {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+a,
+img {
+  -webkit-touch-callout: none;
+  /* 禁止长按链接与图片弹出菜单 */
+}
+html,
+body {
+  -webkit-user-select: none;
+  /* 禁止选中文本（如无文本选中需求，此为必选项） */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+table {
+  width: 100%;
+  max-width: 100%;
+  border-spacing: 0;
+  border: 0;
+  border-collapse: collapse;
+}
+p {
+  text-align: justify;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+input,
+button,
+textarea {
+  list-style-type: none;
+  cursor: pointer;
+  border: 0;
+}
+input:focus {
+  outline: none;
+}
+ins {
+  display: none;
+  text-decoration: none;
+}
+/** 重置表单元素 **/
+legend {
+  color: #000;
+}
+/* for ie6 */
+fieldset,
+img {
+  border: 0;
+}
+/* img 搭车：让链接里的 img 无边框 */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+/* 使得表单元素在 ie 下能继承字体大小 */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+body {
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "微软雅黑", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+}
+::selection {
+  color: darkgrey;
+}
+body {
+  font-size: 16px;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+  color: #333333;
+  line-height: 1.4;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+}
+/* VARIABLE*/
+/*ICON*/
+.response-img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+.icon-fb:before {
+  background: url("../img/icon-1.png") no-repeat -288px -150px;
+}
+.icon-qq:before {
+  background: url("../img/icon-1.png") no-repeat -259px -202px;
+}
+.icon-tel:before {
+  background: url("../img/icon-1.png") no-repeat -288px -94px;
+}
+.icon-wechat:before {
+  background: url("../img/icon-1.png") no-repeat -311px -204px;
+}
+.icon-backtop:before {
+  background: url("../img/icon-1.png") no-repeat -233px -230px;
+}
+.icon-Q:before {
+  background: url("../img/icon-1.png") no-repeat -174px -152px;
+}
+.icon-C:before {
+  background: url("../img/icon-1.png") no-repeat 0 -152px;
+}
+.icon-P:before {
+  background: url("../img/icon-1.png") no-repeat -58px -152px;
+}
+.icon-E:before {
+  background: url("../img/icon-1.png") no-repeat -116px -152px;
+}
+/* LAYOUT  STYLE*/
+.container {
+  margin: 0 auto 0 auto;
+  width: 1170px;
+  height: auto;
+  overflow: hidden;
+}
+#mask {
+  position: fixed;
+  z-index: 99;
+  content: "";
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before {
+  content: '';
+  display: block;
+}
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.block {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.h-auto {
+  height: auto;
+  overflow: hidden;
+}
+.pos-f {
+  position: fixed;
+}
+.pos-r {
+  position: relative;
+}
+.pos-a {
+  position: absolute;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.pd-v50 {
+  padding: 50px 0;
+}
+.pd-h50 {
+  padding: 0 50px;
+}
+.toTable {
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  display: table;
+}
+.toTable > .lt,
+.toTable > .rt {
+  display: table-cell;
+  vertical-align: middle;
+}
+/*LINK  STYLE*/
+#link-defalt {
+  color: #00b9d1;
+  display: block;
+}
+#link-defalt:hover {
+  color: #6699ff;
+}
+#link-defalt .main-nav {
+  display: block;
+  border-bottom: #da271b solid 6px;
+}
+#link-defalt .main-nav:hover {
+  background-color: #ff0000;
+}
+/*TEXT STYLE*/
+.fontSong {
+  font-size: 16px;
+  font-family: "宋体", "微软雅黑", sans-serif;
+  color: #666;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.f10 {
+  font-size: 10px;
+}
+.f12 {
+  font-size: 12px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f16 {
+  font-size: 16px;
+}
+.f18 {
+  font-size: 18px;
+}
+.f20 {
+  font-size: 20px;
+}
+.f24 {
+  font-size: 24px;
+}
+.f26 {
+  font-size: 26px;
+}
+.f28 {
+  font-size: 28px;
+}
+.f32 {
+  font-size: 32px;
+}
+/* FONT COLOR*/
+/*SNIPPET*/
+.wrap {
+  padding: 120px 0 120px 0;
+  overflow: hidden;
+  height: auto;
+}
+.wrap .title figcaption h3 {
+  position: relative;
+  margin: 0 auto 0 auto;
+  font-size: 28px;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: 400;
+  border-bottom: 1px solid #e1e1e1;
+  display: inline-block;
+  padding: 0 90px 20px;
+}
+.wrap .title figcaption h3:after {
+  position: absolute;
+  content: "";
+  margin-top: -2px;
+  margin-left: -35px;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 3px;
+  background-color: #d33331;
+  top: auto;
+  bottom: -2px;
+}
+.wrap .title.reversion figcaption h3 {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.wrap .title.reversion figcaption h3:after {
+  background-color: #ffffff;
+}
+.wrap .title.reversion p {
+  color: #ffffff;
+}
+.wrap .title > p {
+  text-align: center;
+  padding-top: 20px;
+}
+.wrap .more {
+  display: inline-block;
+}
+.wrap .more > a {
+  color: #333333;
+}
+.wrap .more:after {
+  content: "";
+  float: right;
+  margin-top: 4px;
+  margin-left: 5px;
+  color: #333333;
+  background: url("../img/icon-1.png") no-repeat -343px -26px;
+  display: block;
+  width: 14px;
+  height: 14px;
+}
+.wrap .more:hover {
+  text-decoration: underline;
+}
+.wrap .more:hover:after {
+  background: url("../img/icon-1.png") no-repeat -343px 0;
+}
+#header {
+  zoom: 1;
+  width: 100%;
+  overflow: visible;
+  background-color: #ffffff;
+  z-index: 9999;
+  top: 0;
+}
+#header:before {
+  content: '';
+  display: block;
+}
+#header:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#header #logo {
+  float: left;
+  padding-left: 35px;
+  padding-top: 15px;
+}
+#header #logo a {
+  display: block;
+}
+#header #logo a ins {
+  text-indent: -99999px;
+  display: inline-block;
+}
+#header #navBar {
+  float: right;
+  position: relative;
+  text-align: center;
+  zoom: 1;
+  height: 100px;
+  line-height: 100px;
+}
+#header #navBar dl,
+#header #navBar li {
+  float: left;
+  margin-right: 0;
+}
+#header #navBar:before {
+  content: '';
+  display: block;
+}
+#header #navBar:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#header #navBar .nav > li {
+  position: relative;
+  text-align: center;
+  margin-right: 5px;
+}
+#header #navBar .nav > li a {
+  color: #333333;
+  display: block;
+}
+#header #navBar .nav > li h3 {
+  font-size: 16px;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+}
+#header #navBar .nav > li h3 a {
+  position: relative;
+  width: 120px;
+}
+#header #navBar .nav > li h3 a:after {
+  -webkit-transition: width 0.3s ease-out, left 0.3s ease-out, border-color 0.3s ease-out;
+  transition: width 0.3s ease-out, left 0.3s ease-out, border-color 0.3s ease-out;
+  position: absolute;
+  content: "";
+  margin-top: -18px;
+  margin-left: 0;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 36px;
+  height: 10px;
+  top: auto;
+  bottom: -10px;
+  border-top: 4px solid #d33331;
+  padding-bottom: inherit;
+}
+#header #navBar .nav > li h3.active a:after,
+#header #navBar .nav > li h3:hover a:after {
+  width: 122px;
+  left: -3px;
+}
+#header #navBar .nav > li.double h3:hover a:after {
+  width: 242px;
+  left: -60px;
+}
+#header #navBar .nav > li.double .sub {
+  width: 240px;
+  left: -50%;
+}
+#header #navBar .sub {
+  position: absolute;
+  text-align: center;
+  border: 1px solid #d7d7d7;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: none;
+  left: -3px;
+  top: 100px;
+  z-index: 1;
+  width: 120px;
+  background: #ffffff;
+}
+#header #navBar .sub li {
+  margin-bottom: -1px;
+  width: 120px;
+  box-sizing: border-box;
+}
+#header #navBar .sub li a {
+  border-bottom: 1px solid #d7d7d7;
+  line-height: 30px;
+  padding: 8px;
+}
+#header #navBar .sub li a:hover {
+  padding-left: 5px;
+  margin-left: -1px;
+  border-left: 3px solid #da271b;
+  background: #f8f8f8;
+}
+#main-footer {
+  padding: 50px 0;
+  color: #ffffff;
+  background: #3d3d3d;
+  height: auto;
+  overflow: hidden;
+}
+#main-footer .btm-nav {
+  border-bottom: 1px solid #ffffff;
+  margin: 0 auto 0 auto;
+  width: 1170px;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+  padding-bottom: 50px;
+}
+#main-footer .btm-nav dl,
+#main-footer .btm-nav li {
+  float: left;
+  margin-right: 212px;
+}
+#main-footer .btm-nav:before {
+  content: '';
+  display: block;
+}
+#main-footer .btm-nav:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#main-footer .btm-nav dl:last-of-type {
+  margin-right: 0;
+}
+#main-footer .btm-nav dt {
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 10px 0;
+}
+#main-footer .btm-nav dd {
+  line-height: 30px;
+}
+#main-footer .btm-nav dd a {
+  color: #ffffff;
+}
+#main-footer .btm-nav dd a:hover {
+  font-weight: 600;
+  color: #ffffff;
+}
+#main-footer .btm-contact {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#main-footer .btm-contact li {
+  position: relative;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: inline-block;
+}
+#main-footer .btm-contact li > a {
+  padding-left: 30px;
+  color: #ffffff;
+}
+#main-footer .btm-contact li > a:hover {
+  font-weight: normal;
+  color: #d33331;
+}
+#main-footer .btm-contact li > a:before {
+  position: absolute;
+  content: "";
+  width: 26px;
+  height: 26px;
+  left: 0;
+  top: 0;
+}
+#main-footer .btm-contact li > a.icon-fb:before {
+  left: -25px;
+  width: 48px;
+}
+#main-footer .btm-contact li > a.icon-wechat:before {
+  left: -5px;
+  width: 30px;
+}
+#main-footer .btm-contact li > a.icon-fb:hover:before {
+  background: url("../img/icon-1.png") no-repeat -288px -122px;
+}
+#main-footer .btm-contact li > a.icon-qq:hover:before {
+  background: url("../img/icon-1.png") no-repeat -233px -202px;
+}
+#main-footer .btm-contact li > a.icon-tel:hover:before {
+  background: url("../img/icon-1.png") no-repeat -285px -202px;
+}
+#main-footer .btm-contact li > a.icon-wechat:hover:before {
+  background: url("../img/icon-1.png") no-repeat -311px -178px;
+}
+#main-footer .btm-contact li > span {
+  position: absolute;
+  display: none;
+}
+#main-footer .btm-contact li > span.tip {
+  margin-top: -20px;
+  margin-left: -100px;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 40px;
+  border-radius: 4px;
+  line-height: 40px;
+  background-color: #d33331;
+  top: -50px;
+}
+#main-footer .btm-contact li > span.tip:after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: -10px;
+  margin-left: -5px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #d33331;
+}
+#main-footer .btm-contact li > span.qrcode {
+  margin-top: -59px;
+  margin-left: -59px;
+  top: 50%;
+  left: 50%;
+  width: 118px;
+  height: 118px;
+  top: -90px;
+}
+#main-footer .btm-contact li:hover span {
+  display: block;
+}
+#main-footer .btm-copyright {
+  font-size: 14px;
+}
+#sideBar {
+  position: fixed;
+  margin-top: -100px;
+  z-index: 99999;
+  height: 200px;
+  top: 50%;
+  right: 0;
+  width: 50px;
+}
+#sideBar ul > li {
+  position: relative;
+  margin-bottom: 2px;
+  font-size: 14px;
+  background: rgba(36, 36, 36, 0.8);
+  cursor: pointer;
+}
+#sideBar ul > li em {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+#sideBar ul > li em.icon-qq:before,
+#sideBar ul > li em.icon-tel:before {
+  position: absolute;
+  content: "";
+  margin-top: -13px;
+  margin-left: -13px;
+  top: 50%;
+  left: 50%;
+  width: 26px;
+  height: 26px;
+}
+#sideBar ul > li em.icon-wechat:before {
+  position: absolute;
+  content: "";
+  margin-top: -13px;
+  margin-left: -15px;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 26px;
+}
+#sideBar ul > li em.icon-backtop:before {
+  position: absolute;
+  content: "";
+  margin-top: -9px;
+  margin-left: -14px;
+  top: 50%;
+  left: 50%;
+  width: 28px;
+  height: 18px;
+}
+#sideBar ul > li span {
+  position: absolute;
+  top: 0;
+  background-color: #d33331;
+  color: #ffffff;
+  display: none;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+#sideBar ul > li span > a:only-child {
+  display: block;
+  color: #ffffff;
+}
+#sideBar ul > li:hover {
+  background-color: #d33331;
+}
+#sideBar ul > li .qrImg {
+  position: absolute;
+  width: 118px;
+  height: 118px;
+  right: -200px;
+  top: 0;
+}
+#sideBar ul > li .qrImg img:only-child {
+  display: block;
+}
+.sub-tabBar {
+  height: 60px;
+  line-height: 60px;
+  padding: 40px 0;
+  border-bottom: 1px solid #cccccc;
+}
+.sub-tabBar .currentMode {
+  text-transform: uppercase;
+  width: 500px;
+}
+.sub-tabBar .currentMode > h4 {
+  float: left;
+  font-size: 40px;
+  font-weight: 700;
+}
+.sub-tabBar .currentMode > h4 i {
+  color: #d33331;
+}
+.sub-tabBar .currentMode > span {
+  float: left;
+  position: relative;
+  padding: 9px 0 9px 30px;
+  line-height: 20px;
+}
+.sub-tabBar .currentMode > span:before {
+  position: absolute;
+  content: "";
+  margin-top: -2px;
+  margin-left: -2px;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  background-color: #d33331;
+  left: 15px;
+}
+.sub-tabBar .currentMode > span b {
+  font-size: 18px;
+}
+.sub-tabBar .currentMode > span strong {
+  font-size: 12px;
+  display: block;
+  font-weight: normal;
+}
+.sub-tabBar .tab {
+  zoom: 1;
+  padding: 14px 0;
+  width: 400px;
+  height: auto;
+  overflow: hidden;
+}
+.sub-tabBar .tab dl,
+.sub-tabBar .tab li {
+  float: left;
+  margin-right: 0;
+}
+.sub-tabBar .tab:before {
+  content: '';
+  display: block;
+}
+.sub-tabBar .tab:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.sub-tabBar .tab li {
+  margin-left: 16px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 10px;
+  background-color: #333333;
+}
+.sub-tabBar .tab li > a {
+  display: block;
+  color: #ffffff;
+}
+.sub-tabBar .tab li.active {
+  background-color: #d33331;
+}

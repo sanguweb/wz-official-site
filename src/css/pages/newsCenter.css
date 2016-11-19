@@ -1,0 +1,717 @@
+/*
+     CSS Reset
+理念：1. reset 的目的不是清除浏览器的默认样式，这仅是部分工作。清除和重置是紧密不可分的。
+     2. reset 的目的不是让默认样式在所有浏览器下一致，而是减少默认样式有可能带来的问题。
+     3. reset 期望提供一套普适通用的基础样式。但没有银弹，推荐根据具体需求，裁剪和修改后再使用。
+*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+/* ------- HTML5 display-role reset for older browsers ------- */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block;
+}
+/** 设置默认字体 **/
+body,
+button,
+input,
+select,
+textarea {
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+address,
+cite,
+dfn,
+em,
+var {
+  font-style: normal;
+}
+/* 将斜体扶正 */
+code,
+kbd,
+pre,
+samp {
+  font-family: courier new, courier, monospace;
+}
+/* 统一等宽字体 */
+small {
+  font-size: 12px;
+}
+/* 小于 12px 的中文很难阅读，让 small 正常化 */
+address,
+cite,
+dfn,
+em,
+var,
+i {
+  font-style: normal;
+}
+:focus {
+  outline: 0;
+}
+small {
+  font-size: 12px;
+}
+ul,
+ol,
+dl {
+  list-style: none;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  outline: 0;
+}
+fieldset,
+img {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+a,
+img {
+  -webkit-touch-callout: none;
+  /* 禁止长按链接与图片弹出菜单 */
+}
+html,
+body {
+  -webkit-user-select: none;
+  /* 禁止选中文本（如无文本选中需求，此为必选项） */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+table {
+  width: 100%;
+  max-width: 100%;
+  border-spacing: 0;
+  border: 0;
+  border-collapse: collapse;
+}
+p {
+  text-align: justify;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+input,
+button,
+textarea {
+  list-style-type: none;
+  cursor: pointer;
+  border: 0;
+}
+input:focus {
+  outline: none;
+}
+ins {
+  display: none;
+  text-decoration: none;
+}
+/** 重置表单元素 **/
+legend {
+  color: #000;
+}
+/* for ie6 */
+fieldset,
+img {
+  border: 0;
+}
+/* img 搭车：让链接里的 img 无边框 */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+/* 使得表单元素在 ie 下能继承字体大小 */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+body {
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "微软雅黑", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+}
+::selection {
+  color: darkgrey;
+}
+body {
+  font-size: 16px;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: normal;
+  color: #333333;
+  line-height: 1.4;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+}
+/* VARIABLE*/
+/*ICON*/
+.response-img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+.icon-fb:before {
+  background: url("../img/icon-1.png") no-repeat -288px -150px;
+}
+.icon-qq:before {
+  background: url("../img/icon-1.png") no-repeat -259px -202px;
+}
+.icon-tel:before {
+  background: url("../img/icon-1.png") no-repeat -288px -94px;
+}
+.icon-wechat:before {
+  background: url("../img/icon-1.png") no-repeat -311px -204px;
+}
+.icon-backtop:before {
+  background: url("../img/icon-1.png") no-repeat -233px -230px;
+}
+.icon-Q:before {
+  background: url("../img/icon-1.png") no-repeat -174px -152px;
+}
+.icon-C:before {
+  background: url("../img/icon-1.png") no-repeat 0 -152px;
+}
+.icon-P:before {
+  background: url("../img/icon-1.png") no-repeat -58px -152px;
+}
+.icon-E:before {
+  background: url("../img/icon-1.png") no-repeat -116px -152px;
+}
+/* LAYOUT  STYLE*/
+.container {
+  margin: 0 auto 0 auto;
+  width: 1170px;
+  height: auto;
+  overflow: hidden;
+}
+#mask {
+  position: fixed;
+  z-index: 99;
+  content: "";
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before {
+  content: '';
+  display: block;
+}
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.block {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.h-auto {
+  height: auto;
+  overflow: hidden;
+}
+.pos-f {
+  position: fixed;
+}
+.pos-r {
+  position: relative;
+}
+.pos-a {
+  position: absolute;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.pd-v50 {
+  padding: 50px 0;
+}
+.pd-h50 {
+  padding: 0 50px;
+}
+.toTable {
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  display: table;
+}
+.toTable > .lt,
+.toTable > .rt {
+  display: table-cell;
+  vertical-align: middle;
+}
+/*LINK  STYLE*/
+#link-defalt {
+  color: #00b9d1;
+  display: block;
+}
+#link-defalt:hover {
+  color: #6699ff;
+}
+#link-defalt .main-nav {
+  display: block;
+  border-bottom: #da271b solid 6px;
+}
+#link-defalt .main-nav:hover {
+  background-color: #ff0000;
+}
+/*TEXT STYLE*/
+.fontSong {
+  font-size: 16px;
+  font-family: "宋体", "微软雅黑", sans-serif;
+  color: #666;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.f10 {
+  font-size: 10px;
+}
+.f12 {
+  font-size: 12px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f16 {
+  font-size: 16px;
+}
+.f18 {
+  font-size: 18px;
+}
+.f20 {
+  font-size: 20px;
+}
+.f24 {
+  font-size: 24px;
+}
+.f26 {
+  font-size: 26px;
+}
+.f28 {
+  font-size: 28px;
+}
+.f32 {
+  font-size: 32px;
+}
+/* FONT COLOR*/
+/*SNIPPET*/
+.wrap {
+  padding: 120px 0 120px 0;
+  overflow: hidden;
+  height: auto;
+}
+.wrap .title figcaption h3 {
+  position: relative;
+  margin: 0 auto 0 auto;
+  font-size: 28px;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: 400;
+  border-bottom: 1px solid #e1e1e1;
+  display: inline-block;
+  padding: 0 90px 20px;
+}
+.wrap .title figcaption h3:after {
+  position: absolute;
+  content: "";
+  margin-top: -2px;
+  margin-left: -35px;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 3px;
+  background-color: #d33331;
+  top: auto;
+  bottom: -2px;
+}
+.wrap .title.reversion figcaption h3 {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.wrap .title.reversion figcaption h3:after {
+  background-color: #ffffff;
+}
+.wrap .title.reversion p {
+  color: #ffffff;
+}
+.wrap .title > p {
+  text-align: center;
+  padding-top: 20px;
+}
+.wrap .more {
+  display: inline-block;
+}
+.wrap .more > a {
+  color: #333333;
+}
+.wrap .more:after {
+  content: "";
+  float: right;
+  margin-top: 4px;
+  margin-left: 5px;
+  color: #333333;
+  background: url("../img/icon-1.png") no-repeat -343px -26px;
+  display: block;
+  width: 14px;
+  height: 14px;
+}
+.wrap .more:hover {
+  text-decoration: underline;
+}
+.wrap .more:hover:after {
+  background: url("../img/icon-1.png") no-repeat -343px 0;
+}
+#newsList .news-item {
+  zoom: 1;
+  box-sizing: border-box;
+  padding: 30px;
+  border-bottom: 1px dashed #c7c7c7;
+}
+#newsList .news-item:before {
+  content: '';
+  display: block;
+}
+#newsList .news-item:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#newsList .news-item:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  border-bottom: none;
+}
+#newsList .news-item > .box {
+  height: 130px;
+  display: table-cell;
+  vertical-align: top;
+}
+#newsList .news-item > .box.lt {
+  text-align: center;
+}
+#newsList .news-item > .box.rt {
+  padding-left: 20px;
+}
+#newsList .news-item > .box.rt a {
+  font-size: 18px;
+  color: #333333;
+}
+#newsList .news-item > .box.rt a:hover {
+  font-weight: normal;
+  color: #d33331;
+}
+#newsList .news-item > .box.rt .news-property {
+  font-size: 12px;
+  padding: 10px 0 10px 0;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+}
+#newsList .news-item > .box.rt .news-property dl,
+#newsList .news-item > .box.rt .news-property li {
+  float: left;
+  margin-right: 20px;
+}
+#newsList .news-item > .box.rt .news-property:before {
+  content: '';
+  display: block;
+}
+#newsList .news-item > .box.rt .news-property:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#newsList .news-item > .box.rt .news-preview {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+#newsList .news-item > .box.rt .news-preview a:only-child {
+  font-size: 14px;
+}
+#newsList .news-item > .imgBox {
+  width: 230px;
+}
+#newsList .news-item > .imgBox img {
+  height: 130px;
+}
+#newsList .news-item > .dateBox {
+  width: 70px;
+  height: 100px;
+  color: #ffffff;
+}
+#newsList .news-item > .dateBox > span {
+  display: block;
+  font-size: 40px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background-color: #d33331;
+}
+#newsList .news-item > .dateBox > time {
+  display: block;
+  font-size: 14px;
+  margin-top: 10px;
+  height: 20px;
+  line-height: 20px;
+  background-color: #333333;
+}
+#paginationBar {
+  padding: 0 0 100px 0;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+#paginationBar ul li {
+  display: inline-block;
+  background-color: #ffffff;
+  border: 1px solid #d7d7d7;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 4px;
+}
+#paginationBar ul li a {
+  display: block;
+  color: #333333;
+}
+#paginationBar ul li a:hover {
+  font-weight: normal;
+  color: #d33331;
+}
+#paginationBar ul li.current {
+  color: #d33331;
+}
+#paginationBar ul li.prev,
+#paginationBar ul li.next {
+  text-indent: -99999px;
+  border: none;
+}
+#paginationBar ul li.prev {
+  background: url("../img/icon-5.png") -334px 0;
+}
+#paginationBar ul li.prev:hover {
+  background: url("../img/icon-5.png") -302px 0;
+}
+#paginationBar ul li.next {
+  background: url("../img/icon-5.png") -270px 0;
+}
+#paginationBar ul li.next:hover {
+  background: url("../img/icon-5.png") -238px 0;
+}
+#newsDetail h2 {
+  font-size: 18px;
+}
+#newsDetail .news-property {
+  padding: 20px 0 20px 0;
+  height: auto;
+  overflow: hidden;
+}
+#newsDetail .news-property li {
+  font-size: 12px;
+  float: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+#newsDetail > .imgBox {
+  padding: 30px 0 10px 0;
+  height: auto;
+  overflow: hidden;
+}
+#newsDetail > .imgBox p {
+  padding: 10px 0 10px 0;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+#newsDetail > p {
+  padding: 15px 0 15px 0;
+  height: auto;
+  overflow: hidden;
+  text-align: left;
+  line-height: 1.8;
+  text-indent: 2em;
+}
+#shareBar {
+  background-color: #f8f8f8;
+  padding: 15px 0 15px 0;
+  height: auto;
+  overflow: hidden;
+}
+#shareBar a {
+  font-size: 16px;
+  color: #333333;
+}
+.news-control {
+  padding: 50px 0;
+}
+.news-control .lt,
+.news-control .rt {
+  display: table-cell;
+  vertical-align: middle;
+}
+.news-control .lt {
+  width: 80%;
+}
+.news-control .lt > span {
+  height: 40px;
+  line-height: 40px;
+  display: block;
+}
+.news-control .lt > span > a {
+  color: #333333;
+}
+.news-control .lt > span > a:hover {
+  font-weight: normal;
+  color: #d33331;
+}
+.news-control .rt {
+  text-align: right;
+}
+.news-control .rt > span {
+  display: inline-block;
+  position: relative;
+}
+.news-control .rt > span:before {
+  position: absolute;
+  content: "";
+  margin-top: -16px;
+  margin-left: -16px;
+  top: 50%;
+  left: 50%;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  content: "<";
+  background: #d33331;
+  line-height: 32px;
+  color: #ffffff;
+  left: 0;
+}
+.news-control .rt a {
+  display: block;
+  background-color: #f4f4f4;
+  width: 90px;
+  height: 32px;
+  line-height: 32px;
+  padding-right: 15px;
+  color: #333333;
+}
+.news-control .rt a:hover {
+  font-weight: normal;
+  color: #ffffff;
+}
+.news-control .rt a:hover {
+  background-color: #d33331;
+}
