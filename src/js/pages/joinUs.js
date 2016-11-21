@@ -15,7 +15,7 @@ $(function () {
 });
 
 wzJoinUs.init = function () {
-
+  
   //初始化表格
   wzJoinUs.creatTable();
   // 弹框
@@ -43,27 +43,27 @@ wzJoinUs.popUp = function () {
   var jobDetail = $('#jobDetail'), //详情
     preViewBtn = $('.tab-content').find('.preview'),// 按钮
     closedBtn = jobDetail.find('#job-close-btn'), //关闭按钮
-
+    
     //title(DOM)
     jobTitle = jobDetail.find('.job-title'),
     //main(DOM)
     jobDescription = jobDetail.find('#content'),
-
+    
     //header(DOM)
     basic = jobDetail.find('.job-point').find('li').find('span'),
     department = basic.eq(0),//部门
     peoples = basic.eq(1),//人数
     background = basic.eq(2),//教育背景
     area = basic.eq(3);//适用范围
-
+  
   $.each(preViewBtn, function (i) {
-    $(this).click( function () {
+    $(this).click(function () {
       jobDetail.fadeIn(200).addClass('open');
-
+      
       //对应的json
       var JobDetailsList = eval("wzJoinUs.JobDetailsList.job" + i);
       var basic = JobDetailsList.basic; //基础信息
-
+      
       //导入对应数据
       jobTitle.text(JobDetailsList.title);
       department.text(basic.department);
@@ -133,7 +133,7 @@ wzJoinUs.JobDetailsList = {
       area: '相关工作2年以上',
       date: '2016-08-12'
     },
-    description: '<figure><ol><li>1.不管你来自哪里，我们希望你正直，待人真诚。</li><li>2.无论你年龄大小，我们希望你有强烈的成功欲望，证明自己存在的价值。</li><li>3.你一定要能吃苦，要勤奋，否则别到这里来。因为勤奋+思考才容易更快的成长。维正才能更好地成长。</li><li>4.你一定要有团队意识，一个人可以走的很快，但不可能走得很远。</li><li>5.你要敢于突破自己，不逼自己一把，你永远不知道自己有多强。</li><li>6.你要懂得自律，如果现在还不能自律，那就让团队和环境来帮助你。</li><li>7.拥有超强的执行力， 一流的创意+三流的执行永远比不上三流创意+一流的执行，加入我们！</li></ol></figure><figure><h5>岗位职责：</h5><li>1.通过多种渠道挖掘潜在客户，将其转为意向客户；</li><li>2.为客户制定知识产权规划方案，帮助企业客户通过维护知识产权获得利益；</li><li>3.与客户建立长期良好合作关系，提供全面的售后服务；</li><li>4.不断扩大自己的客户圈，凭借每月绩效获得报酬。</li></figure><figure><h5>任职资格：</h5><li>1.20-30岁，口齿清晰，灵活性强，抗压能力出众；</li><li>2.热爱并看好知识产权行业的发展前景，有志于在本行业长期发展；</li><li>3.对销售工作有较高的热情；</li><li>4.有上进心，富有不断进取的精神和良好团队合作意识；</li><li>5.有敏锐的市场洞察力，有强烈的事业心、责任心和积极的工作态度，有相关电话销售工作经验者优先。</li></figure><figure><h5>人才培养计划</h5><p>晋升渠道：商务专员---商务经理---商务总监---商务大区总监---分公司股东</p></figure>'
+    description: '<figure><ol><li>1.不管你来自哪里，我们希望你正直，待人真诚。</li> <li>2.无论你年龄大小，我们希望你有强烈的成功欲望，证明自己存在的价值。</li> <li>3.你一定要能吃苦，要勤奋，否则别到这里来。因为勤奋+思考才容易更快的成长。维正才能更好地成长。</li> <li>4.你一定要有团队意识，一个人可以走的很快，但不可能走得很远。</li> <li>5.你要敢于突破自己，不逼自己一把，你永远不知道自己有多强。</li> <li>6.你要懂得自律，如果现在还不能自律，那就让团队和环境来帮助你。</li> <li>7.拥有超强的执行力， 一流的创意+三流的执行永远比不上三流创意+一流的执行，加入我们！</li> </ol> </figure> <figure><h5>岗位职责：</h5> <ol> <li>1.通过多种渠道挖掘潜在客户，将其转为意向客户；</li> <li>2.为客户制定知识产权规划方案，帮助企业客户通过维护知识产权获得利益；</li> <li>3.与客户建立长期良好合作关系，提供全面的售后服务；</li> <li>4.不断扩大自己的客户圈，凭借每月绩效获得报酬。</li> </ol> </figure> <figure><h5>任职资格：</h5> <ol> <li>1.20-30岁，口齿清晰，灵活性强，抗压能力出众；</li> <li>2.热爱并看好知识产权行业的发展前景，有志于在本行业长期发展；</li> <li>3.对销售工作有较高的热情；</li> <li>4.有上进心，富有不断进取的精神和良好团队合作意识；</li> <li>5.有敏锐的市场洞察力，有强烈的事业心、责任心和积极的工作态度，有相关电话销售工作经验者优先。</li> </ol> </figure> <figure><h5>人才培养计划</h5> <p>晋升渠道：商务专员---商务经理---商务总监---商务大区总监---分公司股东</p></figure> '
   },
   job4: {
     title: '项目工程师',

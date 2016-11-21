@@ -139,14 +139,6 @@ img {
   -webkit-touch-callout: none;
   /* 禁止长按链接与图片弹出菜单 */
 }
-html,
-body {
-  -webkit-user-select: none;
-  /* 禁止选中文本（如无文本选中需求，此为必选项） */
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
 button,
 input,
 select,
@@ -221,5 +213,6 @@ body {
   -moz-font-feature-settings: "liga" on;
 }
 ::selection {
-  color: darkgrey;
+  color: #fff;
+  background-color: #da271b;
 }

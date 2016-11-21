@@ -1,7 +1,8 @@
 @import "lib-reset";
 //RESET
 body {
-  .font(16px, "微软雅黑", normal);
+  .f16;
+  font-family:"微软雅黑", sans-serif;
   color:rgba(51, 51, 51, 1);
   line-height:1.4;
   text-rendering:optimizeLegibility;
@@ -293,9 +294,7 @@ body {
 }
 
 .fontSong {
-  .f16;
-  font-family:"宋体", "微软雅黑", sans-serif;
-  color:#666;
+  font-family:"STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
 }
 
 .text-center {
@@ -401,6 +400,7 @@ body {
     }
     //副标题
     & > p {
+      .fontSong;
       .text-center;
       .pt(20px);
     }

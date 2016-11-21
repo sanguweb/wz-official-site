@@ -139,14 +139,6 @@ img {
   -webkit-touch-callout: none;
   /* 禁止长按链接与图片弹出菜单 */
 }
-html,
-body {
-  -webkit-user-select: none;
-  /* 禁止选中文本（如无文本选中需求，此为必选项） */
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
 button,
 input,
 select,
@@ -221,13 +213,12 @@ body {
   -moz-font-feature-settings: "liga" on;
 }
 ::selection {
-  color: darkgrey;
+  color: #fff;
+  background-color: #da271b;
 }
 body {
   font-size: 16px;
-  font-family: "微软雅黑";
-  font-style: normal;
-  font-weight: normal;
+  font-family: "微软雅黑", sans-serif;
   color: #333333;
   line-height: 1.4;
   text-rendering: optimizeLegibility;
@@ -358,9 +349,7 @@ body {
 }
 /*TEXT STYLE*/
 .fontSong {
-  font-size: 16px;
-  font-family: "宋体", "微软雅黑", sans-serif;
-  color: #666;
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
 }
 .text-center {
   text-align: center;
@@ -443,6 +432,7 @@ body {
   color: #ffffff;
 }
 .wrap .title > p {
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
   text-align: center;
   padding-top: 20px;
 }
@@ -683,7 +673,7 @@ body {
 }
 .map-info {
   position: absolute;
-  top: 0px;
+  top: 0;
   right: 0;
   height: 400px;
 }

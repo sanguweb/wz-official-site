@@ -139,14 +139,6 @@ img {
   -webkit-touch-callout: none;
   /* 禁止长按链接与图片弹出菜单 */
 }
-html,
-body {
-  -webkit-user-select: none;
-  /* 禁止选中文本（如无文本选中需求，此为必选项） */
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
 button,
 input,
 select,
@@ -221,13 +213,12 @@ body {
   -moz-font-feature-settings: "liga" on;
 }
 ::selection {
-  color: darkgrey;
+  color: #fff;
+  background-color: #da271b;
 }
 body {
   font-size: 16px;
-  font-family: "微软雅黑";
-  font-style: normal;
-  font-weight: normal;
+  font-family: "微软雅黑", sans-serif;
   color: #333333;
   line-height: 1.4;
   text-rendering: optimizeLegibility;
@@ -358,9 +349,7 @@ body {
 }
 /*TEXT STYLE*/
 .fontSong {
-  font-size: 16px;
-  font-family: "宋体", "微软雅黑", sans-serif;
-  color: #666;
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
 }
 .text-center {
   text-align: center;
@@ -443,6 +432,7 @@ body {
   color: #ffffff;
 }
 .wrap .title > p {
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
   text-align: center;
   padding-top: 20px;
 }
@@ -571,8 +561,8 @@ body {
   width: 25%;
 }
 #service .service-list li .box {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 #service .service-list li .box > span:first-child {
   margin: 0 auto 0 auto;
@@ -597,11 +587,7 @@ body {
   display: block;
 }
 #service .service-list li .box > p {
-  font-size: 16px;
-  font-family: "宋体", "微软雅黑", sans-serif;
-  color: #666;
-  margin: 0 auto 0 auto;
-  width: 238px;
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
 }
 #service .service-list li:not(:last-of-type):after {
   content: "";
@@ -612,7 +598,20 @@ body {
   top: 40px;
   right: 0;
 }
-#service .service-list li a:after,
+#service .service-list li a:after {
+  position: absolute;
+  content: "";
+  margin-top: -50px;
+  margin-left: -50px;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  z-index: 9;
+  background: red;
+  display: none;
+}
 #service .service-list li a:before {
   position: absolute;
   content: "";
@@ -622,44 +621,47 @@ body {
   left: 50%;
   width: 56px;
   height: 56px;
+  z-index: 99;
 }
-#service .service-list li:hover a {
-  border-radius: 50%;
+#service .service-list li:hover a:after {
+  display: block;
+  -webkit-animation: bounceIn .5s .2s ease both;
+  -moz-animation: bounceIn .5s .2s ease both;
 }
 #service .service-list li:nth-of-type(1):hover span:first-child {
   border: 1px solid #f6ab33;
 }
-#service .service-list li:nth-of-type(1):hover a {
+#service .service-list li:nth-of-type(1):hover a:after {
   background-color: #f6ab33;
 }
-#service .service-list li:nth-of-type(1):hover a:after {
+#service .service-list li:nth-of-type(1):hover a:before {
   background: url("../img/icon-1.png") no-repeat -174px -94px;
 }
 #service .service-list li:nth-of-type(2):hover span:first-child {
   border: 1px solid #f3c600;
 }
-#service .service-list li:nth-of-type(2):hover a {
+#service .service-list li:nth-of-type(2):hover a:after {
   background-color: #f3c600;
 }
-#service .service-list li:nth-of-type(2):hover a:after {
+#service .service-list li:nth-of-type(2):hover a:before {
   background: url("../img/icon-1.png") no-repeat 0 -94px;
 }
 #service .service-list li:nth-of-type(3):hover span:first-child {
   border: 1px solid #4eba69;
 }
-#service .service-list li:nth-of-type(3):hover a {
+#service .service-list li:nth-of-type(3):hover a:after {
   background-color: #4eba69;
 }
-#service .service-list li:nth-of-type(3):hover a:after {
+#service .service-list li:nth-of-type(3):hover a:before {
   background: url("../img/icon-1.png") no-repeat -58px -94px;
 }
 #service .service-list li:nth-of-type(4):hover span:first-child {
   border: 1px solid #6bc5eb;
 }
-#service .service-list li:nth-of-type(4):hover a {
+#service .service-list li:nth-of-type(4):hover a:after {
   background: #6bc5eb;
 }
-#service .service-list li:nth-of-type(4):hover a:after {
+#service .service-list li:nth-of-type(4):hover a:before {
   background: url("../img/icon-1.png") no-repeat -116px -94px;
 }
 #project .project-list {
@@ -689,6 +691,23 @@ body {
 }
 #project .project-list li .response-img {
   height: 100%;
+  -moz-transition: transform 0.6s ease 0s;
+  transition: transform 0.6s ease 0s;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition-timing-function: ease;
+}
+#project .project-list li:hover .response-img {
+  -moz-transition: transform 0.6s ease 0s;
+  transition: transform 0.6s ease 0s;
+  transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
 }
 #project .project-list li .mask {
   position: absolute;
@@ -706,8 +725,9 @@ body {
   display: block;
 }
 #project .project-list li .mask > label {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-size: 18px;
+  font-weight: bold;
 }
 #project .project-list li .mask .text {
   width: 100%;
@@ -715,10 +735,13 @@ body {
 #project .project-list li .mask .text > label {
   text-align: center;
   font-size: 22px;
+  padding: 10px 0 10px 0;
+  height: auto;
+  overflow: hidden;
 }
 #project .project-list li .mask .text > p:first-of-type {
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
   height: 65px;
-  text-indent: 2em;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -876,6 +899,7 @@ body {
 }
 #news .tab-content .last-news p,
 #news .tab-content li p {
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
   font-size: 12px;
   line-height: 1.6;
 }
@@ -1052,4 +1076,6 @@ body {
 }
 #client #logos .box > li:hover span {
   display: block;
+  -webkit-animation: flipInY 1s .2s ease both;
+  -moz-animation: flipInY 1s .2s ease both;
 }

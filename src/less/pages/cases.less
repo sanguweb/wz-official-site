@@ -40,18 +40,21 @@
       }
       & > span {
         .pos-r;
+        .fl;
+        padding:8px 0 0 20px;
         &:before {
           .before(6px, 6px);
           background-color:@red;
-          left:8px;
+          left:9px;
         }
-        .fl;
-        padding:8px 0 0 20px;
         label {
+          .f18;
           .block;
+          font-weight:700;
           line-height:20px;
         }
         sub {
+          .fontSong;
           .f12;
         }
       }
@@ -105,12 +108,13 @@
     padding:7px 0 7px 14px;
     line-height:1.4;
     cursor:pointer;
-    small {
+    & > small {
       .block;
       .f12;
+      .text-left;
+      text-indent:-12px;
       -webkit-transform:scale(0.8333333);
       transform:scale(0.8333333);
-      .text-left
     }
     &.current {
       .pos-r;

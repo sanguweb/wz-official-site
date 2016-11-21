@@ -139,14 +139,6 @@ img {
   -webkit-touch-callout: none;
   /* 禁止长按链接与图片弹出菜单 */
 }
-html,
-body {
-  -webkit-user-select: none;
-  /* 禁止选中文本（如无文本选中需求，此为必选项） */
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
 button,
 input,
 select,
@@ -221,13 +213,12 @@ body {
   -moz-font-feature-settings: "liga" on;
 }
 ::selection {
-  color: darkgrey;
+  color: #fff;
+  background-color: #da271b;
 }
 body {
   font-size: 16px;
-  font-family: "微软雅黑";
-  font-style: normal;
-  font-weight: normal;
+  font-family: "微软雅黑", sans-serif;
   color: #333333;
   line-height: 1.4;
   text-rendering: optimizeLegibility;
@@ -358,9 +349,7 @@ body {
 }
 /*TEXT STYLE*/
 .fontSong {
-  font-size: 16px;
-  font-family: "宋体", "微软雅黑", sans-serif;
-  color: #666;
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
 }
 .text-center {
   text-align: center;
@@ -443,6 +432,7 @@ body {
   color: #ffffff;
 }
 .wrap .title > p {
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
   text-align: center;
   padding-top: 20px;
 }
@@ -506,13 +496,15 @@ body {
   text-align: center;
 }
 .aboutUs-content .title ~ p {
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
   text-indent: 2em;
   padding-bottom: 15px;
 }
 .aboutUs-content strong.tip {
   font-size: 14px;
   position: relative;
-  line-height: 22px;
+  margin-top: 3px;
+  line-height: 24px;
   display: inline-block;
   padding: 0 5px;
   background-color: #333333;
@@ -521,12 +513,12 @@ body {
 .aboutUs-content strong.tip:after {
   content: "";
   position: absolute;
-  right: -22px;
+  right: -24px;
   top: 0;
   width: 0;
   height: 0;
-  border-top: 22px solid #333333;
-  border-right: 22px solid transparent;
+  border-top: 24px solid #333333;
+  border-right: 24px solid transparent;
 }
 .aboutUs-content.grid-bg {
   background: url("../img/bground/gridBg.png") repeat #f8f8f8;
@@ -624,10 +616,12 @@ body {
 }
 .description-text .box > label {
   height: 46px;
+  text-align: right;
 }
 .description-text .box > label i {
   font-size: 10px;
   margin-bottom: 5px;
+  text-align: center;
   background-color: #d33331;
   color: #ffffff;
   padding: 3px;
@@ -666,8 +660,9 @@ body {
   font-size: 18px;
 }
 .ourCulture-table table td section:only-child p {
-  padding: 5px 0;
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
   font-size: 14px;
+  padding: 5px 0;
 }
 .ourCulture-table table tr:first-of-type td:nth-of-type(2) {
   background-color: #5e5e5e;

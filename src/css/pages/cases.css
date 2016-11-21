@@ -139,14 +139,6 @@ img {
   -webkit-touch-callout: none;
   /* 禁止长按链接与图片弹出菜单 */
 }
-html,
-body {
-  -webkit-user-select: none;
-  /* 禁止选中文本（如无文本选中需求，此为必选项） */
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
 button,
 input,
 select,
@@ -221,13 +213,12 @@ body {
   -moz-font-feature-settings: "liga" on;
 }
 ::selection {
-  color: darkgrey;
+  color: #fff;
+  background-color: #da271b;
 }
 body {
   font-size: 16px;
-  font-family: "微软雅黑";
-  font-style: normal;
-  font-weight: normal;
+  font-family: "微软雅黑", sans-serif;
   color: #333333;
   line-height: 1.4;
   text-rendering: optimizeLegibility;
@@ -358,9 +349,7 @@ body {
 }
 /*TEXT STYLE*/
 .fontSong {
-  font-size: 16px;
-  font-family: "宋体", "微软雅黑", sans-serif;
-  color: #666;
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
 }
 .text-center {
   text-align: center;
@@ -443,6 +432,7 @@ body {
   color: #ffffff;
 }
 .wrap .title > p {
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
   text-align: center;
   padding-top: 20px;
 }
@@ -530,13 +520,16 @@ body {
   width: 6px;
   height: 6px;
   background-color: #d33331;
-  left: 8px;
+  left: 9px;
 }
 #cases .box .pro-text > span label {
+  font-size: 18px;
   display: block;
+  font-weight: 700;
   line-height: 20px;
 }
 #cases .box .pro-text > span sub {
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
   font-size: 12px;
 }
 #cases .box .pro-text ~ p {
@@ -594,12 +587,13 @@ body {
   line-height: 1.4;
   cursor: pointer;
 }
-#menuBar li small {
+#menuBar li > small {
   display: block;
   font-size: 12px;
+  text-align: left;
+  text-indent: -12px;
   -webkit-transform: scale(0.8333333);
   transform: scale(0.8333333);
-  text-align: left;
 }
 #menuBar li.current {
   position: relative;

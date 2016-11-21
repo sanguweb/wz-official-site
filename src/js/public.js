@@ -54,11 +54,12 @@ wzWeb.headerFixed = function () {
 wzWeb.sideBar = function () {
   var sideBar = $("#sideBar");
   var sideItem = sideBar.find("li");
-
+  
   var backTop = sideBar.find(".icon-backtop");
+  var backTopBtn = backTop.parent('li');
   var qrCodeBtn = sideItem.eq(2);  //微信
   var $qrCodePic = qrCodeBtn.find(".qrImg");
-
+  
   $.each(sideItem, function () {
     var $oSpan = $(this).find("span");
     var timer = null;
@@ -74,7 +75,7 @@ wzWeb.sideBar = function () {
       })
     }
   });
-
+  
   qrCodeBtn.hover(
     function () {
       $qrCodePic.animate({right: "50px"}, "300").show();
@@ -82,14 +83,23 @@ wzWeb.sideBar = function () {
       $qrCodePic.animate({right: "-200px"}, "300").hide();
     }
   );
-
+  
   //返回顶部
-  $(backTop).click(function () {
-    if (scroll === "off") {
-      return;
+  $(window).scroll(
+    function () {
+      var sTop = $(this).scrollTop();
+      if (sTop > 760) {
+        $(backTopBtn).fadeIn().click(function () {
+          if (scroll === "off") {
+            return;
+          }
+          $("html,body").animate({scrollTop: 0}, 300);
+        });
+      } else {
+        $(backTopBtn).fadeOut();
+      }
     }
-    $("html,body").animate({scrollTop: 0}, 300);
-  });
+  )
 };
 
 
