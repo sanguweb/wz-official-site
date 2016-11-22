@@ -348,6 +348,7 @@ body {
   background-color: #ff0000;
 }
 /*TEXT STYLE*/
+p,
 .fontSong {
   font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
 }
@@ -393,7 +394,7 @@ body {
 /* FONT COLOR*/
 /*SNIPPET*/
 .wrap {
-  padding: 120px 0 120px 0;
+  padding: 110px 0 80px 0;
   overflow: hidden;
   height: auto;
 }
@@ -807,7 +808,6 @@ body {
 }
 #news .tab-content {
   margin-top: 45px;
-  margin-bottom: 45px;
   zoom: 1;
   overflow: visible;
   height: 276px;
@@ -869,7 +869,7 @@ body {
 }
 #news .tab-content .last-news .viewImg > .date time,
 #news .tab-content li .viewImg > .date time {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   font-size: 40px;
   font-family: "Helvetica Neue";
   font-style: normal;
@@ -890,7 +890,7 @@ body {
 }
 #news .tab-content .last-news h5,
 #news .tab-content li h5 {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-size: 14px;
   text-overflow: ellipsis;
   display: -webkit-box;

@@ -348,6 +348,7 @@ body {
   background-color: #ff0000;
 }
 /*TEXT STYLE*/
+p,
 .fontSong {
   font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
 }
@@ -393,7 +394,7 @@ body {
 /* FONT COLOR*/
 /*SNIPPET*/
 .wrap {
-  padding: 120px 0 120px 0;
+  padding: 110px 0 80px 0;
   overflow: hidden;
   height: auto;
 }
@@ -534,6 +535,7 @@ body {
 }
 #cases .box .pro-text ~ p {
   font-size: 14px;
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
   line-height: 2;
   padding-top: 20px;
 }
@@ -563,6 +565,7 @@ body {
   margin-bottom: 30px;
 }
 #cases .case-client li {
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
   width: 20%;
   margin-top: 30px;
   line-height: 20px;

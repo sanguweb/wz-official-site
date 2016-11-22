@@ -348,6 +348,7 @@ body {
   background-color: #ff0000;
 }
 /*TEXT STYLE*/
+p,
 .fontSong {
   font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
 }
@@ -393,7 +394,7 @@ body {
 /* FONT COLOR*/
 /*SNIPPET*/
 .wrap {
-  padding: 120px 0 120px 0;
+  padding: 110px 0 80px 0;
   overflow: hidden;
   height: auto;
 }
@@ -567,7 +568,6 @@ body {
   font-size: 30px;
 }
 .service-patent-type .box > p {
-  background-color: #d33331;
   padding-right: 50px;
 }
 .service-flow {
@@ -579,6 +579,7 @@ body {
   margin-bottom: 50px;
 }
 .service-flow h3 span {
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
   line-height: 30px;
 }
 .service-flow dl {

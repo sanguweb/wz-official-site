@@ -348,6 +348,7 @@ body {
   background-color: #ff0000;
 }
 /*TEXT STYLE*/
+p,
 .fontSong {
   font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
 }
@@ -393,7 +394,7 @@ body {
 /* FONT COLOR*/
 /*SNIPPET*/
 .wrap {
-  padding: 120px 0 120px 0;
+  padding: 110px 0 80px 0;
   overflow: hidden;
   height: auto;
 }
@@ -496,7 +497,6 @@ body {
   text-align: center;
 }
 .aboutUs-content .title ~ p {
-  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
   text-indent: 2em;
   padding-bottom: 15px;
 }
@@ -553,6 +553,9 @@ body {
   padding: 15px 0;
   font-weight: 600;
 }
+.core-business li > p {
+  font-size: 14px;
+}
 .core-business li:before {
   content: "";
   display: block;
@@ -598,6 +601,10 @@ body {
 .columns-2 > .container > .fr .title p:last-of-type {
   padding-left: 110px;
   padding-top: 30px;
+}
+.columns-2 > .container > .fl .title p:last-of-type > i,
+.columns-2 > .container > .fr .title p:last-of-type > i {
+  color: #d33331;
 }
 .columns-2 .imgBox > img:only-child {
   display: block;
@@ -660,7 +667,6 @@ body {
   font-size: 18px;
 }
 .ourCulture-table table td section:only-child p {
-  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
   font-size: 14px;
   padding: 5px 0;
 }
@@ -759,6 +765,7 @@ body {
   margin-right: 0;
 }
 .development-timeline .box > .shop-view > p:last-of-type {
+  font-size: 14px;
   padding-top: 15px;
 }
 #team-show {
@@ -793,6 +800,7 @@ body {
   margin-right: 0;
 }
 #team-show li > .team-speak {
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
   height: 64px;
   max-height: 64px;
   overflow: hidden;

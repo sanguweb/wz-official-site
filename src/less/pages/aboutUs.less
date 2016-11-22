@@ -35,7 +35,6 @@
       }
     }
     & ~ p {
-      .fontSong;
       text-indent:2em;
       padding-bottom:15px;
     }
@@ -80,6 +79,9 @@
       padding:15px 0;
       font-weight:600;
     }
+    & > p {
+      .f14;
+    }
     &:before {
       content:"";
       display:block;
@@ -114,6 +116,9 @@
       p:last-of-type {
         .pl(110px);
         .pt(30px);
+        &>i{
+          color:@red;
+        }
       }
     }
   }
@@ -180,7 +185,6 @@
           .f18;
         }
         p {
-          .fontSong;
           .f14;
           padding:5px 0;
         }
@@ -273,6 +277,7 @@
         .mr(0)
       }
       & > p:last-of-type {
+        .f14;
         .pt(15px);
       }
     }
@@ -297,6 +302,7 @@
     }
 
     & > .team-speak {
+      .fontSong;
       height:64px;
       max-height:64px;
       overflow:hidden;

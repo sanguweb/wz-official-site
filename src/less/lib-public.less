@@ -252,17 +252,26 @@
     }
     span {
       .pos-a;
+      .text-center;
+      .hide;
       top:0;
       background-color:@red;
       color:@white;
-      display:none;
       width:200px;
       height:50px;
       line-height:50px;
-      .text-center;
-      & > a:only-child {
+      left:-200px;
+      & > a:only-of-type {
         display:block;
         color:@white;
+      }
+      &:before {
+        .before(30px, 30px);
+        z-index:99;
+        left:60px;
+      }
+      &.icon-tel {
+        text-indent:40px;
       }
     }
     &:hover {
@@ -278,6 +287,7 @@
         display:block;
       }
     }
+
     &:last-of-type {
       display:none;
     }
@@ -317,6 +327,7 @@
       strong {
         .f12;
         .block;
+        .fontSong;
         line-height:24px;
         font-weight:normal;
       }

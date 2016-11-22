@@ -5,10 +5,193 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab176845-7d30-4e3e-935d-a4e28de9145b" name="默认" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/Gif-arr.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/konka.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/tongrentang.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/client/wuliangye.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/project/view-10.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/aboutUs-1.png" afterPath="$PROJECT_DIR$/src/img/aboutUs-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/aboutUs-2.png" afterPath="$PROJECT_DIR$/src/img/aboutUs-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/bground/aboutUs-people-show.png" afterPath="$PROJECT_DIR$/src/img/bground/aboutUs-people-show.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/bground/advantageBg.png" afterPath="$PROJECT_DIR$/src/img/bground/advantageBg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/bground/fbBg.png" afterPath="$PROJECT_DIR$/src/img/bground/fbBg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/bground/gridBg.png" afterPath="$PROJECT_DIR$/src/img/bground/gridBg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/bground/runner.png" afterPath="$PROJECT_DIR$/src/img/bground/runner.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/bground/servicePatentBg.png" afterPath="$PROJECT_DIR$/src/img/bground/servicePatentBg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/bground/serviceValueBg.png" afterPath="$PROJECT_DIR$/src/img/bground/serviceValueBg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/case1.png" afterPath="$PROJECT_DIR$/src/img/case1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/case10.png" afterPath="$PROJECT_DIR$/src/img/case10.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/case2.png" afterPath="$PROJECT_DIR$/src/img/case2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/case3.png" afterPath="$PROJECT_DIR$/src/img/case3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/case4.png" afterPath="$PROJECT_DIR$/src/img/case4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/case5.png" afterPath="$PROJECT_DIR$/src/img/case5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/case6.png" afterPath="$PROJECT_DIR$/src/img/case6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/case7.png" afterPath="$PROJECT_DIR$/src/img/case7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/case8.png" afterPath="$PROJECT_DIR$/src/img/case8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/case9.png" afterPath="$PROJECT_DIR$/src/img/case9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/city/city-beijing.png" afterPath="$PROJECT_DIR$/src/img/city/city-beijing.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/city/city-hangzhou.png" afterPath="$PROJECT_DIR$/src/img/city/city-hangzhou.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/city/city-jiaxing.png" afterPath="$PROJECT_DIR$/src/img/city/city-jiaxing.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/city/city-nanjing.png" afterPath="$PROJECT_DIR$/src/img/city/city-nanjing.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/city/city-ningbo.png" afterPath="$PROJECT_DIR$/src/img/city/city-ningbo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/city/city-shanghai.png" afterPath="$PROJECT_DIR$/src/img/city/city-shanghai.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/city/city-shaoxing.png" afterPath="$PROJECT_DIR$/src/img/city/city-shaoxing.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/city/city-shenzhen.png" afterPath="$PROJECT_DIR$/src/img/city/city-shenzhen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/city/city-suzhou.png" afterPath="$PROJECT_DIR$/src/img/city/city-suzhou.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/city/city-taizhou.png" afterPath="$PROJECT_DIR$/src/img/city/city-taizhou.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/city/city-tianjin.png" afterPath="$PROJECT_DIR$/src/img/city/city-tianjin.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/city/city-wenzhou.png" afterPath="$PROJECT_DIR$/src/img/city/city-wenzhou.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/city/city-wuxi.png" afterPath="$PROJECT_DIR$/src/img/city/city-wuxi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a1.jpg" afterPath="$PROJECT_DIR$/src/img/client/a1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a10.jpg" afterPath="$PROJECT_DIR$/src/img/client/a10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a10s.jpg" afterPath="$PROJECT_DIR$/src/img/client/a10s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a11.jpg" afterPath="$PROJECT_DIR$/src/img/client/a11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a11s.jpg" afterPath="$PROJECT_DIR$/src/img/client/a11s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a1s.jpg" afterPath="$PROJECT_DIR$/src/img/client/a1s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a2.jpg" afterPath="$PROJECT_DIR$/src/img/client/a2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a2s.jpg" afterPath="$PROJECT_DIR$/src/img/client/a2s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a3.jpg" afterPath="$PROJECT_DIR$/src/img/client/a3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a3s.jpg" afterPath="$PROJECT_DIR$/src/img/client/a3s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a4.jpg" afterPath="$PROJECT_DIR$/src/img/client/a4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a4s.jpg" afterPath="$PROJECT_DIR$/src/img/client/a4s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a5.jpg" afterPath="$PROJECT_DIR$/src/img/client/a5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a5s.jpg" afterPath="$PROJECT_DIR$/src/img/client/a5s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a6.jpg" afterPath="$PROJECT_DIR$/src/img/client/a6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a6s.jpg" afterPath="$PROJECT_DIR$/src/img/client/a6s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a7.jpg" afterPath="$PROJECT_DIR$/src/img/client/a7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a7s.jpg" afterPath="$PROJECT_DIR$/src/img/client/a7s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a8.jpg" afterPath="$PROJECT_DIR$/src/img/client/a8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a8s.jpg" afterPath="$PROJECT_DIR$/src/img/client/a8s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a9.jpg" afterPath="$PROJECT_DIR$/src/img/client/a9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/a9s.jpg" afterPath="$PROJECT_DIR$/src/img/client/a9s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b1.jpg" afterPath="$PROJECT_DIR$/src/img/client/b1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b10.jpg" afterPath="$PROJECT_DIR$/src/img/client/b10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b10s.jpg" afterPath="$PROJECT_DIR$/src/img/client/b10s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b11.jpg" afterPath="$PROJECT_DIR$/src/img/client/b11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b11s.jpg" afterPath="$PROJECT_DIR$/src/img/client/b11s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b1s.jpg" afterPath="$PROJECT_DIR$/src/img/client/b1s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b2.jpg" afterPath="$PROJECT_DIR$/src/img/client/b2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b2s.jpg" afterPath="$PROJECT_DIR$/src/img/client/b2s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b3.jpg" afterPath="$PROJECT_DIR$/src/img/client/b3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b3s.jpg" afterPath="$PROJECT_DIR$/src/img/client/b3s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b4.jpg" afterPath="$PROJECT_DIR$/src/img/client/b4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b4s.jpg" afterPath="$PROJECT_DIR$/src/img/client/b4s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b5.jpg" afterPath="$PROJECT_DIR$/src/img/client/b5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b5s.jpg" afterPath="$PROJECT_DIR$/src/img/client/b5s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b6.jpg" afterPath="$PROJECT_DIR$/src/img/client/b6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b6s.jpg" afterPath="$PROJECT_DIR$/src/img/client/b6s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b7.jpg" afterPath="$PROJECT_DIR$/src/img/client/b7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b7s.jpg" afterPath="$PROJECT_DIR$/src/img/client/b7s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b8.jpg" afterPath="$PROJECT_DIR$/src/img/client/b8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b8s.jpg" afterPath="$PROJECT_DIR$/src/img/client/b8s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b9.jpg" afterPath="$PROJECT_DIR$/src/img/client/b9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/b9s.jpg" afterPath="$PROJECT_DIR$/src/img/client/b9s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c1.jpg" afterPath="$PROJECT_DIR$/src/img/client/c1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c10.jpg" afterPath="$PROJECT_DIR$/src/img/client/c10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c10s.jpg" afterPath="$PROJECT_DIR$/src/img/client/c10s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c11.jpg" afterPath="$PROJECT_DIR$/src/img/client/c11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c11s.jpg" afterPath="$PROJECT_DIR$/src/img/client/c11s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c1s.jpg" afterPath="$PROJECT_DIR$/src/img/client/c1s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c2.jpg" afterPath="$PROJECT_DIR$/src/img/client/c2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c2s.jpg" afterPath="$PROJECT_DIR$/src/img/client/c2s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c3.jpg" afterPath="$PROJECT_DIR$/src/img/client/c3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c3s.jpg" afterPath="$PROJECT_DIR$/src/img/client/c3s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c4.jpg" afterPath="$PROJECT_DIR$/src/img/client/c4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c4s.jpg" afterPath="$PROJECT_DIR$/src/img/client/c4s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c5.jpg" afterPath="$PROJECT_DIR$/src/img/client/c5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c5s.jpg" afterPath="$PROJECT_DIR$/src/img/client/c5s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c6.jpg" afterPath="$PROJECT_DIR$/src/img/client/c6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c6s.jpg" afterPath="$PROJECT_DIR$/src/img/client/c6s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c7.jpg" afterPath="$PROJECT_DIR$/src/img/client/c7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c7s.jpg" afterPath="$PROJECT_DIR$/src/img/client/c7s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c8.jpg" afterPath="$PROJECT_DIR$/src/img/client/c8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c8s.jpg" afterPath="$PROJECT_DIR$/src/img/client/c8s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c9.jpg" afterPath="$PROJECT_DIR$/src/img/client/c9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/c9s.jpg" afterPath="$PROJECT_DIR$/src/img/client/c9s.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/cry.png" afterPath="$PROJECT_DIR$/src/img/client/cry.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/hasee.png" afterPath="$PROJECT_DIR$/src/img/client/hasee.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/hongtashan.png" afterPath="$PROJECT_DIR$/src/img/client/hongtashan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/client/nextYou.png" afterPath="$PROJECT_DIR$/src/img/client/nextYou.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/culture1.png" afterPath="$PROJECT_DIR$/src/img/culture1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/culture2.png" afterPath="$PROJECT_DIR$/src/img/culture2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/culture3.png" afterPath="$PROJECT_DIR$/src/img/culture3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/culture4.png" afterPath="$PROJECT_DIR$/src/img/culture4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/culture5.png" afterPath="$PROJECT_DIR$/src/img/culture5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/culture6.png" afterPath="$PROJECT_DIR$/src/img/culture6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/earth1.png" afterPath="$PROJECT_DIR$/src/img/earth1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/earth2.png" afterPath="$PROJECT_DIR$/src/img/earth2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/earth3.png" afterPath="$PROJECT_DIR$/src/img/earth3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/earth4.png" afterPath="$PROJECT_DIR$/src/img/earth4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/focusImg/banner-1.jpg" afterPath="$PROJECT_DIR$/src/img/focusImg/banner-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/focusImg/banner-2.png" afterPath="$PROJECT_DIR$/src/img/focusImg/banner-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/focusImg/banner-3.png" afterPath="$PROJECT_DIR$/src/img/focusImg/banner-3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/focusImg/banner-4.png" afterPath="$PROJECT_DIR$/src/img/focusImg/banner-4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/focusImg/banner-5.png" afterPath="$PROJECT_DIR$/src/img/focusImg/banner-5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/focusImg/slide1.png" afterPath="$PROJECT_DIR$/src/img/focusImg/slide1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/focusImg/slide2.png" afterPath="$PROJECT_DIR$/src/img/focusImg/slide2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/focusImg/slide3.png" afterPath="$PROJECT_DIR$/src/img/focusImg/slide3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/focusImg/slide4.png" afterPath="$PROJECT_DIR$/src/img/focusImg/slide4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/focusImg/slide5.png" afterPath="$PROJECT_DIR$/src/img/focusImg/slide5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icon-1.png" afterPath="$PROJECT_DIR$/src/img/icon-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icon-2.png" afterPath="$PROJECT_DIR$/src/img/icon-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icon-3.png" afterPath="$PROJECT_DIR$/src/img/icon-3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icon-4.png" afterPath="$PROJECT_DIR$/src/img/icon-4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icon-5.png" afterPath="$PROJECT_DIR$/src/img/icon-5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icon-6.png" afterPath="$PROJECT_DIR$/src/img/icon-6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icon-7.png" afterPath="$PROJECT_DIR$/src/img/icon-7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icon-8.png" afterPath="$PROJECT_DIR$/src/img/icon-8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/logo.png" afterPath="$PROJECT_DIR$/src/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/small/view-01s.png" afterPath="$PROJECT_DIR$/src/img/project/small/view-01s.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/small/view-02s.png" afterPath="$PROJECT_DIR$/src/img/project/small/view-02s.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/small/view-03s.png" afterPath="$PROJECT_DIR$/src/img/project/small/view-03s.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/small/view-04s.png" afterPath="$PROJECT_DIR$/src/img/project/small/view-04s.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/small/view-05s.png" afterPath="$PROJECT_DIR$/src/img/project/small/view-05s.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/small/view-06s.png" afterPath="$PROJECT_DIR$/src/img/project/small/view-06s.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/small/view-07s.png" afterPath="$PROJECT_DIR$/src/img/project/small/view-07s.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/small/view-08s.png" afterPath="$PROJECT_DIR$/src/img/project/small/view-08s.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/small/view-09s.png" afterPath="$PROJECT_DIR$/src/img/project/small/view-09s.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/small/view-10s.png" afterPath="$PROJECT_DIR$/src/img/project/small/view-10s.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/view-01.png" afterPath="$PROJECT_DIR$/src/img/project/view-01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/view-02.png" afterPath="$PROJECT_DIR$/src/img/project/view-02.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/view-03.png" afterPath="$PROJECT_DIR$/src/img/project/view-03.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/view-04.png" afterPath="$PROJECT_DIR$/src/img/project/view-04.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/view-05.png" afterPath="$PROJECT_DIR$/src/img/project/view-05.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/view-06.png" afterPath="$PROJECT_DIR$/src/img/project/view-06.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/view-07.png" afterPath="$PROJECT_DIR$/src/img/project/view-07.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/view-08.png" afterPath="$PROJECT_DIR$/src/img/project/view-08.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/view-09.png" afterPath="$PROJECT_DIR$/src/img/project/view-09.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/project/view-10.png" afterPath="$PROJECT_DIR$/src/img/project/view-10.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/qrcode.png" afterPath="$PROJECT_DIR$/src/img/qrcode.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/shop/shop1.png" afterPath="$PROJECT_DIR$/src/img/shop/shop1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/shop/shop10.png" afterPath="$PROJECT_DIR$/src/img/shop/shop10.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/shop/shop11.png" afterPath="$PROJECT_DIR$/src/img/shop/shop11.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/shop/shop12.png" afterPath="$PROJECT_DIR$/src/img/shop/shop12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/shop/shop13.png" afterPath="$PROJECT_DIR$/src/img/shop/shop13.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/shop/shop14.png" afterPath="$PROJECT_DIR$/src/img/shop/shop14.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/shop/shop2.png" afterPath="$PROJECT_DIR$/src/img/shop/shop2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/shop/shop3.png" afterPath="$PROJECT_DIR$/src/img/shop/shop3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/shop/shop4.png" afterPath="$PROJECT_DIR$/src/img/shop/shop4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/shop/shop5.png" afterPath="$PROJECT_DIR$/src/img/shop/shop5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/shop/shop6.png" afterPath="$PROJECT_DIR$/src/img/shop/shop6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/shop/shop7.png" afterPath="$PROJECT_DIR$/src/img/shop/shop7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/shop/shop8.png" afterPath="$PROJECT_DIR$/src/img/shop/shop8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/shop/shop9.png" afterPath="$PROJECT_DIR$/src/img/shop/shop9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/team/big-1.png" afterPath="$PROJECT_DIR$/src/img/team/big-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/team/small-1.png" afterPath="$PROJECT_DIR$/src/img/team/small-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/zheng.png" afterPath="$PROJECT_DIR$/src/img/zheng.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/wzWeb.iml" afterPath="$PROJECT_DIR$/.idea/wzWeb.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/lib-common.css" afterPath="$PROJECT_DIR$/src/css/lib-common.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/lib-public.css" afterPath="$PROJECT_DIR$/src/css/lib-public.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/lib-reset.css" afterPath="$PROJECT_DIR$/src/css/lib-reset.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/pages/aboutUs.css" afterPath="$PROJECT_DIR$/src/css/pages/aboutUs.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/pages/cases.css" afterPath="$PROJECT_DIR$/src/css/pages/cases.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/pages/contactUs.css" afterPath="$PROJECT_DIR$/src/css/pages/contactUs.css" />
@@ -19,23 +202,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/pages/servicePro.css" afterPath="$PROJECT_DIR$/src/css/pages/servicePro.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/aboutUs/index.html" afterPath="$PROJECT_DIR$/src/html/aboutUs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/cases/index.html" afterPath="$PROJECT_DIR$/src/html/cases/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/foolishBird/index.html" afterPath="$PROJECT_DIR$/src/html/foolishBird/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/index.html" afterPath="$PROJECT_DIR$/src/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/joinUs/idea.html" afterPath="$PROJECT_DIR$/src/html/joinUs/idea.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/joinUs/index.html" afterPath="$PROJECT_DIR$/src/html/joinUs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/newsCenter/industryNews.html" afterPath="$PROJECT_DIR$/src/html/newsCenter/industryNews.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/newsCenter/lawNews.html" afterPath="$PROJECT_DIR$/src/html/newsCenter/lawNews.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/newsCenter/newsDetail.html" afterPath="$PROJECT_DIR$/src/html/newsCenter/newsDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/servicePro/projectApplication.html" afterPath="$PROJECT_DIR$/src/html/servicePro/projectApplication.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/pages/joinUs.js" afterPath="$PROJECT_DIR$/src/js/pages/joinUs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/public.js" afterPath="$PROJECT_DIR$/src/js/public.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/lib-common.less" afterPath="$PROJECT_DIR$/src/less/lib-common.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/lib-public.less" afterPath="$PROJECT_DIR$/src/less/lib-public.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/lib-reset.less" afterPath="$PROJECT_DIR$/src/less/lib-reset.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/pages/aboutUs.less" afterPath="$PROJECT_DIR$/src/less/pages/aboutUs.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/pages/cases.less" afterPath="$PROJECT_DIR$/src/less/pages/cases.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/pages/contactUs.less" afterPath="$PROJECT_DIR$/src/less/pages/contactUs.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/pages/index.less" afterPath="$PROJECT_DIR$/src/less/pages/index.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/pages/servicePro.less" afterPath="$PROJECT_DIR$/src/less/pages/servicePro.less" />
     </list>
@@ -59,97 +230,77 @@
     <favorites_list name="wzWeb" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.42179486">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/html/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="356" column="30" selection-start-line="356" selection-start-column="30" selection-end-line="356" selection-end-column="30" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/html/aboutUs/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-605">
-                  <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/html/cases/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-5425">
-                  <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="public.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/js/public.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1269">
-                  <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="lib-public.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/less/lib-public.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="124">
-                  <caret line="282" column="5" selection-start-line="282" selection-start-column="5" selection-end-line="282" selection-end-column="5" />
-                  <folding>
-                    <marker date="1479723849000" expanded="true" signature="464:487" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="cases.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/js/pages/cases.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-918">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="cases.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/less/pages/cases.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="453">
-                  <caret line="114" column="23" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="23" />
-                  <folding>
-                    <marker date="1479724876000" expanded="true" signature="33:632" ph="{...}" />
-                    <marker date="1479724876000" expanded="true" signature="71:306" ph="{...}" />
-                    <marker date="1479724876000" expanded="true" signature="256:302" ph="{...}" />
-                    <marker date="1479724876000" expanded="true" signature="272:296" ph="{...}" />
-                    <marker date="1479724876000" expanded="true" signature="324:358" ph="{...}" />
-                    <marker date="1479724876000" expanded="true" signature="606:632" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <folding>
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#32122#32128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="渐变按钮.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DayDayUp/CSS-Snippets/渐变按钮.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8种左边竖条的实现方法.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DayDayUp/CSS-Snippets/8种左边竖条的实现方法.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib-common.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/less/lib-common.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/less/pages/index.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+              <folding>
+                <marker date="1479808290000" expanded="true" signature="947:3438" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="joinUs.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/less/pages/joinUs.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -172,23 +323,15 @@
         <option value="$PROJECT_DIR$/src/html/cases/icon-3.md" />
         <option value="$PROJECT_DIR$/src/test" />
         <option value="$PROJECT_DIR$/src/js/pages/cases.js" />
-        <option value="$PROJECT_DIR$/src/js/public.js" />
         <option value="$PROJECT_DIR$/src/html/aboutUS/index.html" />
         <option value="$PROJECT_DIR$/src/html/aboutUS/wzCulture.html" />
         <option value="$PROJECT_DIR$/src/html/aboutUS/wzDevelopment.html" />
         <option value="$PROJECT_DIR$/src/html/aboutUS/wzTeam.html" />
-        <option value="$PROJECT_DIR$/src/less/pages/aboutUs.less" />
-        <option value="$PROJECT_DIR$/src/less/lib-public.less" />
         <option value="$PROJECT_DIR$/src/img/icon-5.md" />
         <option value="$PROJECT_DIR$/src/html/newsCenter/tclAppraisal.html" />
         <option value="$PROJECT_DIR$/src/less/pages/newsCenter.less" />
-        <option value="$PROJECT_DIR$/src/less/pages/servicePro.less" />
         <option value="$PROJECT_DIR$/src/less/pages/contactUs.less" />
-        <option value="$PROJECT_DIR$/src/less/lib-common.less" />
-        <option value="$PROJECT_DIR$/src/less/pages/index.less" />
-        <option value="$PROJECT_DIR$/src/less/pages/cases.less" />
         <option value="$PROJECT_DIR$/src/html/servicePro/lawNews.html" />
-        <option value="$PROJECT_DIR$/src/html/aboutUs/index.html" />
         <option value="$PROJECT_DIR$/src/html/aboutUs/wzCulture.html" />
         <option value="$PROJECT_DIR$/src/html/aboutUs/wzDevelopment.html" />
         <option value="$PROJECT_DIR$/src/html/aboutUs/wzTeam.html" />
@@ -206,7 +349,17 @@
         <option value="$PROJECT_DIR$/src/html/servicePro/copyright.html" />
         <option value="$PROJECT_DIR$/src/html/servicePro/index.html" />
         <option value="$PROJECT_DIR$/src/html/servicePro/projectApplication.html" />
+        <option value="$PROJECT_DIR$/src/js/public.js" />
+        <option value="$PROJECT_DIR$/src/less/lib-public.less" />
+        <option value="$PROJECT_DIR$/src/less/pages/cases.less" />
+        <option value="$PROJECT_DIR$/src/html/aboutUs/index.html" />
         <option value="$PROJECT_DIR$/src/html/index.html" />
+        <option value="$PROJECT_DIR$/src/less/pages/aboutUs.less" />
+        <option value="$PROJECT_DIR$/src/less/pages/servicePro.less" />
+        <option value="$PROJECT_DIR$/../DayDayUp/CSS-Snippets/渐变按钮.html" />
+        <option value="$PROJECT_DIR$/../DayDayUp/CSS-Snippets/8种左边竖条的实现方法.html" />
+        <option value="$PROJECT_DIR$/src/less/lib-common.less" />
+        <option value="$PROJECT_DIR$/src/less/pages/index.less" />
       </list>
     </option>
   </component>
@@ -253,7 +406,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -437,6 +589,46 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="less">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wzGit">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="less">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="pages">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="wzGit">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="html">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -452,15 +644,22 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DayDayUp" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -562,6 +761,7 @@
       <workItem from="1479524168347" duration="790000" />
       <workItem from="1479525170819" duration="5572000" />
       <workItem from="1479539869531" duration="7067000" />
+      <workItem from="1479793690020" duration="9378000" />
     </task>
     <task id="LOCAL-00001" summary="flag">
       <created>1479191393192</created>
@@ -581,23 +781,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92373000" />
+    <option name="totallyTimeSpent" value="107676000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1867" height="1057" extended-state="0" />
+    <frame x="0" y="23" width="1867" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15492958" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15492958" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="检查结果" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33013844" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -605,8 +803,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="检查结果" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33013844" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -629,36 +829,8 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/img/icon-4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/pages/aboutUs.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/culture5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/icon-5.md" />
-    <entry file="file://$PROJECT_DIR$/src/html/newsCenter/tclAppraisal.html" />
-    <entry file="file://$PROJECT_DIR$/src/img/client/a10.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/img/icon-4.md" />
-    <entry file="file://$PROJECT_DIR$/src/img/Gif-arr.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/Gif-arr.gif" />
     <entry file="file://$PROJECT_DIR$/src/img/icon-1.md" />
     <entry file="file://$PROJECT_DIR$/src/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -670,21 +842,6 @@
     <entry file="file://$PROJECT_DIR$/src/img/icon-5.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/pages/newsCenter.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/pages/joinUs.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/manifest.json">
@@ -734,60 +891,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/pages/servicePro.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11005">
-          <caret line="396" column="10" selection-start-line="396" selection-start-column="10" selection-end-line="396" selection-end-column="10" />
-          <folding>
-            <element signature="e#118#823#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/lib-common.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9114">
-          <caret line="294" column="0" selection-start-line="294" selection-start-column="0" selection-end-line="294" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/pages/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/pages/cases.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="114" column="23" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="23" />
-          <folding>
-            <marker date="1479724876000" expanded="true" signature="33:632" ph="{...}" />
-            <marker date="1479724876000" expanded="true" signature="71:306" ph="{...}" />
-            <marker date="1479724876000" expanded="true" signature="256:302" ph="{...}" />
-            <marker date="1479724876000" expanded="true" signature="272:296" ph="{...}" />
-            <marker date="1479724876000" expanded="true" signature="324:358" ph="{...}" />
-            <marker date="1479724876000" expanded="true" signature="606:632" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/aboutUs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-605">
-          <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/aboutUs/wzTeam.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="186" column="66" selection-start-line="186" selection-start-column="66" selection-end-line="186" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
           <caret line="133" column="66" selection-start-line="133" selection-start-column="66" selection-end-line="133" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,7 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="177" column="66" selection-start-line="177" selection-start-column="66" selection-end-line="177" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -858,7 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="173" column="66" selection-start-line="173" selection-start-column="66" selection-end-line="173" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,7 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="173" column="66" selection-start-line="173" selection-start-column="66" selection-end-line="173" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,7 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
           <caret line="171" column="66" selection-start-line="171" selection-start-column="66" selection-end-line="171" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,7 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="185" column="70" selection-start-line="185" selection-start-column="70" selection-end-line="185" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,15 +1019,128 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-918">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/aboutUs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="200" column="122" selection-start-line="200" selection-start-column="122" selection-end-line="200" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/pages/aboutUs.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="304" column="16" selection-start-line="304" selection-start-column="6" selection-end-line="304" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/pages/servicePro.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="107" column="16" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="16" />
+          <folding>
+            <element signature="e#118#823#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/lib-public.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="328" column="15" selection-start-line="328" selection-start-column="15" selection-end-line="329" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/pages/newsCenter.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/pages/cases.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="79" column="6" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DayDayUp/CSS-Snippets/ShockWaveDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DayDayUp/CSS-Snippets/8种左边竖条的实现方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DayDayUp/CSS-Snippets/渐变按钮.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="356" column="30" selection-start-line="356" selection-start-column="30" selection-end-line="356" selection-end-column="30" />
+        <state relative-caret-position="93">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding>
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#32122#32128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/pages/joinUs.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/lib-common.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/pages/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+          <folding>
+            <marker date="1479808290000" expanded="true" signature="947:3438" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
