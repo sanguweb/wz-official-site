@@ -2,7 +2,7 @@
 
 #foolishBird-wrap {
   .pos-r;
-  height:920px;
+  height:860px;
   background:url("@{bground}/fbBg.png") no-repeat rgba(248, 248, 248, 1) center top;
 
   .box {
@@ -10,7 +10,16 @@
     box-sizing:border-box;
     .wrapper(180px, 0);
     & > header:first-child {
+      .pos-r;
       .text-center;
+      &:after {
+        .pos-a;
+        width:92px;
+        height:84px;
+        right:60px;
+        content:"";
+        background:url("@{icon-6}") no-repeat -1328px 0;
+      }
       h2 {
         display:inline-block;
         .font(92px, "Microsoft Yahei", 700);

@@ -253,9 +253,12 @@
     figure:first-child {
       .pos-a;
       width:440px;
-      height:130px;
+      height:auto;
       top:130px;
       right:120px;
+      &>h3{
+        .mb(20px);
+      }
     }
     ul {
       height:650px;
@@ -338,7 +341,7 @@
     .pos-r;
     height:350px;
     .pd-v50;
-    .mt(100px);
+    .mt(60px);
     background:url("@{bground}/advantageBg.png") no-repeat center;
     & > figure {
       .pos-a;

@@ -12,9 +12,9 @@ wzWeb.scrollPage = function () {
   var ctrol = $('li', '#menuBar');
   $.each($(ctrol), function () {
     $(this).click(function () {
+      $("html,body").stop(true);//清除元素的所有动画
       $(this).addClass('current').siblings().removeClass('current');
       var id = '#' + 'floor' + ($(this).index() + 1);
-      console.log(id);
       $("html,body").animate({scrollTop: $(id).offset().top}, 1000);
       return false;
     })

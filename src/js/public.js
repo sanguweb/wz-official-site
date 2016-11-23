@@ -50,7 +50,7 @@ wzWeb.headerFixed = function () {
   })
 };
 
-
+//右边侧栏
 wzWeb.sideBar = function () {
   var sideBar = $("#sideBar");
   var sideItem = sideBar.find("li");
@@ -68,7 +68,7 @@ wzWeb.sideBar = function () {
         clearTimeout(timer);
         timer = setTimeout(function () {
           $oSpan.animate({left: "-150px"}, "300").show();
-        }, 400);
+        }, 600);
       }, function () {
         clearTimeout(timer);
         $oSpan.animate({left: "50px"}, "300").show();

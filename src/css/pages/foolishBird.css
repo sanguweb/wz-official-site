@@ -462,7 +462,7 @@ p,
 }
 #foolishBird-wrap {
   position: relative;
-  height: 920px;
+  height: 860px;
   background: url("../img/bground/fbBg.png") no-repeat #f8f8f8 center top;
 }
 #foolishBird-wrap .box {
@@ -472,7 +472,16 @@ p,
   overflow: hidden;
 }
 #foolishBird-wrap .box > header:first-child {
+  position: relative;
   text-align: center;
+}
+#foolishBird-wrap .box > header:first-child:after {
+  position: absolute;
+  width: 92px;
+  height: 84px;
+  right: 60px;
+  content: "";
+  background: url("../img/icon-6.png") no-repeat -1328px 0;
 }
 #foolishBird-wrap .box > header:first-child h2 {
   display: inline-block;

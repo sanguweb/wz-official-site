@@ -592,7 +592,7 @@ p,
   border-bottom: none;
 }
 #main-footer {
-  padding: 50px 0;
+  padding: 50px 0 30px 0;
   color: #ffffff;
   background: #3d3d3d;
   height: auto;
@@ -643,7 +643,7 @@ p,
 #main-footer .btm-contact {
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 #main-footer .btm-contact li {
   position: relative;

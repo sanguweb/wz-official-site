@@ -11,7 +11,9 @@ $(function () {
     $('#slider').unslider({//首屏轮播
         speed: 500,
         dots: true,
-        fluid: true
+        fluid: true,
+        keys:true,
+        fluid:true
     });
 
     var unslider04 = $('#logos').unslider({
