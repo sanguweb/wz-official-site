@@ -50,7 +50,7 @@ wzWeb.headerFixed = function () {
   })
 };
 
-//右边侧栏
+
 wzWeb.sideBar = function () {
   var sideBar = $("#sideBar");
   var sideItem = sideBar.find("li");
@@ -68,7 +68,7 @@ wzWeb.sideBar = function () {
         clearTimeout(timer);
         timer = setTimeout(function () {
           $oSpan.animate({left: "-150px"}, "300").show();
-        }, 600);
+        }, 400);
       }, function () {
         clearTimeout(timer);
         $oSpan.animate({left: "50px"}, "300").show();
@@ -89,17 +89,18 @@ wzWeb.sideBar = function () {
     function () {
       var sTop = $(this).scrollTop();
       if (sTop > 760) {
-        $(backTopBtn).fadeIn().click(function () {
-          if (scroll === "off") {
-            return;
-          }
-          $("html,body").animate({scrollTop: 0}, 300);
-        });
+        $(backTopBtn).fadeIn()
       } else {
         $(backTopBtn).fadeOut();
       }
     }
   )
+  $(backTopBtn).click(function () {
+    if (scroll === "off") {
+      return;
+    }
+    $("html,body").animate({scrollTop: 0}, 300);
+  });
 };
 
 

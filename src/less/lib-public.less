@@ -5,7 +5,7 @@
   width:percentage(@half*2);
   overflow:visible;
   background-color:@white;
-  z-index:9999;
+  z-index:9996;
   top:0;
   #logo {
     .fl;
@@ -142,11 +142,15 @@
     .text-center;
     .pt(50px);
     .pb(30px);
+    .h-auto;
     li {
       .pos-r;
       .ml(20px);
       .mr(20px);
       display:inline-block;
+      &:first-of-type{
+        .pl(10px);
+      }
       & > a {
         .pl(30px);
         #link-defalt> .base(@white, @red, normal);
@@ -160,7 +164,7 @@
         }
         //前置图标
         &.icon-fb:before {
-          left:-25px;
+          left:-15px;
           width:48px;
         }
         &.icon-wechat:before {

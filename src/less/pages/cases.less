@@ -95,23 +95,28 @@
 #menuBar {
   .pos-f;
   z-index:999;
-  .mt(-260px);
+  .mt(-200px);
   box-sizing:border-box;
   padding:20px 0;
   left:0;
   top:50%;
-  width:130px;
-  height:520px;
+  width:80px;
+  height:475px;
   background-color:rgba(61, 61, 61, .95);
   li {
     .f14;
     color:@white;
     height:34px;
-    padding:7px 0 7px 14px;
-    line-height:1.4;
+    padding:4px 0 4px 14px;
+    text-indent:-4px;
+    line-height:34px;
     cursor:pointer;
+    .border-top-base(rgba(255,255,255,.3));
+    &:last-of-type{
+      .border-bottom-base(rgba(255,255,255,.3));
+    }
     & > small {
-      .block;
+      .hide;
       .f12;
       .text-left;
       text-indent:-12px;
@@ -120,7 +125,7 @@
     }
     &.current {
       .pos-r;
-      width:130px;
+      width:80px;
       background-color:rgba(211, 51, 49, 1);
       &:after {
         .after(16px, 6px);

@@ -573,25 +573,30 @@ p,
 #menuBar {
   position: fixed;
   z-index: 999;
-  margin-top: -260px;
+  margin-top: -200px;
   box-sizing: border-box;
   padding: 20px 0;
   left: 0;
   top: 50%;
-  width: 130px;
-  height: 520px;
+  width: 80px;
+  height: 475px;
   background-color: rgba(61, 61, 61, 0.95);
 }
 #menuBar li {
   font-size: 14px;
   color: #ffffff;
   height: 34px;
-  padding: 7px 0 7px 14px;
-  line-height: 1.4;
+  padding: 4px 0 4px 14px;
+  text-indent: -4px;
+  line-height: 34px;
   cursor: pointer;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+#menuBar li:last-of-type {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 #menuBar li > small {
-  display: block;
+  display: none;
   font-size: 12px;
   text-align: left;
   text-indent: -12px;
@@ -600,7 +605,7 @@ p,
 }
 #menuBar li.current {
   position: relative;
-  width: 130px;
+  width: 80px;
   background-color: #d33331;
 }
 #menuBar li.current:after {

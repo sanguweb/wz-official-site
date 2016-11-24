@@ -38,7 +38,7 @@ wzWeb.popUp = function () {
   var TeamPopWrap = $('#team-pop-wrap'), //弹窗盒子
     preViewBtn = $('#team-show').find('.preview'),// 弹出按钮组
     closedBtn = TeamPopWrap.find('#close-btn'), //关闭按钮
-    peopelPic = TeamPopWrap.find('.bigPic'), //照片
+    peopelPic = TeamPopWrap.find('.bigPic').eq(0), //照片
     peopleTitle = TeamPopWrap.find('.people-title').find('label').eq(0),//职位
     peopleName = TeamPopWrap.find('.people-title').find('span').eq(0),  //姓名
     peopleIntroduce = TeamPopWrap.find('.people-introduce'),//概述
@@ -53,6 +53,8 @@ wzWeb.popUp = function () {
   var init = function () {
     //数据填充
     var teamData = eval("wzWeb.teamData.user" + num);//数据
+    console.log(teamData.bigPic);
+    debugger;
     peopelPic.attr('src', teamData.bigPic);
     peopleTitle.text(teamData.title);
     peopleName.text(teamData.name);

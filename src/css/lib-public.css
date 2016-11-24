@@ -465,7 +465,7 @@ p,
   width: 100%;
   overflow: visible;
   background-color: #ffffff;
-  z-index: 9999;
+  z-index: 9996;
   top: 0;
 }
 #header:before {
@@ -644,12 +644,17 @@ p,
   text-align: center;
   padding-top: 50px;
   padding-bottom: 30px;
+  height: auto;
+  overflow: hidden;
 }
 #main-footer .btm-contact li {
   position: relative;
   margin-left: 20px;
   margin-right: 20px;
   display: inline-block;
+}
+#main-footer .btm-contact li:first-of-type {
+  padding-left: 10px;
 }
 #main-footer .btm-contact li > a {
   padding-left: 30px;
@@ -668,7 +673,7 @@ p,
   top: 0;
 }
 #main-footer .btm-contact li > a.icon-fb:before {
-  left: -25px;
+  left: -15px;
   width: 48px;
 }
 #main-footer .btm-contact li > a.icon-wechat:before {

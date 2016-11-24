@@ -554,6 +554,7 @@ p,
 /*详情弹框*/
 #jobDetail {
   position: fixed;
+  z-index: 9999;
   margin-top: -275px;
   margin-left: -470px;
   top: 50%;
