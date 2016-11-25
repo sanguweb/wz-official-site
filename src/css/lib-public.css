@@ -642,10 +642,9 @@ p,
 }
 #main-footer .btm-contact {
   text-align: center;
+  height: auto;
   padding-top: 50px;
   padding-bottom: 30px;
-  height: auto;
-  overflow: hidden;
 }
 #main-footer .btm-contact li {
   position: relative;
