@@ -467,7 +467,7 @@ p,
 }
 #foolishBird-wrap .box {
   box-sizing: border-box;
-  padding: 180px 0 0 0;
+  padding: 120px 0 0 0;
   height: auto;
   overflow: hidden;
 }
@@ -506,7 +506,7 @@ p,
   font-size: 36px;
 }
 #foolishBird-wrap .box > header:first-child + p + .link {
-  margin-top: 40px;
+  margin-top: 18px;
   text-align: center;
   font-size: 40px;
   font-family: "Microsoft Yahei";

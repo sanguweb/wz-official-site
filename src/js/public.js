@@ -67,7 +67,7 @@ wzWeb.sideBar = function () {
       $(this).hover(function () {
         clearTimeout(timer);
         timer = setTimeout(function () {
-          $oSpan.animate({left: "-150px"}, "300").show();
+          $oSpan.animate({left: "-110px"}, "300").show();
         }, 400);
       }, function () {
         clearTimeout(timer);
@@ -80,7 +80,7 @@ wzWeb.sideBar = function () {
     function () {
       $qrCodePic.animate({right: "50px"}, "300").show();
     }, function () {
-      $qrCodePic.animate({right: "-200px"}, "300").hide();
+      $qrCodePic.animate({right: "-160px"}, "300").hide();
     }
   );
   

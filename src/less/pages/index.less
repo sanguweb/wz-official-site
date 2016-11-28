@@ -80,7 +80,7 @@
           width:120px;
           height:120px;
           & > a {
-            .m-auto(0, 0);
+            .m-auto(-1px, 0);
             .pos-r;
             display:block;
             width:100px;
@@ -186,100 +186,9 @@
   }
 }
 
-// 成功案例
-#project {
-  .project-list {
-    .pt(60px);
-    .pb(60px);
-    .toTable;
-    & > ul {
-      display:table-row;
-    }
-    li {
-      .pos-r;
-      width:percentage(0.2);
-      height:300px;
-      max-height:300px;
-      overflow:hidden;
-      display:table-cell;
-      vertical-align:middle;
-      .response-img {
-        height:100%;
-        -moz-transition:transform 0.6s ease 0s;
-        transition:transform 0.6s ease 0s;
-        transform:scale(1);
-        -webkit-transform:scale(1);
-        -moz-transform:scale(1);
-        -ms-transform:scale(1);
-        -o-transform:scale(1);
-        transition-timing-function:ease;
-      }
-      &:hover .response-img {
-        -moz-transition:transform 0.6s ease 0s;
-        transition:transform 0.6s ease 0s;
-        transform:scale(1.25);
-        -webkit-transform:scale(1.25);
-        -moz-transform:scale(1.25);
-        -ms-transform:scale(1.25);
-        -o-transform:scale(1.25);
-      }
-      .mask {
-        .pos-a;
-        .hide;
-        color:@white;
-        padding:20px 30px;
-        box-sizing:border-box;
-        top:0;
-        left:0;
-        background:rgba(0, 0, 0, .7);
-        width:percentage(@half*2);
-        height:percentage(@half*2);
-        label {
-          display:block
-        }
-        & > label {
-          .mb(30px);
-          .f18;
-          font-weight:bold;
-        }
-        .text {
-          width:percentage(@half*2);
-          & > label {
-            .text-center;
-            font-size:22px;
-            .wrapper(10px, 10px);
-          }
-          & > p:first-of-type {
-            .fontSong;
-            height:65px;
-            overflow:hidden;
-            .ellipsis(3);
-          }
-          & > .link {
-            .pos-a;
-            .text-right;
-            width:percentage(@half*2);
-            height:28px;
-            left:0;
-            right:30px;
-            bottom:30px;
-            a {
-              width:28px;
-              height:28px;
-              .mr(30px);
-              display:inline-block;
-              background:url("@{icon-1}") no-repeat -203px -210px;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
 // 新闻
 #news {
-  background-color:rgba(248, 248, 248, 1);
+  background-color:@white;
   // 菜单控制
   .tab-control {
     width:560px;
@@ -428,6 +337,98 @@
         }
         .viewImg {
           width:64px
+        }
+      }
+    }
+  }
+}
+
+// 成功案例
+#project {
+  background-color:rgba(248, 248, 248, 1);
+  .project-list {
+    .pt(60px);
+    .pb(60px);
+    .toTable;
+    & > ul {
+      display:table-row;
+    }
+    li {
+      .pos-r;
+      width:percentage(0.2);
+      height:300px;
+      max-height:300px;
+      overflow:hidden;
+      display:table-cell;
+      vertical-align:middle;
+      .response-img {
+        height:100%;
+        -moz-transition:transform 0.6s ease 0s;
+        transition:transform 0.6s ease 0s;
+        transform:scale(1);
+        -webkit-transform:scale(1);
+        -moz-transform:scale(1);
+        -ms-transform:scale(1);
+        -o-transform:scale(1);
+        transition-timing-function:ease;
+      }
+      &:hover .response-img {
+        -moz-transition:transform 0.6s ease 0s;
+        transition:transform 0.6s ease 0s;
+        transform:scale(1.25);
+        -webkit-transform:scale(1.25);
+        -moz-transform:scale(1.25);
+        -ms-transform:scale(1.25);
+        -o-transform:scale(1.25);
+      }
+      .mask {
+        .pos-a;
+        .hide;
+        color:@white;
+        padding:20px 30px;
+        box-sizing:border-box;
+        top:0;
+        left:0;
+        background:rgba(0, 0, 0, .7);
+        width:percentage(@half*2);
+        height:percentage(@half*2);
+        label {
+          display:block
+        }
+        & > label {
+          .mb(30px);
+          .f18;
+          font-weight:bold;
+        }
+        .text {
+          width:percentage(@half*2);
+          & > label {
+            .text-center;
+            font-size:22px;
+            .wrapper(10px, 10px);
+          }
+          & > p:first-of-type {
+            .fontSong;
+            height:65px;
+            overflow:hidden;
+            .ellipsis(3);
+          }
+          & > .link {
+            .pos-a;
+            .text-right;
+            width:percentage(@half*2);
+            height:28px;
+            left:0;
+            right:30px;
+            bottom:30px;
+            a {
+              width:28px;
+              height:28px;
+              .mr(30px);
+              display:inline-block;
+              background:url("@{icon-1}") no-repeat -203px -210px;
+            }
+          }
         }
       }
     }
