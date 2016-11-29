@@ -22,7 +22,7 @@ wzWeb.tabSwich = function (parent) {
           $(this).show().siblings().hide();
         }
       });
-    })
+    });
   });
 };
 
@@ -39,7 +39,7 @@ wzWeb.imgLayer = function (box) {
       var mask = $(this).find('.mask');
       mask.hide();
     });
-  })
+  });
 };
 
 //获取JSON长度
