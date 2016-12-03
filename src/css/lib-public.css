@@ -348,9 +348,13 @@ body {
   background-color: #ff0000;
 }
 /*TEXT STYLE*/
-p,
+p {
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
+  line-height: 1.6;
+}
 .fontSong {
   font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
+  line-height: 1.6;
 }
 .text-center {
   text-align: center;
@@ -434,6 +438,7 @@ p,
 }
 .wrap .title > p {
   font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
+  line-height: 1.6;
   text-align: center;
   padding-top: 20px;
 }
@@ -881,6 +886,7 @@ p,
   font-size: 12px;
   display: block;
   font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
+  line-height: 1.6;
   line-height: 24px;
   font-weight: normal;
 }

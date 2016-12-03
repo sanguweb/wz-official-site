@@ -5,7 +5,7 @@
 
 $(function () {
     wzWeb.tabSwich($('#news'));  //选项卡
-    wzWeb.imgLayer($('.project-list', '#project'));//图片内容遮罩
+    wzWeb.imgLayer($('.project-list', '#project'));//案例内容遮罩
     wzWeb.imgReload();
 
     $('#slider').unslider({//首屏轮播

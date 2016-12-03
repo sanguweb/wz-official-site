@@ -348,9 +348,13 @@ body {
   background-color: #ff0000;
 }
 /*TEXT STYLE*/
-p,
+p {
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
+  line-height: 1.6;
+}
 .fontSong {
   font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
+  line-height: 1.6;
 }
 .text-center {
   text-align: center;
@@ -434,6 +438,7 @@ p,
 }
 .wrap .title > p {
   font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
+  line-height: 1.6;
   text-align: center;
   padding-top: 20px;
 }
@@ -801,6 +806,7 @@ p,
 }
 #team-show li > .team-speak {
   font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
+  line-height: 1.6;
   height: 64px;
   max-height: 64px;
   overflow: hidden;
@@ -921,4 +927,142 @@ p,
 }
 #team-pop-wrap > .people-info .pop-control > span.next {
   background: url("../img/icon-4.png") no-repeat -576px -74px;
+}
+.team-pic-wrap {
+  width: 1155px;
+  height: 825px;
+  margin: 0 auto 0 auto;
+  position: relative;
+  padding-bottom: 100px;
+  overflow: visible;
+}
+.team-pic-wrap .arrow {
+  background: url("../img/icon-1.png") no-repeat;
+  cursor: pointer;
+  position: absolute;
+  content: "";
+  margin-top: -26px;
+  margin-left: -13px;
+  top: 50%;
+  left: 50%;
+  width: 26px;
+  height: 52px;
+  margin-top: -60px;
+}
+.team-pic-wrap .arrow.prev {
+  left: -50px;
+  background-position: -260px -148px;
+}
+.team-pic-wrap .arrow.prev:hover {
+  background-position: -260px -94px;
+}
+.team-pic-wrap .arrow.next {
+  left: auto;
+  right: -50px;
+  background-position: -232px -148px;
+}
+.team-pic-wrap .arrow.next:hover {
+  background-position: -232px -94px;
+}
+#team-pic-wall {
+  background: #efefef;
+  overflow: hidden;
+}
+#team-pic-wall ul {
+  width: 1155px;
+  height: 825px;
+  overflow: hidden;
+}
+#team-pic-wall ul > li {
+  zoom: 1;
+  width: inherit;
+  height: inherit;
+  overflow: hidden;
+}
+#team-pic-wall ul > li:before {
+  content: '';
+  display: block;
+}
+#team-pic-wall ul > li:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#team-pic-wall ul > li > section {
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  width: 14.285%;
+  height: 165px;
+}
+#team-pic-wall ul > li > section.text {
+  position: relative;
+  padding: 15px;
+  opacity: 0;
+}
+#team-pic-wall ul > li > section.text:before {
+  background-image: url("../img/icon-arr.png");
+}
+#team-pic-wall ul > li > section.text.arr-top:before,
+#team-pic-wall ul > li > section.text.arr-btm:before {
+  content: "";
+  margin-top: -8px;
+  margin-left: -16px;
+  top: 50%;
+  left: 50%;
+  width: 32px;
+  height: 16px;
+  position: absolute;
+}
+#team-pic-wall ul > li > section.text.arr-left:before,
+#team-pic-wall ul > li > section.text.arr-right:before {
+  content: "";
+  margin-top: -16px;
+  margin-left: -8px;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 32px;
+  position: absolute;
+}
+#team-pic-wall ul > li > section.text.arr-top:before {
+  top: -8px;
+  background-position: -32px -8px;
+}
+#team-pic-wall ul > li > section.text.arr-btm:before {
+  top: auto;
+  bottom: -16px;
+  background-position: -64px -8px;
+}
+#team-pic-wall ul > li > section.text.arr-left:before {
+  left: -8px;
+  background-position: 0;
+}
+#team-pic-wall ul > li > section.text.arr-right:before {
+  background-position: -16px 0;
+  left: auto;
+  right: -16px;
+}
+#team-pic-wall ul > li > section.text > label {
+  font-size: 18px;
+  display: block;
+}
+#team-pic-wall ul > li > section.text > p {
+  font-size: 14px;
+  padding: 15px 0 5px 0;
+  height: auto;
+  height: 57px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+#team-pic-wall ul > li > section.text > p + i {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+#team-pic-wall ul > li > section > img {
+  height: inherit;
 }

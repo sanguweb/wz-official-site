@@ -348,9 +348,13 @@ body {
   background-color: #ff0000;
 }
 /*TEXT STYLE*/
-p,
+p {
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
+  line-height: 1.6;
+}
 .fontSong {
   font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
+  line-height: 1.6;
 }
 .text-center {
   text-align: center;
@@ -434,6 +438,7 @@ p,
 }
 .wrap .title > p {
   font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
+  line-height: 1.6;
   text-align: center;
   padding-top: 20px;
 }
@@ -589,6 +594,7 @@ p,
 }
 #service .service-list li .box > p {
   font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
+  line-height: 1.6;
   text-align: center;
 }
 #service .service-list li:not(:last-of-type):after {
@@ -937,6 +943,7 @@ p,
 }
 #project .project-list li .mask .text > p:first-of-type {
   font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
+  line-height: 1.6;
   height: 65px;
   overflow: hidden;
   text-overflow: ellipsis;
