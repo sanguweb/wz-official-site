@@ -7,13 +7,11 @@ $(function () {
     wzWeb.tabSwich($('#news'));  //选项卡
     wzWeb.imgLayer($('.project-list', '#project'));//案例内容遮罩
     wzWeb.imgReload();
-
-    $('#slider').unslider({//首屏轮播
-        speed: 500,
-        dots: true,
-        fluid: true,
-        keys:true,
-        fluid:true
+    
+    $('#focus').responsiveSlides({
+        pager: true,
+        nav: true,
+        namespace: 'centered-btns',
     });
 
     var unslider04 = $('#logos').unslider({

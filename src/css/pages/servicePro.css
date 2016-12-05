@@ -474,6 +474,9 @@ p {
 #service-current {
   padding-bottom: 50px;
 }
+#service-current.wrap {
+  padding: 50px 0 80px 0;
+}
 #service-current > .title figcaption h3 {
   width: 100%;
   padding: 20px 0;
