@@ -671,6 +671,19 @@ p {
 }
 .ourCulture-table table td section:only-child label {
   font-size: 18px;
+  display: block;
+}
+.ourCulture-table table td section:only-child label > span {
+  display: block;
+  padding: 12px 0 12px 0;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  letter-spacing: 36px;
+  text-indent: 36px;
+}
+.ourCulture-table table td section:only-child label > span + small {
+  font-size: 14px;
 }
 .ourCulture-table table td section:only-child p {
   font-size: 14px;
@@ -687,6 +700,7 @@ p {
 }
 .ourCulture-table table tr:first-of-type + tr td {
   width: 195px;
+  border-top: none;
 }
 .ourCulture-table table tr:first-of-type + tr td:nth-of-type(1) {
   width: 292.5px;
@@ -998,7 +1012,7 @@ p {
   float: left;
   box-sizing: border-box;
   border: 1px solid #ffffff;
-  width: 14.285%;
+  width: 165px;
   height: 165px;
 }
 #team-pic-wall ul > li > section.text {

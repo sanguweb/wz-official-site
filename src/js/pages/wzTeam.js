@@ -29,7 +29,7 @@ wzWeb.picWall = function () {
   $.each(teamPic, function () {
     var thisKey = $(this).attr('user-pic');
     $(this).hover(function () {
-      if (thisKey.length > 0) {
+      if (thisKey && thisKey.length > 0) {
         var key = thisKey;
       }
       $.each(teamName, function () {

@@ -424,11 +424,11 @@
         width:percentage(@half*2);
         height:percentage(@half*2);
         label {
-          display:block
+          .block;
         }
         & > label {
-          .mb(30px);
           .f18;
+          .mb(30px);
           font-weight:bold;
         }
         .text {
@@ -592,4 +592,45 @@
       }
     }
   }
+}
+
+@media screen and (max-width:1440px) {
+  #project {
+    .project-list {
+      li {
+        .mask {
+          label {
+            .f14 ;
+            .pt(0);
+          }
+          & > label {
+            .mb(30px);
+          }
+          .text {
+            width:percentage(@whole);
+            & > label {
+              .f14;
+              .wrapper(0, 10px);
+            }
+            & > p:first-of-type {
+              .fontSong;
+              .f12;
+              height:36px;
+              overflow:hidden;
+              .ellipsis(2);
+            }
+            & > .link {
+              bottom:15px;
+              a {
+                -webkit-transform:scale(0.75);
+                transform:scale(0.75);
+                .mr(15px);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
 }

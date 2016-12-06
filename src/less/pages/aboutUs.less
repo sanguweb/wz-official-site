@@ -176,7 +176,7 @@
   table {
     td {
       color:@white;
-      border:dotted @white 1px ;
+      border:dotted @white 1px;
       img:only-child {
         .block;
       }
@@ -184,6 +184,17 @@
         padding:0 15px;
         label {
           .f18;
+          .block;
+          & > span {
+            .block;
+            .wrapper(12px, 12px);
+            .text-center;
+            letter-spacing:36px;
+            text-indent:36px;
+            & + small {
+              .f14;
+            }
+          }
         }
         p {
           .f14;
@@ -206,6 +217,7 @@
       & + tr {
         td {
           width:195px;
+          border-top:none;
           &:nth-of-type(1) {
             width:97.5px+195px;
             background-color:rgba(132, 120, 110, 1);
@@ -471,6 +483,7 @@
   }
 }
 
+//照片墙
 #team-pic-wall {
   background:#efefef;
   overflow:hidden;
@@ -487,7 +500,7 @@
         .fl;
         box-sizing:border-box;
         border:1px solid @white;
-        width:14.285%;
+        width:165px;
         height:165px;
         &.text {
           .pos-r;
