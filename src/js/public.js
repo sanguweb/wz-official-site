@@ -67,20 +67,20 @@ wzWeb.sideBar = function () {
       $(this).hover(function () {
         clearTimeout(timer);
         timer = setTimeout(function () {
-          $oSpan.animate({left: "-110px"}, "300").show();
+          $oSpan.animate({left: "-110px"}, 300).show();
         }, 400);
       }, function () {
         clearTimeout(timer);
-        $oSpan.animate({left: "50px"}, "300").show();
+        $oSpan.animate({left: "50px"}, 300).show();
       })
     }
   });
   
   qrCodeBtn.hover(
     function () {
-      $qrCodePic.animate({right: "50px"}, "300").show();
+      $qrCodePic.animate({right: "50px"}, 400).show();
     }, function () {
-      $qrCodePic.animate({right: "-160px"}, "300").hide();
+      $qrCodePic.animate({right: "-160px"}, 400).hide();
     }
   );
   

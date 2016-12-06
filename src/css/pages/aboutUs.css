@@ -661,6 +661,7 @@ p {
 }
 .ourCulture-table table td {
   color: #ffffff;
+  border: dotted #ffffff 1px;
 }
 .ourCulture-table table td img:only-child {
   display: block;
@@ -684,13 +685,18 @@ p {
 .ourCulture-table table tr:first-of-type td:nth-of-type(6) {
   background-color: #afafaf;
 }
+.ourCulture-table table tr:first-of-type + tr td {
+  width: 195px;
+}
 .ourCulture-table table tr:first-of-type + tr td:nth-of-type(1) {
+  width: 292.5px;
   background-color: #84786e;
 }
 .ourCulture-table table tr:first-of-type + tr td:nth-of-type(3) {
   background-color: #8e8e8e;
 }
 .ourCulture-table table tr:first-of-type + tr td:nth-of-type(5) {
+  width: 292.5px;
   background-color: #495c60;
 }
 .development-timeline {

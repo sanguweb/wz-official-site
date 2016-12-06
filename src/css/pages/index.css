@@ -476,21 +476,11 @@ p {
 .slider ul:first-child > li img {
   display: block;
 }
-.focusWrap {
-  position: relative;
-  padding: 0;
-}
 .focusWrap > #focus {
   height: auto;
   overflow: hidden;
   max-height: 580px;
   width: 100%;
-}
-.focusWrap > #focus a {
-  display: block;
-}
-.focusWrap > #focus a img {
-  max-width: 100%;
 }
 .centered-btns_nav {
   display: none;
