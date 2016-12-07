@@ -505,6 +505,11 @@ p {
   text-indent: 2em;
   padding-bottom: 15px;
 }
+.aboutUs-content .title ~ .list-text {
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
+  line-height: 1.6;
+  line-height: 2;
+}
 .aboutUs-content strong.tip {
   font-size: 14px;
   position: relative;
