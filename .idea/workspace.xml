@@ -1,20 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ab176845-7d30-4e3e-935d-a4e28de9145b" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/manifest.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/focusImg/slide1.jpg" afterPath="$PROJECT_DIR$/src/img/focusImg/slide1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cssxfire.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/bground/aboutUs-people-show.png" afterPath="$PROJECT_DIR$/src/img/bground/aboutUs-people-show.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/city/city-shanghai.jpg" afterPath="$PROJECT_DIR$/src/img/city/city-shanghai.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/earth1.png" afterPath="$PROJECT_DIR$/src/img/earth1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/earth2.png" afterPath="$PROJECT_DIR$/src/img/earth2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/earth3.png" afterPath="$PROJECT_DIR$/src/img/earth3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/earth4.png" afterPath="$PROJECT_DIR$/src/img/earth4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/wzWeb.iml" afterPath="$PROJECT_DIR$/.idea/wzWeb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/lib-common.css" afterPath="$PROJECT_DIR$/src/css/lib-common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/lib-public.css" afterPath="$PROJECT_DIR$/src/css/lib-public.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/lib-reset.css" afterPath="$PROJECT_DIR$/src/css/lib-reset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/pages/aboutUs.css" afterPath="$PROJECT_DIR$/src/css/pages/aboutUs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/pages/cases.css" afterPath="$PROJECT_DIR$/src/css/pages/cases.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/pages/contactUs.css" afterPath="$PROJECT_DIR$/src/css/pages/contactUs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/pages/foolishBird.css" afterPath="$PROJECT_DIR$/src/css/pages/foolishBird.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/pages/index.css" afterPath="$PROJECT_DIR$/src/css/pages/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/pages/joinUs.css" afterPath="$PROJECT_DIR$/src/css/pages/joinUs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/pages/newsCenter.css" afterPath="$PROJECT_DIR$/src/css/pages/newsCenter.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/pages/servicePro.css" afterPath="$PROJECT_DIR$/src/css/pages/servicePro.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/aboutUs/index.html" afterPath="$PROJECT_DIR$/src/html/aboutUs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/contactUs/index.html" afterPath="$PROJECT_DIR$/src/html/contactUs/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/index.html" afterPath="$PROJECT_DIR$/src/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/servicePro/brandRegist.html" afterPath="$PROJECT_DIR$/src/html/servicePro/brandRegist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/servicePro/copyright.html" afterPath="$PROJECT_DIR$/src/html/servicePro/copyright.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/joinUs/idea.html" afterPath="$PROJECT_DIR$/src/html/joinUs/idea.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/joinUs/index.html" afterPath="$PROJECT_DIR$/src/html/joinUs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/newsCenter/index.html" afterPath="$PROJECT_DIR$/src/html/newsCenter/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/newsCenter/industryNews.html" afterPath="$PROJECT_DIR$/src/html/newsCenter/industryNews.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/newsCenter/lawNews.html" afterPath="$PROJECT_DIR$/src/html/newsCenter/lawNews.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/newsCenter/mediaNews.html" afterPath="$PROJECT_DIR$/src/html/newsCenter/mediaNews.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/servicePro/index.html" afterPath="$PROJECT_DIR$/src/html/servicePro/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/servicePro/projectApplication.html" afterPath="$PROJECT_DIR$/src/html/servicePro/projectApplication.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/public.js" afterPath="$PROJECT_DIR$/src/js/public.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/lib-public.less" afterPath="$PROJECT_DIR$/src/less/lib-public.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/lib-reset.less" afterPath="$PROJECT_DIR$/src/less/lib-reset.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/pages/aboutUs.less" afterPath="$PROJECT_DIR$/src/less/pages/aboutUs.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/pages/joinUs.less" afterPath="$PROJECT_DIR$/src/less/pages/joinUs.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/pages/servicePro.less" afterPath="$PROJECT_DIR$/src/less/pages/servicePro.less" />
     </list>
     <ignored path="wzWeb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,56 +64,60 @@
     <favorites_list name="wzWeb" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.53358614">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/html/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="279">
-                  <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/html/aboutUs/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="131" column="24" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="24" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/html/aboutUs/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="279">
-                  <caret line="160" column="5" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="aboutUs.less" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/less/pages/aboutUs.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/contactUs/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="122" column="50" selection-start-line="122" selection-start-column="50" selection-end-line="122" selection-end-column="50" />
+              <folding>
+                <element signature="n#div#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="canvas给图片添加水印.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/JS/src/canvas/demo/canvas给图片添加水印.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="idea.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/joinUs/idea.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3751">
+              <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="joinUs.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/less/pages/joinUs.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="868">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/joinUs/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3720">
+              <caret line="120" column="16" selection-start-line="118" selection-start-column="10" selection-end-line="120" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,41 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/less/pages/foolishBird.less" />
-        <option value="$PROJECT_DIR$/src/html/joinUs/index.html" />
-        <option value="$PROJECT_DIR$/src/html/joinUs/idea.html" />
-        <option value="$PROJECT_DIR$/src/html/contactUs/index.html" />
-        <option value="$PROJECT_DIR$/src/less/pages/cases.less" />
-        <option value="$PROJECT_DIR$/../DayDayUp/前端面试题/The-front-end-code-build-automated-build-environment/README.md" />
-        <option value="$PROJECT_DIR$/src/less/pages/servicePro.less" />
-        <option value="$PROJECT_DIR$/src/less/pages/joinUs.less" />
-        <option value="$PROJECT_DIR$/src/less/lib-common.less" />
-        <option value="$PROJECT_DIR$/src/html/newsCenter/index.html" />
-        <option value="$PROJECT_DIR$/src/html/newsCenter/industryNews.html" />
-        <option value="$PROJECT_DIR$/src/html/newsCenter/lawNews.html" />
-        <option value="$PROJECT_DIR$/src/html/newsCenter/mediaNews.html" />
-        <option value="$PROJECT_DIR$/src/html/newsCenter/newsDetail.html" />
-        <option value="$PROJECT_DIR$/src/js/pages/index.js" />
-        <option value="$PROJECT_DIR$/src/js/public.js" />
-        <option value="$PROJECT_DIR$/src/js/pages/wzTeam.js" />
-        <option value="$PROJECT_DIR$/src/less/pages/index.less" />
-        <option value="$PROJECT_DIR$/src/html/cases/index.html" />
-        <option value="$PROJECT_DIR$/src/html/aboutUs/wzCulture.html" />
-        <option value="$PROJECT_DIR$/src/html/aboutUs/wzDevelopment.html" />
-        <option value="$PROJECT_DIR$/src/html/aboutUs/wzTeam.html" />
-        <option value="$PROJECT_DIR$/src/html/aboutUs/wzTeam-1.html" />
-        <option value="$PROJECT_DIR$/../DayDayUp/Cite/jquery库/cdn" />
-        <option value="$PROJECT_DIR$/../DayDayUp/Cite/bootstrap/cdn" />
-        <option value="$PROJECT_DIR$/../DayDayUp/Cite/cdn.md" />
-        <option value="$PROJECT_DIR$/../DayDayUp/Cite/cdsn.md" />
-        <option value="$PROJECT_DIR$/../DayDayUp/Cite/cdn" />
-        <option value="$PROJECT_DIR$/../DayDayUp/Snippets/JS-Snippets/MentenTools/demo2-touch.html" />
-        <option value="$PROJECT_DIR$/../antaresWong.github.io/_config.yml" />
-        <option value="$PROJECT_DIR$/../antaresWong.github.io/themes/material/layout/_partial/sidebar-footer.ejs" />
-        <option value="$PROJECT_DIR$/../antaresWong.github.io/themes/material/layout/_partial/footer.ejs" />
-        <option value="$PROJECT_DIR$/../antaresWong.github.io/themes/material/_config.yml" />
-        <option value="$PROJECT_DIR$/../wzApp/fbapp/webpack.config.js" />
-        <option value="$PROJECT_DIR$/../Just-coding/Snippets/JS-Snippets/canvas/demo/进度圆圈.html" />
         <option value="$PROJECT_DIR$/../Just-coding/CssUI/Framework7-1.5.0/dist/form.html" />
         <option value="$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/html/data-title实现常规title效果.html" />
         <option value="$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/html/chrome图标.html" />
@@ -145,13 +142,48 @@
         <option value="$PROJECT_DIR$/../Just-coding/CssUI/Framework7-1.5.0/dist/about.html" />
         <option value="$PROJECT_DIR$/../Just-coding/CssUI/Framework7-1.5.0/dist/css/my-app.css" />
         <option value="$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/html/盒子左右底部投影.html" />
-        <option value="$PROJECT_DIR$/src/html/index.html" />
-        <option value="$PROJECT_DIR$/src/html/aboutUs/index.html" />
-        <option value="$PROJECT_DIR$/src/html/servicePro/index.html" />
         <option value="$PROJECT_DIR$/src/html/servicePro/brandRegist.html" />
         <option value="$PROJECT_DIR$/src/html/servicePro/copyright.html" />
         <option value="$PROJECT_DIR$/src/html/servicePro/projectApplication.html" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/Shadow/盒子左右底部投影.html" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/Layout/元素水平垂直居中.html" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/Layout/dl列表折行布局.html" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/Icon/plus加号.html" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/JS-Snippets/src/倒计时.html" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/Layout/8种隐藏元素的方法.html" />
+        <option value="$PROJECT_DIR$/../Just-coding/Cite/css-reset/wing/wing.css" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/Icon/style/snippets.min.css" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/Icon/奇形怪状.html" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/JS-Snippets/MentenTools/css/menten.tools.css" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/JS-Snippets/MentenTools/js/menten.tools.original.js" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/Layout/8种左边竖条的实现方法.html" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/Icon/style/snippets.css" />
+        <option value="$PROJECT_DIR$/../Just-coding/Cite/css-reset/reset.dev.mb.css" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/CSS/Button/按钮冲击波交互效果.html" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/CSS/Button/switch滑动开关按钮的效果.html" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/CSS/Button/flex布局.html" />
+        <option value="$PROJECT_DIR$/src/css/pages/newsCenter.css" />
+        <option value="$PROJECT_DIR$/src/less/lib-public.less" />
+        <option value="$PROJECT_DIR$/src/html/newsCenter/industryNews.html" />
+        <option value="$PROJECT_DIR$/src/html/newsCenter/index.html" />
+        <option value="$PROJECT_DIR$/src/html/newsCenter/lawNews.html" />
+        <option value="$PROJECT_DIR$/src/html/newsCenter/mediaNews.html" />
+        <option value="$PROJECT_DIR$/src/html/index.html" />
+        <option value="$PROJECT_DIR$/src/less/pages/servicePro.less" />
+        <option value="$PROJECT_DIR$/src/html/servicePro/index.html" />
         <option value="$PROJECT_DIR$/src/less/pages/aboutUs.less" />
+        <option value="$PROJECT_DIR$/../Just-coding/Cite/css-reset/mb/reset.css" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/CSS/trademark/css/tradeMark_index.css" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/CSS/trademark/html/tradeMark_index.html" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/JS/MentenTools/demo2-touch.html" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/JS/MentenTools/demo3-addmoredata.html" />
+        <option value="$PROJECT_DIR$/src/html/aboutUs/index.html" />
+        <option value="$PROJECT_DIR$/src/html/joinUs/index.html" />
+        <option value="$PROJECT_DIR$/src/html/joinUs/idea.html" />
+        <option value="$PROJECT_DIR$/src/less/pages/joinUs.less" />
+        <option value="$PROJECT_DIR$/src/html/contactUs/index.html" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/JS/canvas/demo/canvas给图片添加水印.html" />
+        <option value="$PROJECT_DIR$/../Just-coding/Snippets/JS/src/canvas/demo/canvas给图片添加水印.html" />
       </list>
     </option>
   </component>
@@ -163,7 +195,6 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/../antaresWong.github.io/node_modules" />
-    <handled-path value="$PROJECT_DIR$/../wzApp/fbapp/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -245,6 +276,136 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Just-coding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Snippets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Just-coding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Snippets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Just-coding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Snippets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="canvas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Just-coding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Snippets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzGit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Just-coding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -274,110 +435,10 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzGit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzGit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzGit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzGit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzGit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzGit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzGit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzGit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzGit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wzWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Just-coding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.常规" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wzApp" />
@@ -388,22 +449,37 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../DayDayUp/Snippets" />
-      <recent name="$PROJECT_DIR$/../DayDayUp/Material/images/680x380" />
-      <recent name="$PROJECT_DIR$/../DayDayUp/Cite" />
-      <recent name="$PROJECT_DIR$/src/img/focusImg" />
-      <recent name="$PROJECT_DIR$/../DayDayUp/Basis/src/html" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../Just-coding/Book/CssSecrets/html" />
-      <recent name="$PROJECT_DIR$/../DayDayUp/Snippets/JS-Snippets" />
-      <recent name="$PROJECT_DIR$/../DayDayUp/BOOK" />
-      <recent name="$PROJECT_DIR$/../DayDayUp/Material/images/1900x1200" />
-      <recent name="$PROJECT_DIR$/../DayDayUp/Cite/jquery/jquery-3.0.0" />
+      <recent name="$PROJECT_DIR$/src/img" />
+      <recent name="$PROJECT_DIR$/src/img/city" />
+      <recent name="$PROJECT_DIR$/../Just-coding/Snippets/CSS/Button/style" />
+      <recent name="$PROJECT_DIR$/../Just-coding/Cite/css-reset" />
+      <recent name="$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/Shadow" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../Just-coding/Snippets/JS/src" />
+      <recent name="$PROJECT_DIR$/../Just-coding/Cite/css-reset/core-1.1" />
+      <recent name="$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/Layout" />
+      <recent name="$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/Shadow" />
+      <recent name="$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/Icon" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.canvas给图片添加水印.html">
+    <configuration default="false" name="demo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wzGit/Snippets/CSS/trademark/html/demo.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wzGit/Snippets/CSS/trademark/html/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="tradeMark_index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wzGit/Snippets/CSS/trademark/html/tradeMark_index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wzGit/src/html/servicePro/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="canvas给图片添加水印.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wzGit/Snippets/JS/src/canvas/demo/canvas给图片添加水印.html">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -457,6 +533,22 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.demo.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.tradeMark_index.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.canvas给图片添加水印.html" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.canvas给图片添加水印.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.tradeMark_index.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.demo.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -509,7 +601,15 @@
       <workItem from="1481175676697" duration="13058000" />
       <workItem from="1481194987627" duration="1859000" />
       <workItem from="1481252089066" duration="722000" />
-      <workItem from="1481253100572" duration="13409000" />
+      <workItem from="1481253100572" duration="23244000" />
+      <workItem from="1481352940406" duration="35005000" />
+      <workItem from="1481612053887" duration="2312000" />
+      <workItem from="1481617337832" duration="1608000" />
+      <workItem from="1481618980263" duration="279000" />
+      <workItem from="1481619380136" duration="3346000" />
+      <workItem from="1481675630077" duration="1399000" />
+      <workItem from="1481677097342" duration="47000" />
+      <workItem from="1481695026464" duration="1491000" />
     </task>
     <task id="LOCAL-00001" summary="flag">
       <created>1479191393192</created>
@@ -529,7 +629,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299288000" />
+    <option name="totallyTimeSpent" value="354610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1867" height="1057" extended-state="6" />
@@ -537,7 +637,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19555797" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.50216687" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5825346" sideWeight="0.50216687" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -577,349 +677,332 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../DayDayUp/Book的副本/Basis/src/manifest.json" />
-    <entry file="file://$PROJECT_DIR$/../DayDayUp/Book的副本/JsSnippets/.gitattributes" />
-    <entry file="file://$PROJECT_DIR$/../DayDayUp/Cite/.gitattributes" />
-    <entry file="file://$PROJECT_DIR$/../DayDayUp/Miaov/src/manifest.json" />
-    <entry file="file://$PROJECT_DIR$/../DayDayUp/Cite/cdn" />
-    <entry file="file://$PROJECT_DIR$/../DayDayUp/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/JQ-Snippet/.gitattributes" />
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/JS-Snippets/.gitattributes" />
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/JS-Snippets/weflow.config.json">
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS/Icon/chrome图标.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../antaresWong.github.io/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-558">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../antaresWong.github.io/themes/material/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../antaresWong.github.io/themes/material/layout/_partial/footer.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="25" column="18" selection-start-line="20" selection-start-column="12" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../antaresWong.github.io/themes/material/layout/_partial/sidebar-footer.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../antaresWong.github.io/themes/material/layout/_partial/sidebar-header.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../antaresWong.github.io/themes/material/layout/_partial/sidebar-sponsor.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../antaresWong.github.io/themes/material/layout/_partial/sidebar-navigation.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../antaresWong.github.io/themes/material/layout/_partial/footer-option.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../antaresWong.github.io/themes/material/layout/_partial/footer-left.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../wzApp/fbapp/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/JS-Snippets/canvas/demo/canvas加载动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/CssUI/Framework7-1.5.0/dist/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/CssUI/Framework7-1.5.0/examples/split-view/left-page-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/html/data-title实现常规title效果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/html/chrome图标.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
+        <state relative-caret-position="403">
           <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/html/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/html/按钮冲击波交互效果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1783">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/html/连字符断行.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/html/渐变按钮.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-543">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Book/CssSecrets/html/渐变按钮.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Book/JavascriptDOM/demo/case/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-836">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Book/JavascriptDOM/demo/css-DOM.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Book/JavascriptDOM/js/styleHeaderSiblings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Book/JavascriptDOM/demo/预览链接导向.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Book/JavascriptDOM/demo/Date内置对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Book/JavascriptDOM/demo/movie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Book/JavascriptDOM/demo/剔除伪协议.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/html/元素水平垂直居中.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/CssUI/Framework7-1.5.0/dist/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/CssUI/Framework7-1.5.0/dist/css/my-app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/CssUI/Framework7-1.5.0/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-496">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS-Snippets/html/盒子左右底部投影.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/Vue-Snippets/demo/5.3_v-show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/Vue-Snippets/demo/5.1_v-if.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/servicePro/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/aboutUs/wzCulture.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/servicePro/brandRegist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="122" column="36" selection-start-line="122" selection-start-column="36" selection-end-line="122" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/servicePro/copyright.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="121" column="36" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/servicePro/projectApplication.html">
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS/Icon/plus加号.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
-          <caret line="122" column="40" selection-start-line="122" selection-start-column="40" selection-end-line="122" selection-end-column="40" />
-          <folding />
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS/Icon/奇形怪状.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="145" column="28" selection-start-line="145" selection-start-column="21" selection-end-line="145" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS/Icon/style/snippets.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="81" column="15" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Cite/css-reset/reset.dev.pc.css" />
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Cite/css-reset/pc/wing.css" />
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Cite/css-reset/core-1.1/index.html" />
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Cite/css-reset/mb/core.css" />
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Cite/css-reset/reset.dev.mb.css" />
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Cite/css-reset/mb/reset.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Cite/css-reset/pc/reset.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS/Button/按钮冲击波交互效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS/Button/style/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS/Button/flex布局.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/lib-reset.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5154">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/pages/newsCenter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="122" column="28" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/pages/aboutUs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/pages/cases.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/pages/contactUs.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/pages/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/lib-common.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/lib-public.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="328" column="18" selection-start-line="328" selection-start-column="18" selection-end-line="328" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/newsCenter/industryNews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="101" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/newsCenter/lawNews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="97" column="39" selection-start-line="97" selection-start-column="39" selection-end-line="101" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/newsCenter/mediaNews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/bground/aboutUs-people-show.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/newsCenter/newsDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="118" column="31" selection-start-line="118" selection-start-column="31" selection-end-line="118" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/newsCenter/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="106" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/pages/servicePro.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/aboutUs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="160" column="5" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="249">
+          <caret line="122" column="10" selection-start-line="122" selection-start-column="10" selection-end-line="122" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/less/pages/aboutUs.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="155">
+          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS/trademark/html/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS/trademark/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS/trademark/html/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS/trademark/css/tradeMark_index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Cite/css-reset/mb/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Cite/css-reset/pc/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/CSS/trademark/html/tradeMark_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1271">
+          <caret line="115" column="60" selection-start-line="115" selection-start-column="60" selection-end-line="115" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/JS/MentenTools/css/menten.tools.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/JS/MentenTools/demo2-touch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/JS/MentenTools/demo3-addmoredata.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/weChatGame/checkEnglishName/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/servicePro/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="142" column="2" selection-start-line="142" selection-start-column="2" selection-end-line="142" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/aboutUs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="164" column="64" selection-start-line="164" selection-start-column="64" selection-end-line="164" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/pages/newsCenter.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/contactUs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="122" column="50" selection-start-line="122" selection-start-column="50" selection-end-line="122" selection-end-column="50" />
+          <folding>
+            <element signature="n#div#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/joinUs/idea.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3751">
+          <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/pages/joinUs.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/joinUs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3720">
+          <caret line="120" column="16" selection-start-line="118" selection-start-column="10" selection-end-line="120" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/JS/src/img/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Just-coding/Snippets/JS/src/canvas/demo/canvas给图片添加水印.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
           <folding />
         </state>
       </provider>

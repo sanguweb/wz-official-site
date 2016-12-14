@@ -53,7 +53,7 @@ video {
   border: 0;
   font-size: 100%;
 }
-/* ------- HTML5 display-role reset for older browsers ------- */
+/* ------- HTML5 display-role pc for older browsers ------- */
 article,
 aside,
 details,
@@ -502,7 +502,6 @@ p {
   text-align: center;
 }
 .aboutUs-content .title ~ p {
-  text-indent: 2em;
   padding-bottom: 15px;
 }
 .aboutUs-content .title ~ .list-text {
@@ -564,6 +563,7 @@ p {
   font-weight: 600;
 }
 .core-business li > p {
+  text-align: center;
   font-size: 14px;
 }
 .core-business li:before {

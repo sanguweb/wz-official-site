@@ -53,7 +53,7 @@ video {
   border: 0;
   font-size: 100%;
 }
-/* ------- HTML5 display-role reset for older browsers ------- */
+/* ------- HTML5 display-role pc for older browsers ------- */
 article,
 aside,
 details,
@@ -507,7 +507,7 @@ p {
   border-right: 1px solid #d7d7d7;
 }
 #tabMenu > .mailto {
-  width: 290px;
+  width: 410px;
   padding: 3px 10px;
   border: 1px solid #e85526;
   border-radius: 6px;

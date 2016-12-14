@@ -53,7 +53,7 @@ video {
   border: 0;
   font-size: 100%;
 }
-/* ------- HTML5 display-role reset for older browsers ------- */
+/* ------- HTML5 display-role pc for older browsers ------- */
 article,
 aside,
 details,
@@ -864,8 +864,8 @@ p {
 .sub-tabBar .currentMode > span {
   float: left;
   position: relative;
-  padding: 10px 0 10px 30px;
-  line-height: 20px;
+  padding: 15px 0 15px 30px;
+  line-height: 30px;
 }
 .sub-tabBar .currentMode > span:before {
   position: absolute;
@@ -884,7 +884,7 @@ p {
 }
 .sub-tabBar .currentMode > span strong {
   font-size: 12px;
-  display: block;
+  display: none;
   font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
   line-height: 1.6;
   line-height: 24px;

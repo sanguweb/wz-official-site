@@ -53,7 +53,7 @@ video {
   border: 0;
   font-size: 100%;
 }
-/* ------- HTML5 display-role reset for older browsers ------- */
+/* ------- HTML5 display-role pc for older browsers ------- */
 article,
 aside,
 details,
@@ -569,14 +569,17 @@ p {
 }
 .service-patent-type .box {
   width: 45%;
-  padding: 140px 0;
+  padding: 90px 0;
   line-height: 1.8;
 }
 .service-patent-type .box h3 {
   font-size: 30px;
+  margin-bottom: 20px;
 }
 .service-patent-type .box > p {
-  padding-right: 50px;
+  font-size: 14px;
+  padding-right: 40px;
+  margin-bottom: 15px;
 }
 .service-flow {
   padding: 80px 0 0 0;
