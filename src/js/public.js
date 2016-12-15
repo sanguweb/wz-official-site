@@ -55,7 +55,7 @@ wzWeb.sideBar = function () {
   var sideBar = $("#sideBar");
   var sideItem = sideBar.find("li");
   
-  var backTop = sideBar.find(".Icon-backtop");
+  var backTop = sideBar.find(".icon-backtop");
   var backTopBtn = backTop.parent('li');
   var qrCodeBtn = sideItem.eq(2);  //微信
   var $qrCodePic = qrCodeBtn.find(".qrImg");
@@ -89,7 +89,7 @@ wzWeb.sideBar = function () {
     function () {
       var sTop = $(this).scrollTop();
       if (sTop > 760) {
-        $(backTopBtn).fadeIn()
+        $(backTopBtn).fadeIn();
       } else {
         $(backTopBtn).fadeOut();
       }
