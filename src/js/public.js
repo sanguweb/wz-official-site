@@ -9,11 +9,16 @@ if (!wzWeb) {
 }
 
 $(function () {
+  wzWeb.init();
+});
+
+
+wzWeb.init = function () {
   wzWeb.subNavigation();
   wzWeb.headerFixed();
   wzWeb.sideBar();
-});
-
+  wzWeb.respondMenu();
+}
 //二级菜单
 wzWeb.subNavigation = function () {
   "use strict";
@@ -30,6 +35,17 @@ wzWeb.subNavigation = function () {
     }
   });
 };
+
+
+wzWeb.respondMenu = function () {
+  $('.nav-toggle').click(function () {
+    $('body').toggleClass('nav-open');
+  });
+  
+  $('.nav-open').bind("touchmove", function (e) {
+    e.preventDefault();
+  });
+}
 
 //固定导航
 wzWeb.headerFixed = function () {

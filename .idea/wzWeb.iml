@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../FbipsPHP/Template" />
     <content url="file://$MODULE_DIR$/../Just-coding" />
     <content url="file://$MODULE_DIR$/../antaresWong.github.io" />
     <content url="file://$MODULE_DIR$/../wzApp" />
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="vue-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="less-DefinitelyTyped" level="application" />
   </component>
 </module>

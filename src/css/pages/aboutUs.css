@@ -199,28 +199,18 @@ table {
   border-spacing: 0;
   border-collapse: collapse;
 }
-body {
-  letter-spacing: 0;
-  color: rgba(0, 0, 0, 0.8);
-  font-family: "微软雅黑", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.6;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -moz-font-feature-settings: "liga" on;
-}
 ::selection {
   color: #fff;
   background-color: #da271b;
 }
 body {
   font-size: 16px;
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 0.8);
   font-family: "微软雅黑", sans-serif;
-  color: #333333;
-  line-height: 1.4;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -244,6 +234,9 @@ body {
 }
 .icon-wechat:before {
   background: url("../img/icon-1.png") no-repeat -311px -204px;
+}
+.icon-cs:before {
+  background: url("../img/icon-1.png") no-repeat -288px -230px;
 }
 .icon-backtop:before {
   background: url("../img/icon-1.png") no-repeat -233px -230px;
@@ -465,6 +458,12 @@ p {
 .wrap .more:hover:after {
   background: url("../img/icon-1.png") no-repeat -343px 0;
 }
+.banner {
+  position: relative;
+}
+.banner img {
+  max-width: 100%;
+}
 .aboutUs-content {
   padding-top: 30px;
   padding-bottom: 80px;
@@ -663,6 +662,11 @@ p {
   padding: 0 0 130px 0;
   height: auto;
   overflow: hidden;
+}
+.ourCulture-table > img:only-of-type {
+  display: none;
+  padding: 0 15px;
+  box-sizing: border-box;
 }
 .ourCulture-table table td {
   color: #ffffff;

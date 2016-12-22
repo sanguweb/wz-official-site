@@ -28,7 +28,7 @@ $(function () {
     if (sideindexL == 0) {
       $(".box:first").show();
       alert("前面没有了！");
-      $(".map-tags li").eq(0).addClass("active").siblings("li").removeClass("active");
+      // $(".map-tags li").eq(0).addClass("active").siblings("li").removeClass("active");
     }
 
     responseProvince();

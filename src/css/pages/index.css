@@ -53,7 +53,7 @@ video {
   border: 0;
   font-size: 100%;
 }
-/* ------- HTML5 display-role pc for older browsers ------- */
+/* ------- HTML5 display-role mb for older browsers ------- */
 article,
 aside,
 details,
@@ -199,28 +199,18 @@ table {
   border-spacing: 0;
   border-collapse: collapse;
 }
-body {
-  letter-spacing: 0;
-  color: rgba(0, 0, 0, 0.8);
-  font-family: "微软雅黑", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.6;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -moz-font-feature-settings: "liga" on;
-}
 ::selection {
   color: #fff;
   background-color: #da271b;
 }
 body {
   font-size: 16px;
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 0.8);
   font-family: "微软雅黑", sans-serif;
-  color: #333333;
-  line-height: 1.4;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -244,6 +234,9 @@ body {
 }
 .icon-wechat:before {
   background: url("../img/icon-1.png") no-repeat -311px -204px;
+}
+.icon-cs:before {
+  background: url("../img/icon-1.png") no-repeat -288px -230px;
 }
 .icon-backtop:before {
   background: url("../img/icon-1.png") no-repeat -233px -230px;
@@ -465,6 +458,12 @@ p {
 .wrap .more:hover:after {
   background: url("../img/icon-1.png") no-repeat -343px 0;
 }
+.banner {
+  position: relative;
+}
+.banner img {
+  max-width: 100%;
+}
 .slider {
   position: relative;
   height: auto;
@@ -596,11 +595,7 @@ p {
   position: relative;
   width: 25%;
 }
-#service .service-list li .box {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-#service .service-list li .box > span:first-child {
+#service .service-list li > span:first-child {
   margin: 0 auto 0 auto;
   box-sizing: border-box;
   border-radius: 50%;
@@ -609,7 +604,7 @@ p {
   width: 120px;
   height: 120px;
 }
-#service .service-list li .box > span:first-child > a {
+#service .service-list li > span:first-child > a {
   margin: -1px auto 0 auto;
   margin-left: -1px;
   position: relative;
@@ -617,13 +612,13 @@ p {
   width: 100px;
   height: 100px;
 }
-#service .service-list li .box > strong {
+#service .service-list li > strong {
   padding: 30px 0 30px 0;
   height: auto;
   overflow: hidden;
   display: block;
 }
-#service .service-list li .box > p {
+#service .service-list li > p {
   font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
   line-height: 1.6;
   text-align: center;

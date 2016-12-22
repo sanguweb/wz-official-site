@@ -56,6 +56,9 @@ body {
   background:url("@{icon-1}") no-repeat -311px -204px;
 }
 
+.icon-cs:before {
+  background:url("@{icon-1}") no-repeat -288px -230px;
+}
 .icon-backtop:before {
   //width: 28px;
   background:url("@{icon-1}") no-repeat -233px -230px;
@@ -445,4 +448,13 @@ p{
 .wrapper(@paddingTop,@paddingBtm) {
   padding:@paddingTop 0 @paddingBtm 0;
   .h-auto;
+}
+
+
+//BANNER
+.banner {
+  .pos-r;
+  img {
+    max-width:100%
+  }
 }

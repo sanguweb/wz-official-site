@@ -199,28 +199,18 @@ table {
   border-spacing: 0;
   border-collapse: collapse;
 }
-body {
-  letter-spacing: 0;
-  color: rgba(0, 0, 0, 0.8);
-  font-family: "微软雅黑", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.6;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -moz-font-feature-settings: "liga" on;
-}
 ::selection {
   color: #fff;
   background-color: #da271b;
 }
 body {
   font-size: 16px;
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 0.8);
   font-family: "微软雅黑", sans-serif;
-  color: #333333;
-  line-height: 1.4;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -244,6 +234,9 @@ body {
 }
 .icon-wechat:before {
   background: url("../img/icon-1.png") no-repeat -311px -204px;
+}
+.icon-cs:before {
+  background: url("../img/icon-1.png") no-repeat -288px -230px;
 }
 .icon-backtop:before {
   background: url("../img/icon-1.png") no-repeat -233px -230px;
@@ -465,6 +458,12 @@ p {
 .wrap .more:hover:after {
   background: url("../img/icon-1.png") no-repeat -343px 0;
 }
+.banner {
+  position: relative;
+}
+.banner img {
+  max-width: 100%;
+}
 #welcome-text-wrap {
   display: table;
   padding: 70px 0 70px 0;
@@ -516,6 +515,17 @@ p {
   overflow: hidden;
   width: 704px;
   height: 550px;
+}
+.province span:after,
+.map-tags li:not(.city):after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: -6px;
+  width: 0;
+  height: 0;
+  border-top: 6px solid #d5d4d4;
+  border-right: 6px solid transparent;
 }
 .province span,
 .map-tags li {
@@ -631,17 +641,6 @@ p {
   color: #ea5413;
   font-weight: 600;
 }
-.province span:after,
-.map-tags li:not(.city):after {
-  position: absolute;
-  content: '';
-  left: 0;
-  bottom: -6px;
-  width: 0;
-  height: 0;
-  border-top: 6px solid #d5d4d4;
-  border-right: 6px solid transparent;
-}
 .province {
   position: absolute;
   z-index: 0;
@@ -739,6 +738,7 @@ p {
   height: 30px;
   cursor: pointer;
   z-index: 99;
+  text-indent: -999999px;
 }
 .map-info > .box .content-side > span.prev {
   left: -30px;

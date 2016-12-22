@@ -199,28 +199,18 @@ table {
   border-spacing: 0;
   border-collapse: collapse;
 }
-body {
-  letter-spacing: 0;
-  color: rgba(0, 0, 0, 0.8);
-  font-family: "微软雅黑", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.6;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -moz-font-feature-settings: "liga" on;
-}
 ::selection {
   color: #fff;
   background-color: #da271b;
 }
 body {
   font-size: 16px;
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 0.8);
   font-family: "微软雅黑", sans-serif;
-  color: #333333;
-  line-height: 1.4;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -244,6 +234,9 @@ body {
 }
 .icon-wechat:before {
   background: url("../img/icon-1.png") no-repeat -311px -204px;
+}
+.icon-cs:before {
+  background: url("../img/icon-1.png") no-repeat -288px -230px;
 }
 .icon-backtop:before {
   background: url("../img/icon-1.png") no-repeat -233px -230px;
@@ -465,6 +458,12 @@ p {
 .wrap .more:hover:after {
   background: url("../img/icon-1.png") no-repeat -343px 0;
 }
+.banner {
+  position: relative;
+}
+.banner img {
+  max-width: 100%;
+}
 #header {
   zoom: 1;
   width: 100%;
@@ -500,6 +499,7 @@ p {
   float: right;
   position: relative;
   text-align: center;
+  z-index: 99;
   zoom: 1;
   height: 100px;
   line-height: 100px;
@@ -597,6 +597,10 @@ p {
 }
 #header #navBar .sub li:last-of-type > a {
   border-bottom: none;
+}
+#header .response-menu,
+#header .nav-toggle {
+  display: none;
 }
 #main-footer {
   padding: 50px 0 30px 0;
@@ -698,6 +702,9 @@ p {
 #main-footer .btm-contact li > a.icon-wechat:hover:before {
   background: url("../img/icon-1.png") no-repeat -311px -178px;
 }
+#main-footer .btm-contact li > a.icon-cs:hover:before {
+  background: url("../img/icon-1.png") no-repeat -260px -230px;
+}
 #main-footer .btm-contact li > span {
   position: absolute;
   display: none;
@@ -764,6 +771,7 @@ p {
   width: 50px;
   height: 50px;
 }
+#sideBar ul > li em.icon-cs:before,
 #sideBar ul > li em.icon-qq:before,
 #sideBar ul > li em.icon-tel:before {
   position: absolute;
