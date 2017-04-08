@@ -1,0 +1,247 @@
+@import "../lib-common";
+
+#welcome-text-wrap {
+  display:table;
+  .wrapper(170px, 70px);
+  & > .text,
+  & > .qrcode {
+    display:table-cell;
+    vertical-align:middle;
+  }
+  //左边文字
+  & > .lt {
+    & > h3 {
+      .f24;
+      color:@red;
+      & > span:only-child {
+        color:@base-color;
+        .pl(20px);
+      }
+      & + label {
+        .block;
+        .f18;
+        .mt(30px);
+        & + p {
+          .f14;
+          line-height:1.8;
+        }
+      }
+    }
+  }
+  //  右边二维码
+  & > .rt {
+    .text-center;
+    width:130px;
+    img:only-of-type {
+      display:block;
+      .m-auto(0, 0)
+    }
+  }
+}
+
+//左侧地图
+.map-wrap {
+  .pb(100px);
+  .map {
+    .pos-r;
+    .m-auto(0, 0);
+    .pr(20px);
+    height:549px;
+    background:url("@{icon-7}") no-repeat 0 0 @white;
+
+    .map-tags {
+      .pos-r;
+      overflow:hidden;
+      width:710px;
+      height:580px;
+    }
+  }
+}
+
+.province span:after,
+.map-tags li:after {
+  .pos-a;
+  content:'';
+  left:0;
+  bottom:-6px;
+  width:0;
+  height:0;
+  border-top:6px solid #d5d4d4;
+  border-right:6px solid transparent;
+}
+
+.map-tags > li {
+  .pos-a;
+  .text-center;
+  .f14;
+  z-index:101;
+  width:60px;
+  height:20px;
+  line-height:20px;
+  background:#d5d4d4;
+  color:@base-color;
+  cursor:pointer;
+  box-shadow:0 1px 3px rgba(36, 36, 36, .86);
+
+  &.active,
+  &:hover {
+    z-index:999;
+    background:#ea5413;
+    color:@white;
+    &:after {
+      border-top:6px solid #ea5413;
+      border-right:6px solid transparent;
+    }
+  }
+  /****北京****/
+  &[data-id=beijing] {
+    top:181px;
+    left:516px;
+    & > .cityList {
+      top:-58px
+    }
+  }
+
+  /****天津****/
+  &[data-id=tianjin] {
+    top:211px;
+    left:530px
+  }
+
+  /****江苏****/
+  &[data-id=jiangsu] {
+    left:520px;
+    top:260px;
+    & > .cityList {
+      top:-22px
+    }
+  }
+  /****上海****/
+  &[data-id=shanghai] {
+    top:330px;
+    left:589px
+  }
+
+  /****浙江****/
+  &[data-id=zhejiang] {
+    left:580px;
+    top:360px;
+  }
+
+  /****广东****/
+  &[data-id=guangdong] {
+    left:480px;
+    top:490px;
+  }
+
+  //城市列表
+  & > .cityList {
+    .pos-a;
+    right:-65px;
+    top:0;
+    .border-base(#ccc);
+    content:'';
+    background:@white;
+    z-index:9;
+    width:60px;
+    overflow:hidden;
+    border-radius:4px;
+
+    .city {
+      .f12;
+      .block;
+      height:26px;
+      line-height:26px;
+      color:@base-color;
+      &.active {
+        color:#ea5413;
+        font-weight:600
+      }
+    }
+  }
+
+}
+
+//右侧面板
+.map-info {
+  .pos-a;
+  top:0;
+  right:0;
+  height:400px;
+  & > .box {
+    .f14;
+    top:0;
+    left:0;
+    z-index:1;
+    border-radius:6px;
+    padding:15px 30px;
+    width:340px;
+    height:auto;
+    .border-base(#ccc);
+    background-color:@white;
+    & > p {
+      .f16;
+      font-weight:600;
+      &:nth-of-type(2) {
+        margin-top:20px;
+      }
+    }
+    & > ul > li {
+      line-height:30px;
+      .toTable;
+      .f12;
+      & > span {
+        word-break:break-all;
+      }
+      & > label {
+        width:60px;
+        text-align:right;
+        display:table-cell;
+      }
+    }
+
+    .content-side {
+      .pos-r;
+      .toTable;
+      .text-center;
+      padding:10px 0;
+      height:165px;
+      overflow:visible;
+      .pic-box {
+        height:100%;
+        display:table-cell;
+      }
+      img {
+        max-width:85%;
+        height:auto;
+        vertical-align:middle;
+      }
+      &:after {
+        content:'';
+        height:100%;
+        display:inline-block;
+        vertical-align:middle
+      }
+      //控制按钮
+      & > span {
+        .pos-a;
+        top:50%;
+        transform:translateY(-50%);
+        width:30px;
+        height:30px;
+        cursor:pointer;
+        z-index:99;
+        text-indent:-999999px;
+        &.prev {
+          left:-30px;
+          background:url("@{icon-7}") no-repeat 0 -549px;
+        }
+        &.next {
+          right:-30px;
+          background:url("@{icon-7}") no-repeat -30px -549px;
+        }
+      }
+    }
+  }
+}
+

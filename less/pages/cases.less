@@ -1,0 +1,146 @@
+@import "../lib-common";
+
+#cases {
+  .wrapper(20px, 180px);
+  .wrapper {
+    .wrapper(160px, 20px);
+    .pos-r;
+    &:after {
+      .after(34px, 21px);
+      background:url("@{icon-3}") no-repeat 0;
+      top:auto;
+      bottom:0;
+    }
+    &:last-of-type {
+      &:after {
+        .hide;
+      }
+    }
+  }
+  .box {
+    .lt {
+      .fl;
+      .pr(35px)
+    }
+    .rt {
+      .fr;
+      .pl(35px)
+    }
+    .lt,
+    .rt {
+      display:table-cell;
+      box-sizing:border-box;
+      width:50%;
+      height:370px;
+    }
+    .pro-text {
+      h3 {
+        .fl;
+        font-size:40px;
+      }
+      & > span {
+        .pos-r;
+        .fl;
+        padding:8px 0 0 20px;
+        &:before {
+          .before(6px, 6px);
+          background-color:@red;
+          left:9px;
+        }
+        label {
+          .f18;
+          .block;
+          font-weight:700;
+          line-height:20px;
+        }
+        sub {
+          .fontSong;
+          .f14;
+        }
+      }
+      & ~ p {
+        .f14;
+        .fontSong;
+        line-height:2;
+        .pt(15px);
+        & > label:first-child {
+          .block;
+          font-weight:600;
+        }
+      }
+    }
+  }
+  .case-client {
+    .list-inline(left, 0);
+    .pb(100px);
+    .title {
+      .mb(30px);
+    }
+    li {
+      .fontSong;
+      width:20%;
+      .mt(30px);
+      line-height:20px;
+      //&:nth-of-type(5n+1) {
+      //  .text-left;
+      //}
+      //&:nth-of-type(5n) {
+      //  .text-right;
+      //}
+    }
+  }
+}
+
+//左侧导航
+#menuBar {
+  .pos-f;
+  z-index:999;
+  .mt(-200px);
+  box-sizing:border-box;
+  padding:20px 0;
+  left:-38px;
+  top:50%;
+  width:80px;
+  height:475px;
+  background-color:rgba(61, 61, 61, .95);
+  &:hover {
+    left:0;
+  }
+  li {
+    .f14;
+    color:@white;
+    height:34px;
+    padding:4px 0 4px 14px;
+    text-indent:-4px;
+    line-height:34px;
+    cursor:pointer;
+    .border-top-base(rgba(255, 255, 255, .3));
+    &:last-of-type {
+      .border-bottom-base(rgba(255, 255, 255, .3));
+    }
+    & > small {
+      .hide;
+      .f12;
+      .text-left;
+      text-indent:-12px;
+      -webkit-transform:scale(0.8333333);
+      transform:scale(0.8333333);
+    }
+    &.current {
+      .pos-r;
+      width:80px;
+      background-color:rgba(211, 51, 49, 1);
+      &:after {
+        .after(16px, 6px);
+        background:url("@{icon-3}") no-repeat  -34px 0;
+        top:auto;
+        right:0;
+        bottom:-6px;
+        left:auto;
+      }
+    }
+  }
+}
+
+
+

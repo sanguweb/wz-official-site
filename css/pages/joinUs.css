@@ -1,0 +1,642 @@
+/*
+     CSS Reset
+理念：1. reset 的目的不是清除浏览器的默认样式，这仅是部分工作。清除和重置是紧密不可分的。
+     2. reset 的目的不是让默认样式在所有浏览器下一致，而是减少默认样式有可能带来的问题。
+     3. reset 期望提供一套普适通用的基础样式。但没有银弹，推荐根据具体需求，裁剪和修改后再使用。
+*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+/* ------- HTML5 display-role mb for older browsers ------- */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block;
+}
+/** 设置默认字体 **/
+body,
+button,
+input,
+select,
+textarea {
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+address,
+cite,
+dfn,
+em,
+var {
+  font-style: normal;
+}
+/* 将斜体扶正 */
+code,
+kbd,
+pre,
+samp {
+  font-family: courier new, courier, monospace;
+}
+/* 统一等宽字体 */
+small {
+  font-size: 12px;
+}
+/* 小于 12px 的中文很难阅读，让 small 正常化 */
+address,
+cite,
+dfn,
+em,
+var,
+i {
+  font-style: normal;
+}
+:focus {
+  outline: 0;
+}
+small {
+  font-size: 12px;
+}
+ul,
+ol,
+dl {
+  list-style: none;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  outline: 0;
+}
+fieldset,
+img {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+a,
+img {
+  -webkit-touch-callout: none;
+  /* 禁止长按链接与图片弹出菜单 */
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+table {
+  width: 100%;
+  max-width: 100%;
+  border-spacing: 0;
+  border: 0;
+  border-collapse: collapse;
+}
+p {
+  text-align: justify;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+input,
+button,
+textarea {
+  list-style-type: none;
+  cursor: pointer;
+  border: 0;
+}
+input:focus {
+  outline: none;
+}
+ins {
+  display: none;
+  text-decoration: none;
+}
+/** 重置表单元素 **/
+legend {
+  color: #000;
+}
+/* for ie6 */
+fieldset,
+img {
+  border: 0;
+}
+/* img 搭车：让链接里的 img 无边框 */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+/* 使得表单元素在 ie 下能继承字体大小 */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+::selection {
+  color: #fff;
+  background-color: #da271b;
+}
+body {
+  font-size: 16px;
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "微软雅黑", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+}
+/* VARIABLE*/
+/*ICON*/
+.response-img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+.icon-fb:before {
+  background: url("../img/icon-1.png") no-repeat -288px -150px;
+}
+.icon-qq:before {
+  background: url("../img/icon-1.png") no-repeat -259px -202px;
+}
+.icon-tel:before {
+  background: url("../img/icon-1.png") no-repeat -288px -94px;
+}
+.icon-wechat:before {
+  background: url("../img/icon-1.png") no-repeat -311px -204px;
+}
+.icon-cs:before {
+  background: url("../img/icon-1.png") no-repeat -288px -230px;
+}
+.icon-backtop:before {
+  background: url("../img/icon-1.png") no-repeat -231px -230px;
+}
+.icon-Q:before {
+  background: url("../img/icon-1.png") no-repeat -174px -152px;
+}
+.icon-C:before {
+  background: url("../img/icon-1.png") no-repeat 0 -152px;
+}
+.icon-P:before {
+  background: url("../img/icon-1.png") no-repeat -58px -152px;
+}
+.icon-E:before {
+  background: url("../img/icon-1.png") no-repeat -116px -152px;
+}
+/* LAYOUT  STYLE*/
+.container {
+  margin: 0 auto 0 auto;
+  width: 1170px;
+  height: auto;
+  overflow: hidden;
+}
+#mask {
+  position: fixed;
+  z-index: 99;
+  content: "";
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before {
+  content: '';
+  display: block;
+}
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.block {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.h-auto {
+  height: auto;
+  overflow: hidden;
+}
+.pos-f {
+  position: fixed;
+}
+.pos-r {
+  position: relative;
+}
+.pos-a {
+  position: absolute;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.pd-v50 {
+  padding: 50px 0;
+}
+.pd-h50 {
+  padding: 0 50px;
+}
+.toTable {
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  display: table;
+}
+.toTable > .lt,
+.toTable > .rt {
+  display: table-cell;
+  vertical-align: middle;
+}
+/*LINK  STYLE*/
+#link-defalt {
+  color: #00b9d1;
+  display: block;
+}
+#link-defalt:hover {
+  color: #6699ff;
+}
+#link-defalt .main-nav {
+  display: block;
+  border-bottom: #da271b solid 6px;
+}
+#link-defalt .main-nav:hover {
+  background-color: #ff0000;
+}
+/*TEXT STYLE*/
+p {
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
+  line-height: 1.6;
+}
+.fontSong {
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
+  line-height: 1.6;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.f10 {
+  font-size: 10px;
+}
+.f12 {
+  font-size: 12px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f16 {
+  font-size: 16px;
+}
+.f18 {
+  font-size: 18px;
+}
+.f20 {
+  font-size: 20px;
+}
+.f24 {
+  font-size: 24px;
+}
+.f26 {
+  font-size: 26px;
+}
+.f28 {
+  font-size: 28px;
+}
+.f32 {
+  font-size: 32px;
+}
+/* FONT COLOR*/
+/*SNIPPET*/
+.wrap {
+  padding: 110px 0 80px 0;
+  overflow: hidden;
+  height: auto;
+}
+.wrap .title figcaption h3 {
+  position: relative;
+  margin: 0 auto 0 auto;
+  font-size: 28px;
+  font-family: "微软雅黑";
+  font-style: normal;
+  font-weight: 400;
+  border-bottom: 1px solid #e1e1e1;
+  display: inline-block;
+  padding: 0 90px 20px;
+}
+.wrap .title figcaption h3:after {
+  position: absolute;
+  content: "";
+  margin-top: -2px;
+  margin-left: -35px;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 3px;
+  background-color: #d33331;
+  top: auto;
+  bottom: -2px;
+}
+.wrap .title.reversion figcaption h3 {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.wrap .title.reversion figcaption h3:after {
+  background-color: #ffffff;
+}
+.wrap .title.reversion p {
+  color: #ffffff;
+}
+.wrap .title > p {
+  font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;
+  line-height: 1.6;
+  text-align: center;
+  padding-top: 20px;
+}
+.wrap .more {
+  display: inline-block;
+}
+.wrap .more > a {
+  color: #333333;
+}
+.wrap .more:after {
+  content: "";
+  float: right;
+  margin-top: 7px;
+  margin-left: 5px;
+  color: #333333;
+  background: url("../img/icon-1.png") no-repeat -343px -26px;
+  display: block;
+  width: 14px;
+  height: 14px;
+}
+.wrap .more:hover {
+  text-decoration: underline;
+}
+.wrap .more:hover:after {
+  background: url("../img/icon-1.png") no-repeat -343px 0;
+}
+.banner {
+  position: relative;
+}
+.banner img {
+  max-width: 100%;
+}
+#tabMenu {
+  padding: 36px 0 36px 0;
+  height: auto;
+  overflow: hidden;
+  border-bottom: 1px solid #bfbfbf;
+  font-size: 24px;
+}
+#tabMenu a {
+  color: #333333;
+}
+#tabMenu a:hover {
+  font-weight: 400;
+  color: #e85526;
+}
+#tabMenu > .menu {
+  zoom: 1;
+}
+#tabMenu > .menu dl,
+#tabMenu > .menu li {
+  float: left;
+  margin-right: 0;
+}
+#tabMenu > .menu:before {
+  content: '';
+  display: block;
+}
+#tabMenu > .menu:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#tabMenu > .menu > li {
+  padding: 0 15px;
+}
+#tabMenu > .menu > li.active > a {
+  color: #e85526;
+  font-weight: 800;
+}
+#tabMenu > .menu > li:not(:last-of-type) {
+  border-right: 1px solid #d7d7d7;
+}
+#tabMenu > .mailto {
+  width: 370px;
+  padding: 3px 10px;
+  border: 1px solid #e85526;
+  border-radius: 6px;
+  font-size: 14px;
+}
+#tabMenu > .mailto > label:first-child {
+  float: left;
+  display: inline-block;
+}
+#tabMenu > .mailto > label:first-child > em {
+  float: left;
+  display: block;
+  width: 24px;
+  height: 16px;
+  margin-right: 10px;
+  background: url("../img/icon-8.png") no-repeat -17px 0;
+}
+#tabMenu + .tip {
+  padding: 20px 0;
+  border-bottom: 10px #f0efef solid;
+}
+.tab-content {
+  padding: 0 0 100px 0;
+}
+.tab-content tr > td {
+  padding: 15px;
+}
+.tab-content tr > td > label:first-child {
+  color: #878787;
+}
+.tab-content tr:not(:first-child) > td {
+  border-top: 1px solid #d7d7d7;
+}
+.tab-content .preview {
+  border: 1px solid #d7d7d7;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tab-content .preview:hover {
+  border: none;
+  background: #e85526;
+  color: #fff;
+}
+.tab-content > .text {
+  padding-top: 20px;
+  line-height: 1.8;
+}
+/*详情弹框*/
+#jobDetail {
+  position: fixed;
+  z-index: 9999;
+  margin-top: -275px;
+  margin-left: -470px;
+  top: 50%;
+  left: 50%;
+  width: 940px;
+  height: 550px;
+  overflow: auto;
+  padding: 0 40px 30px;
+  line-height: 1.8;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #333333;
+  box-shadow: 0 0 5px rgba(36, 36, 36, 0.65);
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
+  -webkit-transform: scale(0) skew(45deg, 90deg);
+  transform: scale(0) skew(45deg, 90deg);
+}
+#jobDetail.open {
+  -webkit-transform: scale(1) skewX(0deg);
+  transform: scale(1) skewX(0deg);
+}
+#job-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  line-height: 34px;
+  cursor: pointer;
+}
+#job-close-btn em {
+  display: block;
+  background: url("../img/icon-8.png") no-repeat 0;
+  width: 17px;
+  height: 17px;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+  color: #e85526;
+}
+#job-close-btn em:hover {
+  color: #000;
+  -webkit-transform: rotate(-540deg);
+  transform: rotate(-540deg);
+}
+.job-title {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #e85526;
+  color: #fff;
+  font-size: 24px;
+}
+.job-point {
+  padding: 10px 0;
+  border-bottom: 1px solid #fff;
+}
+.job-point li {
+  margin-right: 25px;
+}
+.job-point li:not(:last-child) {
+  display: inline-block;
+}
+.job-description {
+  font-size: 14px;
+}
+.job-description > h3:first-child {
+  display: inline-block;
+  padding: 0 15px;
+  border-left: 10px solid #e85526;
+  color: inherit;
+  font-size: 16px;
+  line-height: 16px;
+}
+#content > figure {
+  margin-bottom: 40px;
+}
+#content > figure > h5 {
+  color: inherit;
+  font-size: 16px;
+}

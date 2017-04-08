@@ -1,0 +1,180 @@
+@import "../lib-common";
+
+#tabMenu {
+  .wrapper(36px, 36px);
+  .border-bottom-base(#bfbfbf);
+  .f24;
+
+  a {
+    #link-defalt.base(@base-color,#e85526, 400);
+  }
+
+  //菜单
+  & > .menu {
+    .list-inline(left, 0);
+    & > li {
+      padding:0 15px;
+      &.active {
+        & > a {
+          color:#e85526;
+          font-weight:800;
+        }
+      }
+      &:not(:last-of-type) {
+        .border-right-base(#d7d7d7);
+      }
+    }
+  }
+
+  & > .mailto {
+    width:370px;
+    padding:3px 10px;
+    .border-base(#e85526);
+    border-radius:6px;
+    .f14;
+    & > label:first-child {
+      .fl;
+      display:inline-block;
+      & > em {
+        .fl;
+        .block;
+        width:24px;
+        height:16px;
+        .mr(10px);
+        background:url("@{icon-8}") no-repeat -17px 0;
+      }
+    }
+  }
+
+  & + .tip {
+    padding:20px 0;
+    border-bottom:10px #f0efef solid;
+  }
+}
+
+//表格
+.tab-content {
+  padding:0 0 100px 0;
+  tr {
+    & > td {
+      padding:15px;
+      & > label:first-child {
+        color:#878787;
+      }
+    }
+    &:not(:first-child) > td {
+      .border-top-base(#d7d7d7);
+    }
+  }
+
+  //查看按钮
+  .preview {
+    .border-base(#d7d7d7);
+    padding:5px 10px;
+    border-radius:5px;
+    cursor:pointer;
+    &:hover {
+      border:none;
+      background:#e85526;
+      color:#fff;
+    }
+  }
+
+  & > .text {
+    .pt(20px);
+    line-height:1.8;
+  }
+}
+
+/*详情弹框*/
+#jobDetail {
+  .pos-f;
+  z-index:9999;
+  .center-middle(940px, 550px);
+  overflow:auto;
+  padding:0 40px 30px;
+  line-height:1.8;
+  border-radius:10px;
+  background:@white;
+  color:@base-color;
+  box-shadow:0 0 5px rgba(36, 36, 36, .65);
+  -webkit-transition:.4s ease-out;
+  transition:.4s ease-out;
+  -webkit-transform:scale(0) skew(45deg, 90deg);
+  transform:scale(0) skew(45deg, 90deg);
+}
+
+#jobDetail.open {
+  -webkit-transform:scale(1) skewX(0deg);
+  transform:scale(1) skewX(0deg);
+}
+
+#job-close-btn {
+  .pos-a;
+  top:10px;
+  right:10px;
+  width:30px;
+  height:30px;
+  font-size:20px;
+  line-height:34px;
+  cursor:pointer;
+}
+
+#job-close-btn em {
+  .block;
+  background:url("@{icon-8}") no-repeat 0;
+  width:17px;
+  height:17px;
+  -webkit-transition:.4s linear;
+  transition:.4s linear;
+  color:#e85526;
+}
+
+#job-close-btn em:hover {
+  color:#000;
+  -webkit-transform:rotate(-540deg);
+  transform:rotate(-540deg);
+}
+
+.job-title {
+  display:inline-block;
+  padding:10px 15px;
+  background:#e85526;
+  color:#fff;
+  font-size:24px;
+}
+
+.job-point {
+  padding:10px 0;
+  border-bottom:1px solid #fff;
+}
+
+.job-point li {
+  margin-right:25px;
+}
+
+.job-point li:not(:last-child) {
+  display:inline-block;
+}
+
+.job-description {
+  font-size:14px;
+}
+
+.job-description > h3:first-child {
+  display:inline-block;
+  padding:0 15px;
+  border-left:10px solid #e85526;
+  color:inherit;
+  font-size:16px;
+  line-height:16px;
+}
+
+#content > figure {
+  margin-bottom:40px;
+}
+
+#content > figure > h5 {
+  color:inherit;
+  font-size:16px;
+}

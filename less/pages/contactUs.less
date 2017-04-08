@@ -1,0 +1,338 @@
+@import "../lib-common";
+
+#welcome-text-wrap {
+  display:table;
+  .wrapper(70px, 70px);
+  & > .text,
+  & > .qrcode {
+    display:table-cell;
+    vertical-align:middle;
+  }
+  //左边文字
+  & > .lt {
+    & > h3 {
+      .f24;
+      color:@red;
+      & > span:only-child {
+        color:@base-color;
+        .pl(20px);
+      }
+      & + label {
+        .block;
+        .f18;
+        .mt(30px);
+        & + p {
+          .f14;
+          line-height:1.8;
+        }
+      }
+    }
+  }
+  //  右边二维码
+  & > .rt {
+    .text-center;
+    width:130px;
+    img:only-of-type {
+      display:block;
+      .m-auto(0, 0)
+    }
+  }
+}
+
+//左侧地图
+.map-wrap {
+  .pb(100px);
+  .map {
+    .pos-r;
+    .m-auto(0, 0);
+    .pr(20px);
+    height:549px;
+    background:url("@{icon-7}") no-repeat 0 0 @white;
+
+    .map-tags {
+      .pos-r;
+      overflow:hidden;
+      width:704px;
+      height:580px;
+    }
+  }
+}
+
+.province span:after,
+.map-tags li:not(.city):after {
+  .pos-a;
+  content:'';
+  left:0;
+  bottom:-6px;
+  width:0;
+  height:0;
+  border-top:6px solid #d5d4d4;
+  border-right:6px solid transparent;
+}
+
+.province span,
+.map-tags li {
+  .pos-a;
+  .text-center;
+  .f14;
+  z-index:101;
+  width:60px;
+  height:20px;
+  line-height:20px;
+  background:#d5d4d4;
+  color:@base-color;
+  cursor:pointer;
+
+  &:not(.city) {
+    box-shadow:0 1px 3px rgba(36, 36, 36, .86);
+  }
+  &.active,
+  &:hover {
+    z-index:999;
+    background:#ea5413;
+    color:@white;
+    &:after {
+      border-top:6px solid #ea5413;
+      border-right:6px solid transparent;
+    }
+  }
+
+  /*直辖市*/
+  &#beijing {
+    top:181px;
+    left:516px
+  }
+
+  &#bj-weizheng {
+    top:130px;
+    left:580px;
+  }
+  &#bj-weizhi {
+    top:154px;
+    left:580px;
+  }
+  &#bj-weizhuo {
+    top:178px;
+    left:580px;
+  }
+
+  &#tianjin {
+    top:211px;
+    left:530px
+  }
+
+  &#shanghai {
+    top:330px;
+    left:589px
+  }
+  /*江苏省*/
+  &#nanjing {
+    top:251px;
+    left:625px
+  }
+
+  &#suzhou {
+    top:275px;
+    left:625px
+  }
+
+  &#wuxi {
+    top:299px;
+    left:625px
+  }
+
+  /*浙江省*/
+  &#wenzhou {
+    top:361px;
+    left:645px
+  }
+
+  &#taizhou {
+    top:385px;
+    left:645px
+  }
+
+  &#ningbo {
+    top:409px;
+    left:645px
+  }
+
+  &#hangzhou {
+    top:433px;
+    left:645px
+  }
+
+  &#shaoxing {
+    top:457px;
+    left:645px
+  }
+
+  &#jiaxing {
+    top:481px;
+    left:645px
+  }
+
+  //广东省
+  &#guangzhou {
+    top:491px;
+    left:544px
+  }
+  &#shenzhen {
+    top:515px;
+    left:544px
+  }
+  &#dongguan {
+    top:539px;
+    left:544px;
+  }
+
+  &.city {
+    .pos-a;
+    .f12;
+    background:none;
+    color:@base-color;
+    z-index:99;
+    &.active {
+      color:#ea5413;
+      font-weight:600
+    }
+  }
+}
+
+//省份
+.province {
+  .pos-a;
+  z-index:0;
+  top:0;
+  left:0;
+  & > span {
+    &:before {
+      .pos-a;
+      .border-base(#ccc);
+      content:'';
+      background:@white;
+      z-index:9;
+      width:60px;
+      border-radius:4px;
+    }
+
+    //北京
+    &#beijing {
+      //left:460px;
+      //top:180px;
+      &:before {
+        right:-65px;
+        top:-53px;
+        height:72px;
+        z-index:-1;
+      }
+    }
+
+    //江苏
+    &#jiangsu {
+      left:560px;
+      top:300px;
+      &:before {
+        right:-65px;
+        top:-50px;
+        height:72px;
+        z-index:-1;
+      }
+    }
+
+    //浙江
+    &#zhejiang {
+      left:580px;
+      top:360px;
+      &:before {
+        right:-65px;
+        top:0;
+        height:144px;
+        z-index:-1;
+      }
+    }
+
+    //广东
+    &#guangdong {
+      left:480px;
+      top:490px;
+      &:before {
+        right:-65px;
+        top:0;
+        height:72px;
+        z-index:-1;
+      }
+    }
+  }
+}
+
+//右侧面板
+.map-info {
+  .pos-a;
+  top:0;
+  right:0;
+  height:400px;
+  & > .box {
+    .hide;
+    .f14;
+    top:0;
+    left:0;
+    z-index:1;
+    padding:15px 30px;
+    width:340px;
+    height:auto;
+    .border-base(#ccc);
+    background-color:@white;
+    margin:0;
+    & > p {
+      .f16;
+      font-weight:600;
+      &:nth-of-type(2) {
+        margin-top:20px;
+      }
+      & + ul > li {
+        line-height:1.8;
+        font-size:12px;
+      }
+    }
+
+    .content-side {
+      .pos-r;
+      .h-auto;
+      .text-center;
+      padding:10px 0;
+      overflow:visible;
+      img {
+        max-width:70%;
+        height:auto;
+        vertical-align:middle;
+      }
+      &:after {
+        content:'';
+        height:100%;
+        display:inline-block;
+        vertical-align:middle
+      }
+      //控制按钮
+      & > span {
+        .pos-a;
+        top:50%;
+        transform:translateY(-50%);
+        width:30px;
+        height:30px;
+        cursor:pointer;
+        z-index:99;
+        text-indent:-999999px;
+        &.prev {
+          left:-30px;
+          background:url("@{icon-7}") no-repeat 0 -549px;
+        }
+        &.next {
+          right:-30px;
+          background:url("@{icon-7}") no-repeat -30px -549px;
+        }
+      }
+    }
+  }
+}
+

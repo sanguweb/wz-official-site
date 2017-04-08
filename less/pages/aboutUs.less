@@ -1,0 +1,583 @@
+@import "../lib-common";
+
+//主要内容组件样式
+.aboutUs-content {
+  .pt(30px);
+  .pb(80px);
+  .h-auto;
+  .title {
+    .pd-v50;
+    & > figcaption:first-child {
+      width: 380px;
+      .m-auto(0, 0);
+      & > h3 {
+        .fl;
+        font-size: 44px;
+        .mr(10px);
+        display: inline-block;
+        & + span {
+          display: inline-block;
+          line-height: 22px;
+          margin-top: 5px;
+          sup {
+            .f10;
+            //.block;
+            display: none;
+            .mt(5px);
+            width: 50px;
+            padding: 0 5px;
+            background-color: @red;
+            color: @white;
+          }
+        }
+      }
+      &:not(.block) + p {
+        .m-auto(30px, 30px);
+        .text-center
+      }
+    }
+    & ~ p {
+      padding-bottom: 15px;
+    }
+    & ~ .list-text {
+      .fontSong;
+      line-height: 2;
+    }
+  }
+  strong.tip {
+    .f14;
+    .pos-r;
+    //.mt(3px);
+    .mt(18px);
+    line-height: 24px;
+    display: inline-block;
+    padding: 0 5px;
+    background-color: @base-color;
+    color: @white;
+    &:after {
+      content: "";
+      .pos-a;
+      right: -24px;
+      top: 0;
+      width: 0;
+      height: 0;
+      border-top: 24px solid @base-color;
+      border-right: 24px solid transparent;
+    }
+  }
+  &.grid-bg {
+    background: url("@{bground}/gridBg.png") repeat #f8f8f8;
+  }
+}
+
+//核心业务
+.core-business {
+  .list-inline(left, 0);
+  li {
+    .text-center;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0 20px;
+    & > label:only-of-type {
+      .f18;
+      .block;
+      .pos-r;
+      padding: 15px 0;
+      font-weight: 600;
+    }
+    & > p {
+      .text-center;
+      .f14;
+    }
+    &:before {
+      content: "";
+      display: block;
+      width: 142px;
+      height: 142px;
+      .m-auto(0, 20px);
+      background-image: url("@{icon-4}");
+    }
+    &:nth-of-type(1):before {
+      background-position: -432px 0;
+    }
+    &:nth-of-type(2):before {
+      background-position: -144px 0;
+    }
+    &:nth-of-type(3):before {
+      background-position: 0 0;
+    }
+    &:nth-of-type(4):before {
+      background-position: -288px 0;
+    }
+  }
+}
+
+.columns-2 {
+  padding: 80px 0;
+  .clearfix;
+  & > .container > .fl,
+  & > .container > .fr {
+    width: 50%;
+    .title {
+      .mt(60px);
+      p:last-of-type {
+        .pl(110px);
+        .pt(30px);
+        & > i {
+          color: @red;
+        }
+      }
+    }
+  }
+  .imgBox {
+    & > img:only-child {
+      .block;
+      .m-auto(0, 0);
+    }
+  }
+}
+
+.description-text {
+  .wrapper(120px, 120px);
+  .box {
+    & > label,
+    & > h3,
+    & > .text {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    & > label {
+      height: 46px;
+      .text-right;
+      i {
+        .f10;
+        .mb(5px);
+        .text-center;
+        background-color: @red;
+        color: @white;
+        padding: 3px;
+        display: block;
+      }
+    }
+
+    & > h3 {
+      .border-right-base(#d7d7d7);
+      .text-center;
+      height: 46px;
+      line-height: 46px;
+      font-size: 44px;
+      width: 120px;
+    }
+    & > .text {
+      .pl(20px);
+      p {
+        .f12;
+        .pt(15px);
+      }
+    }
+  }
+}
+
+.ourCulture-table {
+  .wrapper(0, 130px);
+  & > img:only-of-type {
+    display: none;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  table {
+    td {
+      color: @white;
+      border: dotted @white 1px;
+      img:only-child {
+        .block;
+      }
+      section:only-child {
+        padding: 0 15px;
+        label {
+          .f18;
+          .block;
+          & > span {
+            .block;
+            .wrapper(12px, 12px);
+            .text-center;
+            letter-spacing: 36px;
+            text-indent: 36px;
+            & + small {
+              .f14;
+            }
+          }
+        }
+        p {
+          .f14;
+          padding: 5px 0;
+        }
+      }
+    }
+    tr:first-of-type {
+      td {
+        &:nth-of-type(2) {
+          background-color: rgba(94, 94, 94, 1);
+        }
+        &:nth-of-type(4) {
+          background-color: rgba(173, 157, 144, 1);
+        }
+        &:nth-of-type(6) {
+          background-color: rgba(175, 175, 175, 1);
+        }
+      }
+      & + tr {
+        td {
+          width: 195px;
+          border-top: none;
+          &:nth-of-type(1) {
+            width: 97.5px+195px;
+            background-color: rgba(132, 120, 110, 1);
+          }
+          &:nth-of-type(3) {
+            background-color: rgba(142, 142, 142, 1);
+          }
+          &:nth-of-type(5) {
+            width: 97.5px+195px;
+            background-color: rgba(73, 92, 96, 1);
+          }
+        }
+      }
+    }
+  }
+}
+
+//发展历程
+.development-timeline {
+  .pb(160px);
+  .h-auto;
+  .box {
+    overflow: visible;
+    .pt(120px);
+    & > time,
+    & > .line,
+    & > .shop-view {
+      display: table-cell;
+      vertical-align: middle;
+      li {
+        img {
+          display: block
+        }
+      }
+    }
+    //时间轴
+    & > time {
+      .f24;
+      width: 120px;
+      text-transform: uppercase;
+    }
+
+    //装饰线
+    & > .line {
+      .pos-r;
+      width: 105px;
+      & > em {
+        .block;
+        .m-auto(0, 0);
+        height: 200px;
+        width: 5px;
+        background: #ccc;
+        &:before,
+        &:after {
+          .after(12px, 12px);
+          background: inherit;
+          border-radius: percentage(@half);
+        }
+        &:before {
+          top: -12px;
+        }
+        &:after {
+          top: auto;
+          bottom: -18px;
+        }
+      }
+    }
+
+    //店铺展示
+    & > .shop-view {
+      .list-inline(left, 22px);
+      li:last-of-type {
+        .mr(0)
+      }
+      & > p:last-of-type {
+        .f14;
+        .pt(15px);
+      }
+    }
+  }
+}
+
+//我们的团队
+#team-show {
+  .list-inline(left, 86px);
+  .pb(100px);
+  overflow: visible;
+  li {
+    width: 228px;
+    height: 404px;
+    .mb(60px);
+    & > section:not(:first-child),
+    & > .team-speak {
+      .pt(20px);
+    }
+    &:nth-of-type(4n) {
+      .mr(0);
+    }
+
+    & > .team-speak {
+      .fontSong;
+      height: 64px;
+      max-height: 64px;
+      overflow: hidden;
+    }
+    //  查看详情
+    & > button {
+      .mt(20px);
+      padding: 2px 5px;
+      #link-defalt.base(@white, @white, normal);
+      background-color: @base-color;
+      &:hover {
+        background-color: @red;
+      }
+    }
+  }
+  //照片
+  .team-pic {
+    .pos-r;
+    border-radius: 50%;
+    border: 5px solid #00b9d1;
+    overflow: hidden;
+    width: 168px;
+    height: 168px;
+    box-shadow: 4px -5px 0 #ccc;
+    img {
+      width: 168px;
+      height: 168px;
+    }
+  }
+  //职位
+  .team-title {
+    .f16;
+  }
+}
+
+//弹出框
+#team-pop-wrap {
+  .pos-f;
+  .container;
+  display: table;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: @white;
+  box-shadow: 0 5px 10px rgba(36, 36, 36, .15);
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+  margin: -270px 0 0 -585px;
+  -webkit-transition: .4s ease-out;
+  transition: .4s ease-out;
+  -webkit-transform: scale(0) skew(45deg, 90deg);
+  transform: scale(0) skew(45deg, 90deg);
+  &.open {
+    -webkit-transform: scale(1) skewX(0deg);
+    transform: scale(1) skewX(0deg);
+  }
+
+  //.hide;
+  & > .box {
+    display: table-cell;
+    .fl;
+  }
+  //关闭按钮
+  #close-btn {
+    background: url("@{icon-4}") no-repeat -576px 0;
+    .pos-a;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    right: 0;
+    top: 0;
+  }
+  //人物照片
+  & > .people-pic {
+    width: 285px;
+    height: 440px;
+    img {
+      width: 285px;
+      height: 440px;
+    }
+  }
+  //人物信息
+  & > .people-info {
+    .pos-r;
+    width: 785px;
+    height: 440px;
+    box-sizing: border-box;
+    padding: 40px;
+    //职位
+    .people-title {
+      .f24;
+      .mb(20px);
+    }
+    //简介
+    .people-introduce {
+      line-height: 2;
+      .mb(36px);
+    }
+    //格言
+    .people-speak {
+      p {
+        .pt(20px);
+      }
+    }
+    //  控制
+    .pop-control {
+      .pos-a;
+      .text-right;
+      bottom: 0;
+      right: 0;
+      height: 30px;
+      width: 100%;
+      & > span {
+        display: inline-block;
+        cursor: pointer;
+        .ml(15px);
+        width: 30px;
+        height: 30px;
+        border: none;
+        &:hover {
+          opacity: .8;
+        }
+        &.prev {
+          background: url("@{icon-4}") no-repeat -576px -42px;
+        }
+        &.next {
+          background: url("@{icon-4}") no-repeat -576px -74px;
+        }
+      }
+    }
+  }
+}
+
+//团队照片墙
+.team-pic-wrap {
+  width: 1155px;
+  height: 825px;
+  .m-auto(0, 0);
+  .pos-r;
+  .pb(100px);
+  overflow: visible;
+  .arrow {
+    background: url("@{icon-1}") no-repeat;
+    cursor: pointer;
+    .after(26px, 52px);
+    .mt(-60px);
+    &.prev {
+      left: -50px;
+      background-position: -260px -148px;
+      &:hover {
+        background-position: -260px -94px;
+      }
+    }
+    &.next {
+      left: auto;
+      right: -50px;
+      background-position: -232px -148px;
+      &:hover {
+        background-position: -232px -94px;
+      }
+    }
+  }
+}
+
+//照片墙
+#team-pic-wall {
+  background:#efefef;
+  overflow:hidden;
+  ul {
+    width:1155px;
+    height:825px;
+    overflow:hidden;
+    & > li {
+      .clearfix;
+      width:inherit;
+      height:inherit;
+      overflow:hidden;
+      position: relative;
+      & > section {
+        .fl;
+        box-sizing:border-box;
+        border:1px solid @white;
+        width:165px;
+        height:165px;
+        &.text {
+          .pos-r;
+          padding:15px;
+          opacity:0;
+          //visibility: hidden;
+          &:before {
+            background-image:url("@{icon-arr}");
+          }
+          &.arr-top:before,
+          &.arr-btm:before {
+            content:"";
+            .after(32px, 16px);
+            .pos-a;
+          }
+          &.arr-left:before,
+          &.arr-right:before {
+            content:"";
+            .after(16px, 32px);
+            .pos-a;
+          }
+          &.arr-top:before { //上箭头
+            top:-8px;
+            background-position:-32px -8px;
+          }
+          &.arr-btm:before { //下箭头
+            top:auto;
+            bottom:-16px;
+            background-position:-64px -8px;
+          }
+          &.arr-left:before { //左箭头
+            left:-8px;
+            background-position:0;
+          }
+          &.arr-right:before { //右箭头
+            background-position:-16px 0;
+            left:auto;
+            right:-16px;
+          }
+          & > label {
+            .f18;
+            .block;
+          }
+          & > p {
+            .f14;
+            .wrapper(15px, 5px);
+            height:57px;
+            overflow:hidden;
+            .ellipsis(3);
+            & + i {
+              .pos-a;
+              bottom:10px;
+              right:15px;
+            }
+          }
+          &.plus{
+            position: absolute;
+            .center-middle(165px,165px);
+          }
+        }
+        & > img {
+          height:inherit;
+        }
+      }
+    }
+  }
+}
