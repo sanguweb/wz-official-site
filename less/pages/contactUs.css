@@ -239,7 +239,7 @@ body {
   background: url("../img/icon-1.png") no-repeat -288px -230px;
 }
 .icon-backtop:before {
-  background: url("../img/icon-1.png") no-repeat -233px -230px;
+  background: url("../img/icon-1.png") no-repeat -231px -230px;
 }
 .icon-Q:before {
   background: url("../img/icon-1.png") no-repeat -174px -152px;
@@ -594,16 +594,26 @@ p {
 }
 .province span#nanjing,
 .map-tags li#nanjing {
-  top: 251px;
+  top: 203px;
   left: 625px;
 }
 .province span#suzhou,
 .map-tags li#suzhou {
-  top: 275px;
+  top: 227px;
   left: 625px;
 }
 .province span#wuxi,
 .map-tags li#wuxi {
+  top: 251px;
+  left: 625px;
+}
+.province span#changzhou,
+.map-tags li#changzhou {
+  top: 275px;
+  left: 625px;
+}
+.province span#nantong,
+.map-tags li#nantong {
   top: 299px;
   left: 625px;
 }
@@ -636,6 +646,11 @@ p {
 .map-tags li#jiaxing {
   top: 481px;
   left: 645px;
+}
+.province span#xiamen,
+.map-tags li#xiamen {
+  top: 453px;
+  left: 560px;
 }
 .province span#guangzhou,
 .map-tags li#guangzhou {
@@ -692,8 +707,8 @@ p {
 }
 .province > span#jiangsu:before {
   right: -65px;
-  top: -50px;
-  height: 72px;
+  top: -98px;
+  height: 120px;
   z-index: -1;
 }
 .province > span#zhejiang {
@@ -704,6 +719,16 @@ p {
   right: -65px;
   top: 0;
   height: 144px;
+  z-index: -1;
+}
+.province > span#fujian {
+  left: 560px;
+  top: 420px;
+}
+.province > span#fujian:before {
+  left: 0;
+  top: 30px;
+  height: 24px;
   z-index: -1;
 }
 .province > span#guangdong {

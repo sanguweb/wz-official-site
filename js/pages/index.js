@@ -3,11 +3,11 @@
  */
 
 
-$(function () {
-    wzWeb.tabSwich($('#news'));  //选项卡
-    wzWeb.imgLayer($('.project-list', '#project'));//案例内容遮罩
+$(function() {
+    wzWeb.tabSwich($('#news')); //选项卡
+    wzWeb.imgLayer($('.project-list', '#project')); //案例内容遮罩
     wzWeb.imgReload();
-    
+
     $('#focus').responsiveSlides({
         pager: true,
         nav: true,
@@ -19,29 +19,27 @@ $(function () {
         }),
         data04 = unslider04.data('unslider');
 
-    $('.arrow').click(function () {
+    $('.arrow').click(function() {
         var fn = this.className.split(' ')[1];
         data04[fn]();
     });
 });
 
 
-wzWeb.imgReload = function () {
+wzWeb.imgReload = function() {
     var imgHeight = 0;
     var bWidth = $("body").width();
     var slider = $('ul', '#slider').children('li');
-    $(slider).each(function () {
-        $(this).css({width: bWidth + "px"});
+    $(slider).each(function() {
+        $(this).css({ width: bWidth + "px" });
     });
-    $(".sliderimg").each(function () {
-        $(this).css({width: bWidth + "px"});
+    $(".sliderimg").each(function() {
+        $(this).css({ width: bWidth + "px" });
         imgHeight = $(this).height();
     });
 };
 
 //响应窗口尺寸
-$(window).resize(function () {
+$(window).resize(function() {
     wzWeb.imgReload();
 });
-
-

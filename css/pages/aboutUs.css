@@ -503,6 +503,7 @@ p {
 }
 .aboutUs-content .title ~ p {
   padding-bottom: 15px;
+  text-indent: 2em;
 }
 .aboutUs-content .title ~ .list-text {
   font-family: "STSongti-SC-Light", "宋体", "微软雅黑", sans-serif;

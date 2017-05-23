@@ -5,31 +5,32 @@
  * To cite this document, always state the source as shown above.
  */
 
-$(function () {
+$(function() {
     if ($('.qrcode-bottom:visible')) {
         var imgs = $(".map-info").find('img');
-        
-        imgs.each(function () {
+
+        imgs.each(function() {
             var _self = $(this);
             var box = _self.parent();
-            
-            $(this).click(function () {
+
+            $(this).click(function() {
                 _self.toggleClass("magnifying");
                 box.toggleClass("mask");
             });
         });
     }
-    
-    $(".map-tags>li").on('mouseover', function () {
-        $(this).addClass("active").siblings("li").removeClass("active");
+
+    $(".map-tags>li").on('mouseover', function() {
         var index = $(this).index();
+        $(this).addClass("active").siblings("li").removeClass("active");
         $(".box").eq(index).show().siblings(".box").hide();
         responseProvince();
+
     });
     //左右切换
-    
+
     //点击左箭头
-    $(".prev").on('click', function () {
+    $(".prev").on('click', function() {
         //获取当前左切换 父亲的 index
         var sideindexL = $(this).parents(".box").index();
         $(".box").hide();
@@ -43,9 +44,9 @@ $(function () {
         }
         responseProvince();
     });
-    
+
     //点击右箭头
-    $(".next").on('click', function () {
+    $(".next").on('click', function() {
         //获取页面全部.box 的数量
         var sideindexR = $(this).parents(".box").index();
         var len = $('.box').length;
@@ -59,31 +60,33 @@ $(function () {
         }
         responseProvince();
     });
-    
+
     responseCity('#beijing', '#bj-weizheng');
     responseCity('#jiangsu', '#nanjing');
     responseCity('#zhejiang', '#wenzhou');
+    responseCity('#fujian', '#xiamen');
     responseCity('#guangdong', '#guangzhou');
 });
-
 
 //点击市级对应省份
 function responseProvince() {
     var beijingCity = hasActive('#bj-weizheng') || hasActive('#bj-weizhi') || hasActive('#bj-weizhuo');
-    var jiangsuCity = hasActive('#nanjing') || hasActive('#suzhou') || hasActive('#wuxi');
-    var zhejiangCity = hasActive('#wenzhou') || hasActive('#taizhou') || hasActive('#ningbo') || hasActive('#hangzhou') ||
-        hasActive('#shaoxing') || hasActive('#jiaxing');
+    var jiangsuCity = hasActive('#nanjing') || hasActive('#suzhou') || hasActive('#wuxi') || hasActive('#changzhou') || hasActive('#nantong');
+    var zhejiangCity = hasActive('#wenzhou') || hasActive('#taizhou') || hasActive('#ningbo') || hasActive('#hangzhou') || hasActive('#shaoxing') || hasActive('#jiaxing');
+    var fujianCity = hasActive('#xiamen');
     var guangdongCity = hasActive('#guangzhou') || hasActive('#shenzhen') || hasActive('#dongguan');
-    
+
     active(beijingCity, '#beijing');
     active(jiangsuCity, '#jiangsu');
     active(zhejiangCity, '#zhejiang');
+    active(fujianCity, '#xiamen');
     active(guangdongCity, '#guangdong');
-    
+
     function active(arrCitys, province) {
         arrCitys ? $(province).addClass('active') : $(province).removeClass('active');
     }
-    
+
+
     function hasActive(selector) {
         return $(selector).hasClass('active');
     }
@@ -92,10 +95,9 @@ function responseProvince() {
 //点击省份对应市级
 function responseCity(province, city) {
     var arrLi = $('.map-tags').find('li');
-    $(province).mouseover(function () {
+    $(province).mouseover(function() {
         $(this).addClass('active').siblings('span').removeClass('active');
-        
-        $(city).addClass('active');
+        $(city).addClass('active').trigger('mouseover');
         arrLi.not(city).removeClass('active');
     })
 }
